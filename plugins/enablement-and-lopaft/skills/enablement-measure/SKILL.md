@@ -40,6 +40,8 @@ Kirkpatrick's four levels of training evaluation (Reaction, Learning, Behavior, 
 | 3 — Behavior | Did behavior change? | Manager observation score, skill assessment | Practice session quality, self-assessment accuracy |
 | 4 — Results | Did outcomes move? | Win rate, conversion, revenue, retention | Leading skill scores trending upward, behavior change rate |
 
+Load `references/MEASURE-metrics.md` for full metric definitions by Kirkpatrick level and LOPAFT step, data sources, collection cadences, comparison-group design, dashboard layout, Phillips ROI calculation, and the executive reporting template.
+
 ---
 
 ## The Core Measurement Principle
@@ -79,9 +81,14 @@ Use this to assess whether an existing program is adequately instrumented:
 
 ---
 
+## Reference Files
+
+| File | When to Load |
+|---|---|
+| `references/MEASURE-metrics.md` | Full metric definitions and formulas, data sources, collection cadences, comparison groups and holdouts, dashboard design, ROI calculation (worked example), executive reporting template |
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).

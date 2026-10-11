@@ -38,6 +38,8 @@ This gap is where most programs silently fail. They assume a starting point that
 
 ## Assessment Methods by Context
 
+Load `references/ASSESS-methods.md` for full methodology, instruments, and templates: the learner baseline survey, Four Levels skill rubrics, the manager observation checklist, call and artifact scoring, LOPAFT step placement, AI-tool rollout readiness, cohort segmentation, self-assessment bias handling, and the baseline report template.
+
 | Method | Best For | Time Required |
 |---|---|---|
 | Structured self-assessment survey | Large groups, async baseline | 10-15 min |
@@ -80,9 +82,14 @@ Use this when evaluating a program that already launched:
 
 ---
 
+## Reference Files
+
+| File | When to Load |
+|---|---|
+| `references/ASSESS-methods.md` | Full assessment instruments, survey templates, rubrics, LOPAFT placement, AI-rollout readiness, baseline report template |
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).

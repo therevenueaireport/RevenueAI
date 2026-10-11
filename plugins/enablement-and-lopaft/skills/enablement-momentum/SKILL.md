@@ -44,6 +44,8 @@ Before intervening, identify which root cause is driving the stall. The fix is d
 | Absent social proof | No visible wins yet, no peer models succeeding, isolation | Surface early wins, pair struggling learners with advancing learners |
 | Coaching quality degradation | Manager coaching sessions becoming shorter, less frequent, less specific | Coach the Coach intervention (see enablement-coach) |
 
+Load `references/MOMENTUM-methods.md` for full intervention design, early win architecture, social proof systems, the WHY re-activation event, early warning thresholds, and the mid-program reset protocol.
+
 ---
 
 ## Quick Stall Diagnostic
@@ -102,9 +104,14 @@ Use when evaluating an existing program's motivation sustainability:
 
 ---
 
+## Reference Files
+
+| File | When to Load |
+|---|---|
+| `references/MOMENTUM-methods.md` | Full intervention design, early win architecture, social proof systems, WHY re-activation, rescue protocol, week-by-week momentum map, manager and exec scripts, AI-tool adoption specifics |
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).

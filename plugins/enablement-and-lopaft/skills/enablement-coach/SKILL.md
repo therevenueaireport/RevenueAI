@@ -59,6 +59,8 @@ Before designing a Coach the Coach program, assess where each manager sits on th
 
 Four yes answers = likely Level 3. Fewer = Level 1-2. The coaching program starts where the manager is.
 
+Load `references/COACH-methods.md` for full manager development curriculum, observation training, feedback calibration exercises, the coaching session structure template, question banks, coaching with AI call-review data, the coaching-quality rubric, and how to diagnose a manager who isn't coaching.
+
 ---
 
 ## Audit Mode Checklist — Coaching Quality Assessment
@@ -94,9 +96,14 @@ Use when a program is running and you need to assess coaching delivery quality:
 
 ---
 
+## Reference Files
+
+| File | When to Load |
+|---|---|
+| `references/COACH-methods.md` | Manager development curriculum, observation training, feedback calibration, session structure, question banks, AI call-data coaching rules, coaching-quality rubric, non-coaching manager diagnosis |
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).
