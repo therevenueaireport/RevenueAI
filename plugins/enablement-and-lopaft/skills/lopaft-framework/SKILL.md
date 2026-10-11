@@ -71,14 +71,14 @@ LOPAFT is a spiral, not a line. Each pass through the cycle advances the learner
 
 ## Quick Diagnostic
 
-| Symptom | Likely Gap | Step to strengthen |
-|---|---|---|
-| "I don't know where to start" | L1 → L2 transition | L (Learn) |
-| "I get it but I can't do it" | Missing O step | O (Observe) |
-| "They practice but don't improve" | Bad practice design or missing F | P (Practice) + F (Feedback) |
-| "Works in drills, not real calls" | Missing A | A (Apply) |
-| "They plateau and stop growing" | Missing T or F spacing | F (Feedback) + T (Teach) |
-| "Zero adoption after training" | Missing O + P + F entirely | O + P + F together |
+| Symptom | Likely Gap | Step to strengthen | Load |
+|---|---|---|---|
+| "I don't know where to start" | L1 → L2 transition | L (Learn) | `references/L-learn.md` |
+| "I get it but I can't do it" | Missing O step | O (Observe) | `references/O-observe.md` |
+| "They practice but don't improve" | Bad practice design or missing F | P (Practice) + F (Feedback) | `references/P-practice.md` + `references/F-feedback.md` |
+| "Works in drills, not real calls" | Missing A | A (Apply) | `references/A-application.md` |
+| "They plateau and stop growing" | Missing T or F spacing | F (Feedback) + T (Teach) | `references/F-feedback.md` + `references/T-teach.md` |
+| "Zero adoption after training" | Missing O + P + F entirely | O + P + F together | `references/O-observe.md`, `references/P-practice.md`, `references/F-feedback.md` (load all step files for a full redesign) |
 
 ---
 
@@ -117,6 +117,21 @@ LOPAFT designs the program. These four skills instrument, deliver, and sustain i
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt.*
+## Reference Files
+
+Load when you need deep execution guidance, science, instruments, or design templates for a specific step. All six files follow one illustrative program (a 12-AE team rolling out a new discovery method plus an AI call-review tool), so they read as one plan.
+
+| File | When to Load |
+|---|---|
+| `references/L-learn.md` | Designing knowledge transfer, WHY activation sequences, andragogy application, gap surfacing (Level 1 to 2) |
+| `references/O-observe.md` | Building example libraries, modeling good and bad, rubrics with level descriptors, calibration benchmarks (including calibrating AI scorers) |
+| `references/P-practice.md` | Practice environment design, social learning (triads), sub-skill isolation and integration, resistance ladders, scaffolding, AI roleplay |
+| `references/A-application.md` | Real-world deployment plans, transfer design, application ladders, change management, AI as co-pilot |
+| `references/F-feedback.md` | Spaced repetition scheduling, forgetting curve, expert and AI feedback systems, coaching session structure |
+| `references/T-teach.md` | Bloom's Taxonomy application, peer teaching design, creation exercises, Level 4 signals, certification |
+
+---
+
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).
