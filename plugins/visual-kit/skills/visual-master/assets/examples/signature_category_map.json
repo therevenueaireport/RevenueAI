@@ -1,0 +1,35 @@
+{
+  "title": "Category-creation narrative map",
+  "subtitle": "Name the shift, and the category names itself",
+  "data": {
+    "old_world": {
+      "title": "Old world",
+      "items": [
+        "Volume-based funnels",
+        "Tool-by-tool automation",
+        "Quarterly learning"
+      ]
+    },
+    "shift": {
+      "title": "The shift",
+      "items": [
+        "Buyers signal intent everywhere",
+        "Agents can act on signals",
+        "Attention is the scarce input"
+      ]
+    },
+    "new_world": {
+      "title": "New world",
+      "items": [
+        "Signal-driven plays",
+        "Human-approved agents",
+        "Weekly learning loop"
+      ]
+    },
+    "category": "AI-native GTM",
+    "enemy": "The enemy: activity without learning",
+    "stakes": "Winners compound; laggards pay more for every dollar of pipeline"
+  },
+  "width": 1600,
+  "height": 900
+}

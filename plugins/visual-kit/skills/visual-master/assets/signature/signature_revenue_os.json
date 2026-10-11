@@ -1,0 +1,39 @@
+{
+  "title": "The AI-native revenue operating model",
+  "subtitle": "Signals in, learning out - humans decide, agents do the work",
+  "data": {
+    "signals": [
+      "Intent",
+      "Product usage",
+      "CRM & pipeline",
+      "Content engagement",
+      "Market & news"
+    ],
+    "intelligence": {
+      "label": "Intelligence layer",
+      "sub": "Enrich · score · decide"
+    },
+    "agents": [
+      "Research agent",
+      "Outreach agent",
+      "Content agent",
+      "Analyst agent"
+    ],
+    "humans": [
+      "Approve",
+      "Relate",
+      "Decide",
+      "Coach"
+    ],
+    "actions": [
+      "Personalized outreach",
+      "Account plays",
+      "Enablement",
+      "Forecast"
+    ],
+    "governance": "Governance: decision rights · guardrails · evals · audit",
+    "loop": "Outcomes feed back into scoring and plays every week"
+  },
+  "width": 1600,
+  "height": 900
+}

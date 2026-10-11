@@ -1,0 +1,40 @@
+{
+  "title": "Custom AI components are where differentiation lives",
+  "data": {
+    "x_axis": "Genesis → Custom → Product → Commodity",
+    "y_axis": "Value to buyer →",
+    "items": [
+      {
+        "label": "Foundation models",
+        "x": 0.85,
+        "y": 0.3
+      },
+      {
+        "label": "CRM",
+        "x": 0.9,
+        "y": 0.5
+      },
+      {
+        "label": "Signal decisioning",
+        "x": 0.3,
+        "y": 0.85
+      },
+      {
+        "label": "Play library",
+        "x": 0.45,
+        "y": 0.7
+      },
+      {
+        "label": "Eval harness",
+        "x": 0.2,
+        "y": 0.55
+      }
+    ]
+  },
+  "highlight": [
+    2,
+    3
+  ],
+  "width": 1600,
+  "height": 900
+}

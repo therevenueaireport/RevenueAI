@@ -1,0 +1,64 @@
+{
+  "title": "Signal-to-action architecture",
+  "subtitle": "From buyer signal to personalized action in hours, with a human at the gate",
+  "data": {
+    "stages": [
+      {
+        "label": "Signal",
+        "sub": "Intent, usage, hiring, news",
+        "items": [
+          "3rd-party intent",
+          "Product events",
+          "Web + content",
+          "CRM changes"
+        ]
+      },
+      {
+        "label": "Enrich",
+        "sub": "Context + fit",
+        "items": [
+          "Firmographics",
+          "Contacts",
+          "History",
+          "ICP score"
+        ]
+      },
+      {
+        "label": "Decide",
+        "sub": "Which play, for whom",
+        "items": [
+          "Play rules",
+          "Confidence score",
+          "Priority queue"
+        ]
+      },
+      {
+        "label": "Act",
+        "sub": "Personalized, approved",
+        "items": [
+          "Outreach",
+          "Ads",
+          "Exec content",
+          "Event invite"
+        ]
+      },
+      {
+        "label": "Learn",
+        "sub": "Outcomes back to scoring",
+        "items": [
+          "Replies",
+          "Meetings",
+          "Pipeline",
+          "Wins"
+        ]
+      }
+    ],
+    "gate": {
+      "after": 2,
+      "label": "Human approval gate"
+    },
+    "loop": "Feedback tunes scoring and plays"
+  },
+  "width": 1600,
+  "height": 900
+}

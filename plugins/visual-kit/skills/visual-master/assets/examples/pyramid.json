@@ -1,0 +1,29 @@
+{
+  "title": "Campaigns only work when the layers beneath them are set",
+  "data": {
+    "levels": [
+      {
+        "label": "Campaigns",
+        "sub": "Tactics"
+      },
+      {
+        "label": "Proof",
+        "sub": "Evidence"
+      },
+      {
+        "label": "Narrative",
+        "sub": "Point of view"
+      },
+      {
+        "label": "Category",
+        "sub": "The frame"
+      }
+    ],
+    "inverted": false
+  },
+  "highlight": [
+    3
+  ],
+  "width": 1600,
+  "height": 900
+}

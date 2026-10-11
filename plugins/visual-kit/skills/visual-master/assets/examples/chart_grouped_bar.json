@@ -1,0 +1,44 @@
+{
+  "title": "CAC fell on paid while outbound got more expensive",
+  "highlight": [
+    0
+  ],
+  "data": {
+    "categories": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "series": [
+      {
+        "name": "Paid",
+        "values": [
+          420,
+          380,
+          330,
+          300
+        ]
+      },
+      {
+        "name": "Outbound",
+        "values": [
+          510,
+          540,
+          600,
+          650
+        ]
+      },
+      {
+        "name": "Partner",
+        "values": [
+          280,
+          290,
+          285,
+          300
+        ]
+      }
+    ],
+    "unit": "$"
+  }
+}

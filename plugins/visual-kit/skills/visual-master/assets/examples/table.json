@@ -1,0 +1,47 @@
+{
+  "title": "Vendor B wins on the criteria that matter most",
+  "data": {
+    "columns": [
+      "Criteria",
+      "Vendor A",
+      "Vendor B",
+      "Vendor C"
+    ],
+    "weights": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "Security",
+        "●●",
+        "●●●",
+        "●"
+      ],
+      [
+        "Capability",
+        "●●●",
+        "●●●",
+        "●●"
+      ],
+      [
+        "Cost",
+        "●",
+        "●●",
+        "●●●"
+      ],
+      [
+        "Speed to deploy",
+        "●●",
+        "●●●",
+        "●●"
+      ]
+    ],
+    "highlight_col": 2,
+    "recommendation": "Recommend Vendor B: strongest on security + speed, acceptable cost."
+  },
+  "width": 1600,
+  "height": 900
+}

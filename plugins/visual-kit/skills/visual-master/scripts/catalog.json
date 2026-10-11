@@ -1,0 +1,3733 @@
+{
+ "_about": "Visual library catalog for the visual-master skill. Each entry: id, name, family, best_for, example, claim (what kind of claim it answers), tags (search vocabulary), render (preferred build method: chart=matplotlib/native chart, svg=render_svg.py type name, shapes=pptx shapes/HTML+CSS, text=typographic slide).",
+ "visuals": [
+  {
+   "id": "hero_stat",
+   "name": "Hero statistic",
+   "family": "data",
+   "best_for": "One oversized sourced number with its implication",
+   "example": "73% of GTM leaders say their AI pilots never reached production",
+   "claim": "assertion",
+   "tags": [
+    "hero stat",
+    "one number",
+    "big number",
+    "headline stat",
+    "single metric",
+    "stat slide"
+   ],
+   "render": "svg:hero_stat"
+  },
+  {
+   "id": "compare_bars",
+   "name": "Proportional comparison bars",
+   "family": "data",
+   "best_for": "Two to five values where one is the story (X did this, but only Y did that)",
+   "example": "73% ran an AI pilot, but only 19% got one into production",
+   "claim": "comparison",
+   "tags": [
+    "but only",
+    "only",
+    "two numbers",
+    "percent of",
+    "share who",
+    "X vs Y",
+    "survey result",
+    "social graphic"
+   ],
+   "render": "svg:compare_bars"
+  },
+  {
+   "id": "bar",
+   "name": "Bar chart",
+   "family": "data",
+   "best_for": "Comparing discrete categories",
+   "example": "Pipeline by segment, revenue by product line",
+   "claim": "comparison",
+   "tags": [
+    "compare",
+    "categories",
+    "by segment",
+    "by product",
+    "by region",
+    "which is bigger"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "hbar",
+   "name": "Horizontal bar chart",
+   "family": "data",
+   "best_for": "Ranking many categories with long labels",
+   "example": "Top customer objections, top content topics",
+   "claim": "ranking",
+   "tags": [
+    "rank",
+    "top 10",
+    "long labels",
+    "objections",
+    "topics",
+    "most common"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "grouped_bar",
+   "name": "Grouped bar chart",
+   "family": "data",
+   "best_for": "Comparing categories across 2-4 series",
+   "example": "CAC by channel across quarters",
+   "claim": "comparison",
+   "tags": [
+    "compare",
+    "across quarters",
+    "two series",
+    "by channel and period"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "stacked_bar",
+   "name": "Stacked bar chart",
+   "family": "data",
+   "best_for": "Showing composition and total",
+   "example": "Pipeline by stage or source",
+   "claim": "composition",
+   "tags": [
+    "composition",
+    "made up of",
+    "breakdown",
+    "total and parts",
+    "by stage",
+    "by source"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "stacked_100",
+   "name": "100% stacked bar",
+   "family": "data",
+   "best_for": "Showing mix changes over time",
+   "example": "Revenue mix by segment, channel, or plan",
+   "claim": "composition",
+   "tags": [
+    "mix",
+    "share shift",
+    "percent of total",
+    "mix over time"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "diverging_bar",
+   "name": "Diverging bar chart",
+   "family": "data",
+   "best_for": "Showing positive vs. negative movement",
+   "example": "What customers love vs. complain about",
+   "claim": "comparison",
+   "tags": [
+    "positive negative",
+    "love hate",
+    "sentiment",
+    "up down",
+    "net"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "waterfall",
+   "name": "Waterfall chart",
+   "family": "data",
+   "best_for": "Explaining movement from one number to another",
+   "example": "ARR bridge, pipeline bridge, budget variance",
+   "claim": "bridge",
+   "tags": [
+    "bridge",
+    "from X to Y",
+    "what drove the change",
+    "walk",
+    "ARR bridge",
+    "reconcile",
+    "starting ending"
+   ],
+   "render": "svg:waterfall"
+  },
+  {
+   "id": "variance_waterfall",
+   "name": "Variance waterfall",
+   "family": "data",
+   "best_for": "Plan versus actual",
+   "example": "Why bookings missed or exceeded target",
+   "claim": "bridge",
+   "tags": [
+    "plan vs actual",
+    "variance",
+    "missed target",
+    "why we missed",
+    "beat plan"
+   ],
+   "render": "svg:waterfall"
+  },
+  {
+   "id": "line",
+   "name": "Line chart",
+   "family": "data",
+   "best_for": "Showing change over time",
+   "example": "MQLs, ARR, retention, site traffic, activation",
+   "claim": "trend",
+   "tags": [
+    "over time",
+    "trend",
+    "monthly",
+    "weekly",
+    "growth",
+    "trajectory",
+    "time series"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "multi_line",
+   "name": "Multi-line chart",
+   "family": "data",
+   "best_for": "Comparing trends",
+   "example": "Growth by region, product, or cohort",
+   "claim": "trend",
+   "tags": [
+    "compare trends",
+    "by region over time",
+    "several lines",
+    "diverging trends"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "area",
+   "name": "Area chart",
+   "family": "data",
+   "best_for": "Showing total volume and trend",
+   "example": "Total demand volume over time",
+   "claim": "trend",
+   "tags": [
+    "volume over time",
+    "cumulative",
+    "total demand"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "stacked_area",
+   "name": "Stacked area chart",
+   "family": "data",
+   "best_for": "Showing how a total changes in composition",
+   "example": "Traffic source contribution over time",
+   "claim": "composition",
+   "tags": [
+    "composition over time",
+    "contribution over time",
+    "source mix trend"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "slope",
+   "name": "Slope chart",
+   "family": "data",
+   "best_for": "Showing before/after change",
+   "example": "Category perception before and after repositioning",
+   "claim": "before_after",
+   "tags": [
+    "before after",
+    "two points",
+    "pre post",
+    "then now",
+    "shift"
+   ],
+   "render": "svg:slope"
+  },
+  {
+   "id": "bump",
+   "name": "Bump chart",
+   "family": "data",
+   "best_for": "Showing changing rankings",
+   "example": "Brand rank, keyword rank, channel rank by quarter",
+   "claim": "ranking",
+   "tags": [
+    "rank over time",
+    "position change",
+    "leaderboard",
+    "who moved up"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "sparkline",
+   "name": "Sparkline",
+   "family": "data",
+   "best_for": "Showing a compact trend beside a KPI",
+   "example": "Pipeline trend next to pipeline total",
+   "claim": "trend",
+   "tags": [
+    "KPI tile",
+    "small trend",
+    "dashboard",
+    "inline trend"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "bullet",
+   "name": "Bullet chart",
+   "family": "data",
+   "best_for": "Showing performance against a target",
+   "example": "78% of quarterly target achieved",
+   "claim": "target",
+   "tags": [
+    "vs target",
+    "attainment",
+    "goal",
+    "quota",
+    "percent of plan"
+   ],
+   "render": "svg:bullet"
+  },
+  {
+   "id": "progress_bar",
+   "name": "Progress bar",
+   "family": "data",
+   "best_for": "Showing simple completion",
+   "example": "Launch readiness, operating-plan completion",
+   "claim": "target",
+   "tags": [
+    "completion",
+    "readiness",
+    "percent done",
+    "status"
+   ],
+   "render": "shapes"
+  },
+  {
+   "id": "gauge",
+   "name": "Gauge or dial",
+   "family": "data",
+   "best_for": "Showing status against a threshold (only when the audience already understands the scale)",
+   "example": "Health score in a familiar 0-100 scale",
+   "claim": "target",
+   "tags": [
+    "gauge",
+    "dial",
+    "health score",
+    "threshold"
+   ],
+   "render": "shapes"
+  },
+  {
+   "id": "dot_plot",
+   "name": "Dot plot",
+   "family": "data",
+   "best_for": "Comparing many values cleanly",
+   "example": "Conversion rate by campaign",
+   "claim": "comparison",
+   "tags": [
+    "many values",
+    "rates by campaign",
+    "clean comparison"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "lollipop",
+   "name": "Lollipop chart",
+   "family": "data",
+   "best_for": "A lighter alternative to bars",
+   "example": "Pipeline contribution by source",
+   "claim": "comparison",
+   "tags": [
+    "light bars",
+    "contribution by source"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "cleveland",
+   "name": "Cleveland dot plot",
+   "family": "data",
+   "best_for": "Comparing two values per category",
+   "example": "Current vs. target conversion rates",
+   "claim": "comparison",
+   "tags": [
+    "current vs target",
+    "two values per category",
+    "gap to target"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "dumbbell",
+   "name": "Dumbbell chart",
+   "family": "data",
+   "best_for": "Showing the distance between two values",
+   "example": "Pre- versus post-AI productivity",
+   "claim": "before_after",
+   "tags": [
+    "gap",
+    "pre post",
+    "distance between",
+    "before and after by category",
+    "lift"
+   ],
+   "render": "svg:dumbbell"
+  },
+  {
+   "id": "scatter",
+   "name": "Scatter plot",
+   "family": "data",
+   "best_for": "Showing relationships and outliers",
+   "example": "Spend versus pipeline; satisfaction versus retention",
+   "claim": "relationship",
+   "tags": [
+    "correlation",
+    "relationship",
+    "outliers",
+    "X vs Y",
+    "does A drive B"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "bubble",
+   "name": "Bubble chart",
+   "family": "data",
+   "best_for": "Adding a third variable to a scatter plot",
+   "example": "Market size, growth, and competitive intensity",
+   "claim": "relationship",
+   "tags": [
+    "three variables",
+    "size growth intensity",
+    "bubble"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "quadrant",
+   "name": "Quadrant chart",
+   "family": "data",
+   "best_for": "Classifying items on two strategic dimensions",
+   "example": "High-value/high-feasibility AI use cases",
+   "claim": "prioritization",
+   "tags": [
+    "prioritize",
+    "value feasibility",
+    "impact effort",
+    "which to do first",
+    "use cases",
+    "2x2 with data"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "heatmap",
+   "name": "Heatmap",
+   "family": "data",
+   "best_for": "Showing intensity across two dimensions",
+   "example": "Segment x use-case demand; week x channel activity",
+   "claim": "intensity",
+   "tags": [
+    "intensity",
+    "matrix of values",
+    "where is demand",
+    "segment by use case",
+    "grid"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "calendar_heatmap",
+   "name": "Calendar heatmap",
+   "family": "data",
+   "best_for": "Showing patterns over dates",
+   "example": "Content publishing cadence and engagement",
+   "claim": "intensity",
+   "tags": [
+    "by day",
+    "cadence",
+    "publishing pattern",
+    "calendar"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "matrix_heatmap",
+   "name": "Matrix heatmap",
+   "family": "data",
+   "best_for": "Mapping many items against criteria",
+   "example": "Competitive feature comparison",
+   "claim": "comparison",
+   "tags": [
+    "items vs criteria",
+    "feature comparison",
+    "scorecard grid",
+    "vendor comparison"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "histogram",
+   "name": "Histogram",
+   "family": "data",
+   "best_for": "Showing the distribution of a metric",
+   "example": "Deal-size distribution",
+   "claim": "distribution",
+   "tags": [
+    "distribution",
+    "how spread",
+    "deal size",
+    "buckets"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "box_plot",
+   "name": "Box plot",
+   "family": "data",
+   "best_for": "Comparing distributions and outliers",
+   "example": "Sales cycle by segment",
+   "claim": "distribution",
+   "tags": [
+    "distribution by group",
+    "median range",
+    "cycle length by segment",
+    "outliers"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "violin",
+   "name": "Violin plot",
+   "family": "data",
+   "best_for": "Showing distribution shape",
+   "example": "Time-to-value across customer cohorts",
+   "claim": "distribution",
+   "tags": [
+    "distribution shape",
+    "cohorts",
+    "time to value"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "pareto",
+   "name": "Pareto chart",
+   "family": "data",
+   "best_for": "Showing the few drivers behind most impact",
+   "example": "Top objections causing most deal losses",
+   "claim": "ranking",
+   "tags": [
+    "80/20",
+    "few drivers",
+    "most impact",
+    "concentration",
+    "top causes"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "treemap",
+   "name": "Treemap",
+   "family": "data",
+   "best_for": "Showing hierarchical composition",
+   "example": "Revenue by region, segment, and account",
+   "claim": "composition",
+   "tags": [
+    "hierarchy of parts",
+    "nested composition",
+    "revenue by region and account"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "sunburst",
+   "name": "Sunburst chart",
+   "family": "data",
+   "best_for": "Showing layered hierarchy",
+   "example": "Product portfolio or customer segmentation",
+   "claim": "composition",
+   "tags": [
+    "layered hierarchy",
+    "portfolio",
+    "segmentation rings"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "marimekko",
+   "name": "Marimekko chart",
+   "family": "data",
+   "best_for": "Showing two dimensions of market composition",
+   "example": "Segment size and vendor share",
+   "claim": "composition",
+   "tags": [
+    "segment size and share",
+    "market composition",
+    "mekko"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "funnel",
+   "name": "Funnel chart",
+   "family": "data",
+   "best_for": "Showing stage conversion",
+   "example": "Visitor -> lead -> opportunity -> customer",
+   "claim": "flow",
+   "tags": [
+    "funnel",
+    "conversion",
+    "stages",
+    "visitor to customer",
+    "drop-off"
+   ],
+   "render": "svg:funnel"
+  },
+  {
+   "id": "conversion_staircase",
+   "name": "Conversion staircase",
+   "family": "data",
+   "best_for": "A more analytical funnel",
+   "example": "Stage counts plus conversion and leakage",
+   "claim": "flow",
+   "tags": [
+    "leakage",
+    "stage conversion rates",
+    "where we lose",
+    "analytical funnel"
+   ],
+   "render": "svg:funnel"
+  },
+  {
+   "id": "sankey",
+   "name": "Sankey diagram",
+   "family": "data",
+   "best_for": "Showing flow between stages or categories",
+   "example": "Lead source -> sales motion -> outcome",
+   "claim": "flow",
+   "tags": [
+    "flow",
+    "source to outcome",
+    "where do leads go",
+    "routing",
+    "leakage paths"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "alluvial",
+   "name": "Alluvial diagram",
+   "family": "data",
+   "best_for": "Showing movement between states over time",
+   "example": "Segment migration, plan upgrades, retention paths",
+   "claim": "flow",
+   "tags": [
+    "migration",
+    "state change",
+    "upgrades downgrades",
+    "retention paths"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "cohort_retention",
+   "name": "Cohort retention chart",
+   "family": "data",
+   "best_for": "Showing retention by acquisition cohort",
+   "example": "Product activation and renewal analysis",
+   "claim": "trend",
+   "tags": [
+    "cohort",
+    "retention curves",
+    "by signup month"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "cohort_heatmap",
+   "name": "Cohort heatmap",
+   "family": "data",
+   "best_for": "Showing behavior over time by cohort",
+   "example": "Usage, retention, expansion, or engagement by cohort",
+   "claim": "intensity",
+   "tags": [
+    "cohort table",
+    "triangle",
+    "retention grid"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "survival",
+   "name": "Survival curve",
+   "family": "data",
+   "best_for": "Showing attrition over time",
+   "example": "Customer or user retention duration",
+   "claim": "trend",
+   "tags": [
+    "attrition",
+    "churn over time",
+    "survival",
+    "how long customers last"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "control_chart",
+   "name": "Control chart",
+   "family": "data",
+   "best_for": "Showing whether a process is stable",
+   "example": "Weekly lead-quality rate against expected variation",
+   "claim": "trend",
+   "tags": [
+    "stable process",
+    "control limits",
+    "is this noise",
+    "variation"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "run_chart",
+   "name": "Run chart",
+   "family": "data",
+   "best_for": "Showing operational performance over time",
+   "example": "Ticket resolution, demo conversion, activation time",
+   "claim": "trend",
+   "tags": [
+    "operational metric over time",
+    "weekly performance"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "tornado",
+   "name": "Tornado chart",
+   "family": "data",
+   "best_for": "Showing sensitivity analysis",
+   "example": "Which assumptions most affect the revenue plan",
+   "claim": "sensitivity",
+   "tags": [
+    "sensitivity",
+    "assumptions",
+    "what matters most",
+    "swing"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "tornado_risk",
+   "name": "Tornado risk chart",
+   "family": "data",
+   "best_for": "Comparing upside/downside impact",
+   "example": "Risks to launch, forecast, or strategic bet",
+   "claim": "sensitivity",
+   "tags": [
+    "upside downside",
+    "risk impact",
+    "scenario swing"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "fan",
+   "name": "Fan chart",
+   "family": "data",
+   "best_for": "Showing uncertainty ranges",
+   "example": "Forecast scenarios and confidence bands",
+   "claim": "uncertainty",
+   "tags": [
+    "uncertainty",
+    "confidence bands",
+    "forecast range",
+    "probabilistic"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "scenario_bands",
+   "name": "Scenario bands",
+   "family": "data",
+   "best_for": "Showing base, upside, and downside paths",
+   "example": "ARR outlook under different conversion assumptions",
+   "claim": "uncertainty",
+   "tags": [
+    "base upside downside",
+    "scenarios",
+    "outlook",
+    "three cases"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "goal_tree",
+   "name": "Goal tree with numbers",
+   "family": "data",
+   "best_for": "Showing KPI drivers",
+   "example": "ARR target decomposed into pipeline, win rate, ACV",
+   "claim": "hierarchy",
+   "tags": [
+    "driver tree",
+    "KPI decomposition",
+    "what makes up the number",
+    "math tree",
+    "ARR = pipeline x win rate x ACV"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "pyramid",
+   "name": "Pyramid",
+   "family": "strategy",
+   "best_for": "Showing hierarchy or layers",
+   "example": "Brand strategy: category -> narrative -> proof -> campaigns",
+   "claim": "hierarchy",
+   "tags": [
+    "hierarchy",
+    "layers",
+    "foundation to top",
+    "pyramid"
+   ],
+   "render": "svg:pyramid"
+  },
+  {
+   "id": "inverted_pyramid",
+   "name": "Inverted pyramid",
+   "family": "strategy",
+   "best_for": "Showing broad inputs narrowing to a decision",
+   "example": "Market signals -> insight -> strategic choice",
+   "claim": "hierarchy",
+   "tags": [
+    "narrowing",
+    "many inputs one decision",
+    "signals to choice"
+   ],
+   "render": "svg:pyramid"
+  },
+  {
+   "id": "flywheel",
+   "name": "Flywheel",
+   "family": "strategy",
+   "best_for": "Showing reinforcing loops",
+   "example": "Content -> audience -> trust -> pipeline -> customer proof",
+   "claim": "loop",
+   "tags": [
+    "flywheel",
+    "reinforcing",
+    "compounding",
+    "momentum",
+    "loop",
+    "self-reinforcing"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "virtuous_cycle",
+   "name": "Virtuous cycle",
+   "family": "strategy",
+   "best_for": "Explaining compounding advantage",
+   "example": "Better data -> better AI -> better workflow -> more data",
+   "claim": "loop",
+   "tags": [
+    "virtuous cycle",
+    "compounding advantage",
+    "better data better AI"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "venn",
+   "name": "Venn diagram",
+   "family": "strategy",
+   "best_for": "Showing overlap between 2-3 concepts",
+   "example": "Where AI capability, customer need, and GTM readiness meet",
+   "claim": "overlap",
+   "tags": [
+    "overlap",
+    "intersection",
+    "sweet spot",
+    "where X meets Y"
+   ],
+   "render": "svg:venn"
+  },
+  {
+   "id": "concentric",
+   "name": "Concentric circles",
+   "family": "strategy",
+   "best_for": "Showing core and surrounding layers",
+   "example": "Core platform, products, ecosystem, market context",
+   "claim": "hierarchy",
+   "tags": [
+    "core and layers",
+    "rings",
+    "platform ecosystem",
+    "nested"
+   ],
+   "render": "svg:concentric"
+  },
+  {
+   "id": "onion",
+   "name": "Onion diagram",
+   "family": "strategy",
+   "best_for": "Showing nested levels",
+   "example": "Strategy, operating model, process, tools, behaviors",
+   "claim": "hierarchy",
+   "tags": [
+    "nested levels",
+    "onion",
+    "strategy to behaviors"
+   ],
+   "render": "svg:concentric"
+  },
+  {
+   "id": "iceberg",
+   "name": "Iceberg",
+   "family": "strategy",
+   "best_for": "Showing visible outcomes versus hidden causes",
+   "example": "Missed pipeline target versus positioning/process issues",
+   "claim": "hidden_cause",
+   "tags": [
+    "hidden causes",
+    "below the surface",
+    "symptom vs root cause",
+    "iceberg",
+    "what you don't see"
+   ],
+   "render": "svg:iceberg"
+  },
+  {
+   "id": "mountain",
+   "name": "Mountain or ascent",
+   "family": "strategy",
+   "best_for": "Showing maturity, journey, or ambition",
+   "example": "AI adoption maturity from experimentation to reinvention",
+   "claim": "maturity",
+   "tags": [
+    "ascent",
+    "climb",
+    "journey",
+    "ambition",
+    "summit"
+   ],
+   "render": "svg:staircase"
+  },
+  {
+   "id": "staircase",
+   "name": "Staircase",
+   "family": "strategy",
+   "best_for": "Showing sequential progress or maturity",
+   "example": "From ad hoc marketing to AI-native GTM",
+   "claim": "maturity",
+   "tags": [
+    "stages of maturity",
+    "steps up",
+    "level up",
+    "progression"
+   ],
+   "render": "svg:staircase"
+  },
+  {
+   "id": "ladder",
+   "name": "Ladder",
+   "family": "strategy",
+   "best_for": "Showing hierarchy or progression",
+   "example": "Value ladder, buyer maturity, capability maturity",
+   "claim": "maturity",
+   "tags": [
+    "ladder",
+    "rungs",
+    "value ladder",
+    "progression"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "bridge",
+   "name": "Bridge",
+   "family": "strategy",
+   "best_for": "Showing movement from current state to future state",
+   "example": "Legacy GTM -> AI-enabled revenue operating model",
+   "claim": "transition",
+   "tags": [
+    "current to future",
+    "transition",
+    "how we get there",
+    "bridge",
+    "from to"
+   ],
+   "render": "svg:bridge"
+  },
+  {
+   "id": "chasm",
+   "name": "Chasm",
+   "family": "strategy",
+   "best_for": "Showing a gap to overcome",
+   "example": "Point solution adoption versus enterprise transformation",
+   "claim": "transition",
+   "tags": [
+    "gap",
+    "chasm",
+    "what's stopping us",
+    "crossing"
+   ],
+   "render": "svg:bridge"
+  },
+  {
+   "id": "before_after",
+   "name": "Before-and-after split",
+   "family": "strategy",
+   "best_for": "Showing a transformation",
+   "example": "Old operating model versus new model",
+   "claim": "before_after",
+   "tags": [
+    "before after",
+    "old new",
+    "transformation",
+    "from to",
+    "was is"
+   ],
+   "render": "svg:before_after"
+  },
+  {
+   "id": "then_now_next",
+   "name": "Then / now / next timeline",
+   "family": "strategy",
+   "best_for": "Showing evolution",
+   "example": "Evolution of customer expectations or company strategy",
+   "claim": "evolution",
+   "tags": [
+    "then now next",
+    "evolution",
+    "how we got here",
+    "what's next"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "three_horizon",
+   "name": "Three-horizon chart",
+   "family": "strategy",
+   "best_for": "Showing present, emerging, and future bets",
+   "example": "Core business, adjacencies, and new AI-native offerings",
+   "claim": "portfolio",
+   "tags": [
+    "horizons",
+    "core adjacent future",
+    "bets over time",
+    "H1 H2 H3"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "choices_cascade",
+   "name": "Strategic choices cascade",
+   "family": "strategy",
+   "best_for": "Showing linked strategic decisions",
+   "example": "Where to play, how to win, capabilities, systems",
+   "claim": "decision",
+   "tags": [
+    "where to play",
+    "how to win",
+    "cascade",
+    "strategy choices",
+    "playing to win"
+   ],
+   "render": "svg:cascade"
+  },
+  {
+   "id": "choice_tree",
+   "name": "Choice tree",
+   "family": "strategy",
+   "best_for": "Showing decision branches",
+   "example": "Build, buy, partner, or defer",
+   "claim": "decision",
+   "tags": [
+    "options",
+    "branches",
+    "build buy partner",
+    "decision tree of choices"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "decision_matrix",
+   "name": "Decision matrix",
+   "family": "strategy",
+   "best_for": "Making an explicit recommendation",
+   "example": "AI vendors scored by security, capability, cost, speed",
+   "claim": "decision",
+   "tags": [
+    "scored options",
+    "criteria",
+    "vendor selection",
+    "recommendation",
+    "weighted scoring"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "tradeoff_triangle",
+   "name": "Tradeoff triangle",
+   "family": "strategy",
+   "best_for": "Showing tensions among three goals",
+   "example": "Speed, quality, and cost; scale, relevance, efficiency",
+   "claim": "tradeoff",
+   "tags": [
+    "pick two",
+    "tension",
+    "speed quality cost",
+    "triangle"
+   ],
+   "render": "svg:triangle"
+  },
+  {
+   "id": "magic_triangle",
+   "name": "Magic triangle",
+   "family": "strategy",
+   "best_for": "Showing a three-part system",
+   "example": "Brand, demand, and customer proof",
+   "claim": "system",
+   "tags": [
+    "three parts",
+    "triad",
+    "brand demand proof"
+   ],
+   "render": "svg:triangle"
+  },
+  {
+   "id": "four_box",
+   "name": "Four-box framework",
+   "family": "strategy",
+   "best_for": "Categorizing concepts",
+   "example": "Urgent/important; known/unknown; build/buy/partner/wait",
+   "claim": "classification",
+   "tags": [
+    "four boxes",
+    "categorize",
+    "urgent important",
+    "known unknown"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "two_by_two",
+   "name": "Two-by-two matrix",
+   "family": "strategy",
+   "best_for": "Prioritization and segmentation",
+   "example": "Impact versus effort; market attractiveness versus ability to win",
+   "claim": "prioritization",
+   "tags": [
+    "2x2",
+    "two by two",
+    "impact effort",
+    "prioritize",
+    "segment on two axes",
+    "matrix"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "nine_box",
+   "name": "Nine-box matrix",
+   "family": "strategy",
+   "best_for": "More granular prioritization",
+   "example": "Segment attractiveness x competitive position",
+   "claim": "prioritization",
+   "tags": [
+    "3x3",
+    "nine box",
+    "attractiveness position",
+    "GE McKinsey"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "portfolio_map",
+   "name": "Portfolio map",
+   "family": "strategy",
+   "best_for": "Showing investments across dimensions",
+   "example": "Products by growth rate and strategic fit",
+   "claim": "portfolio",
+   "tags": [
+    "portfolio",
+    "investments",
+    "growth vs fit",
+    "bubble portfolio"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "wardley",
+   "name": "Wardley-style evolution map",
+   "family": "strategy",
+   "best_for": "Showing maturity of capabilities",
+   "example": "Custom vs. productized vs. commodity AI components",
+   "claim": "maturity",
+   "tags": [
+    "wardley",
+    "evolution",
+    "genesis custom product commodity",
+    "value chain evolution"
+   ],
+   "render": "svg:scatter_labels"
+  },
+  {
+   "id": "value_chain",
+   "name": "Value chain diagram",
+   "family": "strategy",
+   "best_for": "Showing how value is created",
+   "example": "Awareness -> evaluation -> purchase -> adoption -> expansion",
+   "claim": "sequence",
+   "tags": [
+    "value chain",
+    "how value is created",
+    "chain of activities"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "ecosystem_map",
+   "name": "Ecosystem map",
+   "family": "strategy",
+   "best_for": "Showing stakeholders and dependencies",
+   "example": "Customer, partners, platforms, influencers, data providers",
+   "claim": "system",
+   "tags": [
+    "ecosystem",
+    "stakeholders",
+    "partners",
+    "who's involved",
+    "dependencies"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "system_map",
+   "name": "System map",
+   "family": "strategy",
+   "best_for": "Showing interdependent components",
+   "example": "AI system, data sources, governance, workflows, users",
+   "claim": "system",
+   "tags": [
+    "system",
+    "components",
+    "interdependent",
+    "how it fits together"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "causal_loop",
+   "name": "Causal loop diagram",
+   "family": "strategy",
+   "best_for": "Showing feedback loops and unintended effects",
+   "example": "Content volume, saturation, trust, and conversion",
+   "claim": "loop",
+   "tags": [
+    "feedback loop",
+    "unintended consequences",
+    "causal",
+    "reinforcing balancing",
+    "systems thinking"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "logic_model",
+   "name": "Logic model",
+   "family": "strategy",
+   "best_for": "Connecting actions to outcomes",
+   "example": "Inputs -> activities -> outputs -> outcomes -> impact",
+   "claim": "sequence",
+   "tags": [
+    "inputs outputs outcomes",
+    "logic model",
+    "actions to outcomes",
+    "impact chain"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "theory_of_change",
+   "name": "Theory of change",
+   "family": "strategy",
+   "best_for": "Explaining why a program should work",
+   "example": "Thought leadership -> category education -> demand creation",
+   "claim": "sequence",
+   "tags": [
+    "why it works",
+    "theory of change",
+    "mechanism",
+    "program logic"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "jtbd_map",
+   "name": "Jobs-to-be-done map",
+   "family": "strategy",
+   "best_for": "Showing customer context and desired outcomes",
+   "example": "Trigger, functional job, emotional job, social job",
+   "claim": "customer",
+   "tags": [
+    "jobs to be done",
+    "JTBD",
+    "customer jobs",
+    "trigger functional emotional"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "customer_value_map",
+   "name": "Customer value map",
+   "family": "strategy",
+   "best_for": "Connecting pains, gains, and product value",
+   "example": "Buyer problems -> capability -> business impact",
+   "claim": "customer",
+   "tags": [
+    "pains gains",
+    "problem capability impact",
+    "value map"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "problem_solution_proof",
+   "name": "Problem-solution-proof",
+   "family": "strategy",
+   "best_for": "A simple persuasive structure",
+   "example": "Market pain -> strategic answer -> quantified evidence",
+   "claim": "argument",
+   "tags": [
+    "problem solution proof",
+    "persuasive",
+    "pitch structure"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "tension_insight_resolution",
+   "name": "Tension-insight-resolution",
+   "family": "strategy",
+   "best_for": "Framing a compelling narrative",
+   "example": "AI increases output but decreases differentiation",
+   "claim": "argument",
+   "tags": [
+    "tension",
+    "insight",
+    "resolution",
+    "narrative frame",
+    "paradox"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "myth_reality",
+   "name": "Myth vs. reality",
+   "family": "strategy",
+   "best_for": "Challenging a false belief",
+   "example": "More content equals more demand",
+   "claim": "contrast",
+   "tags": [
+    "myth reality",
+    "false belief",
+    "misconception",
+    "debunk"
+   ],
+   "render": "svg:before_after"
+  },
+  {
+   "id": "old_new_rules",
+   "name": "Old rules / new rules",
+   "family": "strategy",
+   "best_for": "Making a category argument",
+   "example": "Old funnel metrics versus AI-era attention metrics",
+   "claim": "contrast",
+   "tags": [
+    "old rules new rules",
+    "category argument",
+    "what changed",
+    "new playbook"
+   ],
+   "render": "svg:before_after"
+  },
+  {
+   "id": "contrast_pair",
+   "name": "Contrast pair",
+   "family": "strategy",
+   "best_for": "Clarifying a distinction",
+   "example": "Automation versus agency; efficiency versus advantage",
+   "claim": "contrast",
+   "tags": [
+    "distinction",
+    "X vs Y",
+    "not this but that",
+    "versus"
+   ],
+   "render": "svg:before_after"
+  },
+  {
+   "id": "spectrum",
+   "name": "Spectrum",
+   "family": "strategy",
+   "best_for": "Showing a continuum",
+   "example": "Tactical AI use -> strategic AI transformation",
+   "claim": "continuum",
+   "tags": [
+    "spectrum",
+    "continuum",
+    "range from to",
+    "sliding scale"
+   ],
+   "render": "svg:spectrum"
+  },
+  {
+   "id": "continuum_thresholds",
+   "name": "Continuum with thresholds",
+   "family": "strategy",
+   "best_for": "Showing stages and decision points",
+   "example": "Experimenting -> scaling -> governing -> reinventing",
+   "claim": "continuum",
+   "tags": [
+    "stages with thresholds",
+    "decision points along a scale"
+   ],
+   "render": "svg:spectrum"
+  },
+  {
+   "id": "spectrum_archetypes",
+   "name": "Spectrum with archetypes",
+   "family": "strategy",
+   "best_for": "Segmenting by maturity",
+   "example": "Skeptics, explorers, operators, AI-native leaders",
+   "claim": "continuum",
+   "tags": [
+    "archetypes",
+    "personas by maturity",
+    "skeptics explorers operators"
+   ],
+   "render": "svg:spectrum"
+  },
+  {
+   "id": "thesis_slide",
+   "name": "One-sentence thesis slide",
+   "family": "strategy",
+   "best_for": "Anchoring the story",
+   "example": "The next GTM advantage is not more automation-it is faster learning.",
+   "claim": "assertion",
+   "tags": [
+    "thesis",
+    "one sentence",
+    "big idea",
+    "headline slide",
+    "anchor"
+   ],
+   "render": "text"
+  },
+  {
+   "id": "linear_flow",
+   "name": "Linear process flow",
+   "family": "process",
+   "best_for": "A simple sequence",
+   "example": "Research -> strategy -> execution -> measurement",
+   "claim": "sequence",
+   "tags": [
+    "steps",
+    "sequence",
+    "process",
+    "then then then"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron process",
+   "family": "process",
+   "best_for": "A clean executive sequence",
+   "example": "Diagnose -> decide -> deploy -> optimize",
+   "claim": "sequence",
+   "tags": [
+    "chevron",
+    "executive sequence",
+    "phases",
+    "arrows"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "swimlane",
+   "name": "Swimlane diagram",
+   "family": "process",
+   "best_for": "Showing ownership across teams",
+   "example": "Marketing, sales, product, customer success handoffs",
+   "claim": "ownership",
+   "tags": [
+    "who owns what",
+    "swimlane",
+    "handoffs across teams",
+    "cross-functional"
+   ],
+   "render": "svg:swimlane"
+  },
+  {
+   "id": "bpmn",
+   "name": "BPMN-style process map",
+   "family": "process",
+   "best_for": "Detailed operational workflow",
+   "example": "Lead routing, approval, onboarding, campaign production",
+   "claim": "sequence",
+   "tags": [
+    "detailed workflow",
+    "gateways",
+    "routing rules",
+    "approval flow"
+   ],
+   "render": "svg:swimlane"
+  },
+  {
+   "id": "service_blueprint",
+   "name": "Service blueprint",
+   "family": "process",
+   "best_for": "Showing customer-facing and back-office steps",
+   "example": "Enterprise onboarding journey",
+   "claim": "ownership",
+   "tags": [
+    "frontstage backstage",
+    "service blueprint",
+    "line of visibility"
+   ],
+   "render": "svg:swimlane"
+  },
+  {
+   "id": "journey_map",
+   "name": "User journey map",
+   "family": "process",
+   "best_for": "Showing customer experience over time",
+   "example": "Awareness through advocacy",
+   "claim": "customer",
+   "tags": [
+    "journey",
+    "customer experience",
+    "stages of the journey",
+    "touchpoints over time"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "journey_emotion",
+   "name": "Journey with emotional curve",
+   "family": "process",
+   "best_for": "Showing friction and moments of delight",
+   "example": "Buying or onboarding experience",
+   "claim": "customer",
+   "tags": [
+    "emotional curve",
+    "friction",
+    "delight",
+    "highs and lows of the journey"
+   ],
+   "render": "svg:journey_curve"
+  },
+  {
+   "id": "touchpoint_map",
+   "name": "Touchpoint map",
+   "family": "process",
+   "best_for": "Showing all interactions with a brand",
+   "example": "Website, newsletter, sales call, webinar, product",
+   "claim": "customer",
+   "tags": [
+    "touchpoints",
+    "every interaction",
+    "channels by stage"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "decision_tree",
+   "name": "Decision tree",
+   "family": "process",
+   "best_for": "Showing conditions and routing",
+   "example": "Which accounts receive ABM, nurture, or outbound motion",
+   "claim": "decision",
+   "tags": [
+    "routing",
+    "conditions",
+    "if this then that",
+    "decision tree",
+    "which motion"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "if_then",
+   "name": "If/then workflow",
+   "family": "process",
+   "best_for": "Explaining automation logic",
+   "example": "If intent spike occurs, then trigger account play",
+   "claim": "sequence",
+   "tags": [
+    "automation logic",
+    "if then",
+    "rules",
+    "triggers"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "trigger_action",
+   "name": "Trigger-action loop",
+   "family": "process",
+   "best_for": "Showing event-driven operating model",
+   "example": "Signal -> enrichment -> orchestration -> outcome",
+   "claim": "loop",
+   "tags": [
+    "event driven",
+    "signal to action",
+    "trigger action"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "human_in_loop",
+   "name": "Human-in-the-loop workflow",
+   "family": "process",
+   "best_for": "Clarifying AI boundaries",
+   "example": "AI drafts, human approves, system executes, team learns",
+   "claim": "ownership",
+   "tags": [
+    "human in the loop",
+    "who approves",
+    "AI drafts human approves",
+    "AI boundaries",
+    "oversight"
+   ],
+   "render": "svg:swimlane"
+  },
+  {
+   "id": "agent_workflow",
+   "name": "Agent workflow",
+   "family": "process",
+   "best_for": "Explaining multi-agent systems",
+   "example": "Research agent -> analyst -> writer -> reviewer -> publisher",
+   "claim": "sequence",
+   "tags": [
+    "agents",
+    "multi-agent",
+    "agent pipeline",
+    "handoffs between agents"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "orchestration",
+   "name": "Orchestration diagram",
+   "family": "process",
+   "best_for": "Showing tools, data, and agents",
+   "example": "CRM, warehouse, LLM, workflow engine, human reviewer",
+   "claim": "architecture",
+   "tags": [
+    "orchestration",
+    "tools data agents",
+    "how systems connect"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "raci",
+   "name": "RACI matrix",
+   "family": "process",
+   "best_for": "Showing role clarity",
+   "example": "Responsible, accountable, consulted, informed",
+   "claim": "ownership",
+   "tags": [
+    "RACI",
+    "roles",
+    "who is accountable",
+    "responsibility matrix"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "daci",
+   "name": "DACI matrix",
+   "family": "process",
+   "best_for": "Showing decision-making roles",
+   "example": "Driver, approver, contributor, informed",
+   "claim": "ownership",
+   "tags": [
+    "DACI",
+    "decision roles",
+    "driver approver"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "operating_cadence",
+   "name": "Operating cadence diagram",
+   "family": "process",
+   "best_for": "Showing recurring rituals",
+   "example": "Weekly pipeline review, monthly planning, quarterly reset",
+   "claim": "timing",
+   "tags": [
+    "cadence",
+    "rituals",
+    "weekly monthly quarterly",
+    "operating rhythm",
+    "meetings"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "closed_loop",
+   "name": "Closed-loop workflow",
+   "family": "process",
+   "best_for": "Showing learning and optimization",
+   "example": "Signal -> action -> measurement -> insight -> refinement",
+   "claim": "loop",
+   "tags": [
+    "closed loop",
+    "learning loop",
+    "measure and refine",
+    "optimization cycle"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "ooda",
+   "name": "OODA loop",
+   "family": "process",
+   "best_for": "Showing rapid decision cycles",
+   "example": "Observe -> orient -> decide -> act",
+   "claim": "loop",
+   "tags": [
+    "OODA",
+    "observe orient decide act",
+    "fast decisions"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "pdca",
+   "name": "PDCA loop",
+   "family": "process",
+   "best_for": "Showing continuous improvement",
+   "example": "Plan -> do -> check -> act",
+   "claim": "loop",
+   "tags": [
+    "PDCA",
+    "plan do check act",
+    "continuous improvement"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "funnel_to_flywheel",
+   "name": "Funnel-to-flywheel transition",
+   "family": "process",
+   "best_for": "Showing a philosophy shift",
+   "example": "Acquisition funnel feeding retention and advocacy loop",
+   "claim": "transition",
+   "tags": [
+    "funnel to flywheel",
+    "philosophy shift",
+    "acquisition to retention loop"
+   ],
+   "render": "svg:funnel_flywheel"
+  },
+  {
+   "id": "handoff_map",
+   "name": "Handoff map",
+   "family": "process",
+   "best_for": "Showing where work or data moves between functions",
+   "example": "Marketing -> SDR -> AE -> CS",
+   "claim": "ownership",
+   "tags": [
+    "handoffs",
+    "between functions",
+    "where it breaks",
+    "baton pass"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "exception_flow",
+   "name": "Exception flow",
+   "family": "process",
+   "best_for": "Showing what happens when standard workflow fails",
+   "example": "High-risk account or low-confidence AI output",
+   "claim": "sequence",
+   "tags": [
+    "exceptions",
+    "when it fails",
+    "fallback path",
+    "edge cases"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "escalation_ladder",
+   "name": "Escalation ladder",
+   "family": "process",
+   "best_for": "Showing governance path",
+   "example": "Frontline -> manager -> steering committee -> executive sponsor",
+   "claim": "hierarchy",
+   "tags": [
+    "escalation",
+    "governance path",
+    "who decides at each level"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "process_maturity_ladder",
+   "name": "Process maturity ladder",
+   "family": "process",
+   "best_for": "Showing current and desired operational state",
+   "example": "Manual -> automated -> intelligent -> autonomous",
+   "claim": "maturity",
+   "tags": [
+    "maturity ladder",
+    "manual to autonomous",
+    "current vs desired state"
+   ],
+   "render": "svg:staircase"
+  },
+  {
+   "id": "capability_map",
+   "name": "Capability map",
+   "family": "process",
+   "best_for": "Showing business capabilities",
+   "example": "Strategy, content, demand, sales enablement, analytics",
+   "claim": "inventory",
+   "tags": [
+    "capabilities",
+    "capability map",
+    "what we need to be able to do"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "reference_architecture",
+   "name": "Reference architecture",
+   "family": "process",
+   "best_for": "Showing technical components",
+   "example": "Data layer, model layer, application layer, governance layer",
+   "claim": "architecture",
+   "tags": [
+    "architecture",
+    "layers",
+    "technical components",
+    "reference architecture"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "layered_architecture",
+   "name": "Layered architecture",
+   "family": "process",
+   "best_for": "Explaining an AI stack",
+   "example": "Foundation models -> tools -> agents -> workflows -> outcomes",
+   "claim": "architecture",
+   "tags": [
+    "stack",
+    "layers",
+    "AI stack",
+    "layer cake"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "data_flow",
+   "name": "Data flow diagram",
+   "family": "process",
+   "best_for": "Showing how information moves",
+   "example": "Website signals -> CDP -> CRM -> campaign activation",
+   "claim": "flow",
+   "tags": [
+    "data flow",
+    "how data moves",
+    "pipeline of data",
+    "integration flow"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "integration_map",
+   "name": "Integration map",
+   "family": "process",
+   "best_for": "Showing systems and connectors",
+   "example": "CRM, MAP, warehouse, analytics, enrichment, AI tools",
+   "claim": "architecture",
+   "tags": [
+    "integrations",
+    "systems and connectors",
+    "tech stack map"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "control_tower",
+   "name": "Control tower view",
+   "family": "process",
+   "best_for": "Showing centralized visibility",
+   "example": "Pipeline health, signals, actions, owners, risks",
+   "claim": "visibility",
+   "tags": [
+    "control tower",
+    "central visibility",
+    "command view"
+   ],
+   "render": "svg:dashboard"
+  },
+  {
+   "id": "command_dashboard",
+   "name": "Command-center dashboard",
+   "family": "process",
+   "best_for": "Showing key live operational measures",
+   "example": "Targets, trends, blockers, next actions",
+   "claim": "visibility",
+   "tags": [
+    "dashboard",
+    "KPIs",
+    "operational measures",
+    "live metrics"
+   ],
+   "render": "svg:dashboard"
+  },
+  {
+   "id": "kanban",
+   "name": "Kanban board",
+   "family": "process",
+   "best_for": "Showing work status",
+   "example": "Backlog, in progress, review, launched",
+   "claim": "status",
+   "tags": [
+    "kanban",
+    "work status",
+    "backlog in progress done"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "roadmap_lane",
+   "name": "Roadmap lane",
+   "family": "process",
+   "best_for": "Showing workstreams over time",
+   "example": "Product, brand, demand, ops, enablement",
+   "claim": "timing",
+   "tags": [
+    "roadmap",
+    "workstreams",
+    "swimlane roadmap",
+    "over quarters"
+   ],
+   "render": "svg:gantt"
+  },
+  {
+   "id": "now_next_later",
+   "name": "Now / next / later roadmap",
+   "family": "process",
+   "best_for": "Showing prioritization without fake precision",
+   "example": "Near-term, upcoming, exploratory initiatives",
+   "claim": "timing",
+   "tags": [
+    "now next later",
+    "roadmap without dates",
+    "priorities by horizon"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "gantt",
+   "name": "Gantt chart",
+   "family": "process",
+   "best_for": "Showing timing and dependencies",
+   "example": "Launch plan across teams",
+   "claim": "timing",
+   "tags": [
+    "gantt",
+    "timeline with dependencies",
+    "launch plan",
+    "schedule"
+   ],
+   "render": "svg:gantt"
+  },
+  {
+   "id": "critical_path",
+   "name": "Critical-path diagram",
+   "family": "process",
+   "best_for": "Showing dependencies that determine timing",
+   "example": "Product readiness, customer proof, launch, sales enablement",
+   "claim": "timing",
+   "tags": [
+    "critical path",
+    "dependencies",
+    "what gates the launch"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "milestone_map",
+   "name": "Milestone map",
+   "family": "process",
+   "best_for": "Showing major moments",
+   "example": "Research complete, beta, launch, expansion",
+   "claim": "timing",
+   "tags": [
+    "milestones",
+    "key dates",
+    "timeline of moments"
+   ],
+   "render": "svg:timeline"
+  },
+  {
+   "id": "release_train",
+   "name": "Release train",
+   "family": "process",
+   "best_for": "Showing recurring launch cadence",
+   "example": "Monthly campaign, quarterly product, annual category event",
+   "claim": "timing",
+   "tags": [
+    "release train",
+    "recurring launches",
+    "cadence of releases"
+   ],
+   "render": "svg:timeline"
+  },
+  {
+   "id": "implementation_wave",
+   "name": "Implementation wave diagram",
+   "family": "process",
+   "best_for": "Showing phased rollout",
+   "example": "Pilot -> validate -> scale -> institutionalize",
+   "claim": "timing",
+   "tags": [
+    "waves",
+    "phased rollout",
+    "pilot then scale",
+    "phases"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "adoption_curve",
+   "name": "Adoption curve",
+   "family": "process",
+   "best_for": "Showing groups that adopt at different rates",
+   "example": "Innovators, early adopters, mainstream teams",
+   "claim": "distribution",
+   "tags": [
+    "adoption curve",
+    "early adopters",
+    "diffusion",
+    "bell curve of adoption"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "change_journey",
+   "name": "Change-management journey",
+   "family": "process",
+   "best_for": "Showing organizational stages",
+   "example": "Awareness -> skill -> adoption -> reinforcement",
+   "claim": "sequence",
+   "tags": [
+    "change management",
+    "org stages",
+    "awareness to reinforcement",
+    "ADKAR"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "capability_blueprint",
+   "name": "Capability-building blueprint",
+   "family": "process",
+   "best_for": "Showing people, process, data, and technology",
+   "example": "AI transformation program structure",
+   "claim": "architecture",
+   "tags": [
+    "people process data technology",
+    "program blueprint",
+    "transformation structure"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "tam_sam_som",
+   "name": "TAM / SAM / SOM circles",
+   "family": "gtm",
+   "best_for": "Framing market opportunity",
+   "example": "Broad market, addressable market, reachable initial segment",
+   "claim": "market",
+   "tags": [
+    "TAM SAM SOM",
+    "market size",
+    "opportunity size",
+    "addressable market"
+   ],
+   "render": "svg:concentric"
+  },
+  {
+   "id": "market_map",
+   "name": "Market map",
+   "family": "gtm",
+   "best_for": "Showing category landscape",
+   "example": "Vendors by category, adjacent tools, buyers, influencers",
+   "claim": "market",
+   "tags": [
+    "market map",
+    "landscape",
+    "who's in the category",
+    "vendors"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "competitive_landscape",
+   "name": "Competitive landscape",
+   "family": "gtm",
+   "best_for": "Showing competitor groups",
+   "example": "Suites, point solutions, services, emerging entrants",
+   "claim": "market",
+   "tags": [
+    "competitors",
+    "competitive landscape",
+    "groups of competitors"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "perceptual_map",
+   "name": "Perceptual positioning map",
+   "family": "gtm",
+   "best_for": "Showing differentiated market position",
+   "example": "Ease of use versus enterprise depth",
+   "claim": "positioning",
+   "tags": [
+    "positioning map",
+    "perceptual map",
+    "where we sit vs competitors",
+    "differentiation axes"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "battlecard",
+   "name": "Competitive battlecard grid",
+   "family": "gtm",
+   "best_for": "Showing how to win against alternatives",
+   "example": "Strengths, weaknesses, proof, traps, objections",
+   "claim": "competitive",
+   "tags": [
+    "battlecard",
+    "how to win against",
+    "competitor strengths weaknesses",
+    "traps"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "feature_matrix",
+   "name": "Feature comparison matrix",
+   "family": "gtm",
+   "best_for": "Comparing product capabilities",
+   "example": "Capability coverage by vendor",
+   "claim": "comparison",
+   "tags": [
+    "feature comparison",
+    "checkmarks",
+    "capability by vendor"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "category_map",
+   "name": "Category map",
+   "family": "gtm",
+   "best_for": "Defining a new market frame",
+   "example": "Legacy categories, emerging category, adjacent spaces",
+   "claim": "positioning",
+   "tags": [
+    "category map",
+    "new category",
+    "market frame",
+    "category design"
+   ],
+   "render": "svg:venn"
+  },
+  {
+   "id": "category_wedge",
+   "name": "Category creation wedge",
+   "family": "gtm",
+   "best_for": "Showing initial beachhead",
+   "example": "Narrow urgent use case expanding into a broader platform",
+   "claim": "positioning",
+   "tags": [
+    "wedge",
+    "beachhead",
+    "land and expand into category",
+    "narrow to broad"
+   ],
+   "render": "svg:wedge"
+  },
+  {
+   "id": "why_now",
+   "name": "Why now? stack",
+   "family": "gtm",
+   "best_for": "Showing forces creating urgency",
+   "example": "Technology shift, buyer pressure, economics, regulation",
+   "claim": "urgency",
+   "tags": [
+    "why now",
+    "forces",
+    "urgency",
+    "what changed",
+    "converging trends"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "market_forces",
+   "name": "Market forces diagram",
+   "family": "gtm",
+   "best_for": "Showing external drivers",
+   "example": "Customer change, competition, technology, policy, economy",
+   "claim": "urgency",
+   "tags": [
+    "market forces",
+    "external drivers",
+    "pressures"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "pestle",
+   "name": "PESTLE wheel",
+   "family": "gtm",
+   "best_for": "Structuring external analysis",
+   "example": "Political, economic, social, technological, legal, environmental",
+   "claim": "market",
+   "tags": [
+    "PESTLE",
+    "PEST",
+    "external analysis"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "five_forces",
+   "name": "Porter's Five Forces",
+   "family": "gtm",
+   "best_for": "Showing industry structure",
+   "example": "Supplier power, buyer power, substitutes, rivalry, entrants",
+   "claim": "market",
+   "tags": [
+    "five forces",
+    "Porter",
+    "industry structure",
+    "rivalry"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "swot",
+   "name": "SWOT matrix",
+   "family": "gtm",
+   "best_for": "Summarizing internal/external position",
+   "example": "Strengths, weaknesses, opportunities, threats",
+   "claim": "classification",
+   "tags": [
+    "SWOT",
+    "strengths weaknesses",
+    "opportunities threats"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "opportunity_tree",
+   "name": "Opportunity solution tree",
+   "family": "gtm",
+   "best_for": "Connecting outcomes, opportunities, and solutions",
+   "example": "Revenue objective -> customer barriers -> strategic plays",
+   "claim": "hierarchy",
+   "tags": [
+    "opportunity solution tree",
+    "outcome to solutions",
+    "Teresa Torres"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "segmentation_map",
+   "name": "Segmentation map",
+   "family": "gtm",
+   "best_for": "Showing target customer groups",
+   "example": "By company size, maturity, need, buying motion",
+   "claim": "customer",
+   "tags": [
+    "segments",
+    "segmentation",
+    "target groups",
+    "who we sell to"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "icp_card",
+   "name": "Ideal customer profile card",
+   "family": "gtm",
+   "best_for": "Making an ICP concrete",
+   "example": "Firmographics, triggers, pains, buying committee",
+   "claim": "customer",
+   "tags": [
+    "ICP",
+    "ideal customer",
+    "firmographics",
+    "profile card"
+   ],
+   "render": "svg:card"
+  },
+  {
+   "id": "account_tiers",
+   "name": "Account tiering pyramid",
+   "family": "gtm",
+   "best_for": "Showing ABM prioritization",
+   "example": "Tier 1, Tier 2, Tier 3 accounts",
+   "claim": "hierarchy",
+   "tags": [
+    "account tiers",
+    "ABM",
+    "tier 1 tier 2",
+    "account prioritization"
+   ],
+   "render": "svg:pyramid"
+  },
+  {
+   "id": "persona_card",
+   "name": "Persona card",
+   "family": "gtm",
+   "best_for": "Humanizing a buyer",
+   "example": "Goals, metrics, fears, objections, influence",
+   "claim": "customer",
+   "tags": [
+    "persona",
+    "buyer persona",
+    "goals fears objections"
+   ],
+   "render": "svg:card"
+  },
+  {
+   "id": "buying_committee",
+   "name": "Buying committee map",
+   "family": "gtm",
+   "best_for": "Showing stakeholders and power",
+   "example": "Champion, economic buyer, user, blocker, procurement",
+   "claim": "customer",
+   "tags": [
+    "buying committee",
+    "stakeholders",
+    "champion economic buyer",
+    "who's in the deal"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "stakeholder_matrix",
+   "name": "Stakeholder influence matrix",
+   "family": "gtm",
+   "best_for": "Showing who to engage",
+   "example": "Influence versus support",
+   "claim": "prioritization",
+   "tags": [
+    "stakeholder matrix",
+    "influence support",
+    "who to engage"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "buying_journey",
+   "name": "Buying journey map",
+   "family": "gtm",
+   "best_for": "Showing stages and questions",
+   "example": "Problem recognition -> evaluation -> consensus -> selection",
+   "claim": "customer",
+   "tags": [
+    "buying journey",
+    "buyer stages",
+    "evaluation consensus selection"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "buyer_question_ladder",
+   "name": "Buyer question ladder",
+   "family": "gtm",
+   "best_for": "Showing information needed by stage",
+   "example": "Why change? -> Why now? -> Why us?",
+   "claim": "sequence",
+   "tags": [
+    "why change why now why us",
+    "buyer questions",
+    "by stage"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "message_house",
+   "name": "Message house",
+   "family": "gtm",
+   "best_for": "Organizing positioning",
+   "example": "Core promise, pillars, proof points, supporting messages",
+   "claim": "message",
+   "tags": [
+    "message house",
+    "messaging",
+    "pillars",
+    "core promise",
+    "positioning doc"
+   ],
+   "render": "svg:message_house"
+  },
+  {
+   "id": "messaging_pyramid",
+   "name": "Messaging pyramid",
+   "family": "gtm",
+   "best_for": "Showing hierarchy of communication",
+   "example": "Category thesis -> value proposition -> capabilities -> proof",
+   "claim": "message",
+   "tags": [
+    "messaging hierarchy",
+    "thesis to proof",
+    "messaging pyramid"
+   ],
+   "render": "svg:pyramid"
+  },
+  {
+   "id": "narrative_arc",
+   "name": "Narrative arc",
+   "family": "gtm",
+   "best_for": "Structuring a market story",
+   "example": "Status quo -> disruption -> stakes -> new way -> proof",
+   "claim": "argument",
+   "tags": [
+    "narrative arc",
+    "story structure",
+    "strategic narrative",
+    "status quo disruption"
+   ],
+   "render": "svg:journey_curve"
+  },
+  {
+   "id": "storybrand",
+   "name": "StoryBrand-style journey",
+   "family": "gtm",
+   "best_for": "Centering the customer",
+   "example": "Customer problem -> guide -> plan -> success",
+   "claim": "argument",
+   "tags": [
+    "StoryBrand",
+    "customer as hero",
+    "guide plan success"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "value_prop_canvas",
+   "name": "Value proposition canvas",
+   "family": "gtm",
+   "best_for": "Connecting buyer needs and offer",
+   "example": "Jobs, pains, gains versus products, relievers, creators",
+   "claim": "customer",
+   "tags": [
+    "value proposition canvas",
+    "jobs pains gains",
+    "fit"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "proof_architecture",
+   "name": "Proof architecture",
+   "family": "gtm",
+   "best_for": "Showing evidence behind claims",
+   "example": "Customer evidence, product evidence, market evidence, ROI",
+   "claim": "proof",
+   "tags": [
+    "proof",
+    "evidence",
+    "credibility",
+    "why believe us"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "evidence_ladder",
+   "name": "Evidence ladder",
+   "family": "gtm",
+   "best_for": "Ranking claim strength",
+   "example": "Assertion -> example -> data -> customer proof -> independent validation",
+   "claim": "proof",
+   "tags": [
+    "evidence ladder",
+    "strength of claim",
+    "how strong is the proof"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "objection_map",
+   "name": "Objection map",
+   "family": "gtm",
+   "best_for": "Showing concerns and responses",
+   "example": "Risk, cost, complexity, switching, proof",
+   "claim": "competitive",
+   "tags": [
+    "objections",
+    "concerns and responses",
+    "pushback handling"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "alternatives_map",
+   "name": "Competitive alternatives map",
+   "family": "gtm",
+   "best_for": "Showing what buyers do instead",
+   "example": "Do nothing, build internally, use incumbent, use new category",
+   "claim": "competitive",
+   "tags": [
+    "alternatives",
+    "do nothing",
+    "build vs buy",
+    "what buyers do instead",
+    "status quo competitor"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "sales_motion_map",
+   "name": "Sales motion map",
+   "family": "gtm",
+   "best_for": "Showing routes to market",
+   "example": "Self-serve, PLG, sales-led, partner-led, enterprise",
+   "claim": "inventory",
+   "tags": [
+    "sales motions",
+    "routes to market",
+    "PLG sales-led",
+    "go-to-market motions"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "channel_mix",
+   "name": "Channel mix map",
+   "family": "gtm",
+   "best_for": "Showing role of each channel",
+   "example": "Paid, owned, earned, partner, community, outbound",
+   "claim": "inventory",
+   "tags": [
+    "channel mix",
+    "paid owned earned",
+    "role of each channel"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "demand_engine",
+   "name": "Demand engine diagram",
+   "family": "gtm",
+   "best_for": "Showing how attention becomes revenue",
+   "example": "Audience -> engagement -> intent -> pipeline -> expansion",
+   "claim": "sequence",
+   "tags": [
+    "demand engine",
+    "attention to revenue",
+    "how demand works here"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "content_engine",
+   "name": "Content engine",
+   "family": "gtm",
+   "best_for": "Showing content repurposing",
+   "example": "Research -> flagship asset -> newsletter -> social -> sales -> events",
+   "claim": "sequence",
+   "tags": [
+    "content engine",
+    "repurposing",
+    "content system"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "atomization_map",
+   "name": "Content atomization map",
+   "family": "gtm",
+   "best_for": "Showing one idea becoming many formats",
+   "example": "Report -> webinar -> clips -> posts -> email -> enablement",
+   "claim": "hierarchy",
+   "tags": [
+    "atomization",
+    "one to many",
+    "formats from one asset"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "editorial_calendar",
+   "name": "Editorial calendar",
+   "family": "gtm",
+   "best_for": "Showing content cadence",
+   "example": "Themes, formats, audience, distribution, owner",
+   "claim": "timing",
+   "tags": [
+    "editorial calendar",
+    "content calendar",
+    "themes by month"
+   ],
+   "render": "svg:gantt"
+  },
+  {
+   "id": "distribution_waterfall",
+   "name": "Distribution waterfall",
+   "family": "gtm",
+   "best_for": "Showing priority distribution sequence",
+   "example": "Owned audience -> partners -> social -> paid amplification",
+   "claim": "sequence",
+   "tags": [
+    "distribution sequence",
+    "owned first then paid",
+    "distribution priority"
+   ],
+   "render": "svg:staircase"
+  },
+  {
+   "id": "community_flywheel",
+   "name": "Community flywheel",
+   "family": "gtm",
+   "best_for": "Showing audience compounding",
+   "example": "Content -> participation -> relationships -> advocacy -> insight",
+   "claim": "loop",
+   "tags": [
+    "community flywheel",
+    "audience compounding",
+    "advocacy loop"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "event_experience",
+   "name": "Event experience map",
+   "family": "gtm",
+   "best_for": "Designing an event as a journey",
+   "example": "Invitation -> registration -> attendance -> follow-up -> community",
+   "claim": "customer",
+   "tags": [
+    "event journey",
+    "before during after event",
+    "event experience"
+   ],
+   "render": "svg:columns"
+  },
+  {
+   "id": "campaign_architecture",
+   "name": "Campaign architecture",
+   "family": "gtm",
+   "best_for": "Showing integrated campaign components",
+   "example": "Theme, audience, assets, channels, offers, measurement",
+   "claim": "architecture",
+   "tags": [
+    "campaign architecture",
+    "integrated campaign",
+    "campaign components"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "account_orchestration",
+   "name": "Account journey orchestration",
+   "family": "gtm",
+   "best_for": "Showing multi-touch ABM plays",
+   "example": "Intent signal -> ads -> executive content -> SDR outreach -> event",
+   "claim": "sequence",
+   "tags": [
+    "ABM play",
+    "multi-touch",
+    "account orchestration",
+    "plays"
+   ],
+   "render": "svg:timeline"
+  },
+  {
+   "id": "lead_scoring",
+   "name": "Lead-scoring model",
+   "family": "gtm",
+   "best_for": "Showing how signals combine",
+   "example": "Fit, intent, engagement, recency, opportunity context",
+   "claim": "hierarchy",
+   "tags": [
+    "lead scoring",
+    "how signals combine",
+    "fit intent engagement",
+    "scoring model"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "revenue_funnel",
+   "name": "Revenue funnel map",
+   "family": "gtm",
+   "best_for": "Linking marketing activity to bookings",
+   "example": "Reach -> engaged accounts -> qualified pipeline -> closed-won",
+   "claim": "flow",
+   "tags": [
+    "revenue funnel",
+    "marketing to bookings",
+    "reach to closed won"
+   ],
+   "render": "svg:funnel"
+  },
+  {
+   "id": "pipeline_coverage",
+   "name": "Pipeline coverage visual",
+   "family": "gtm",
+   "best_for": "Showing target versus available pipeline",
+   "example": "Required coverage by segment and quarter",
+   "claim": "target",
+   "tags": [
+    "pipeline coverage",
+    "coverage ratio",
+    "enough pipeline",
+    "3x coverage"
+   ],
+   "render": "svg:bullet"
+  },
+  {
+   "id": "pipeline_hygiene",
+   "name": "Pipeline hygiene map",
+   "family": "gtm",
+   "best_for": "Showing quality dimensions",
+   "example": "Completeness, velocity, stage accuracy, next step, risk",
+   "claim": "inventory",
+   "tags": [
+    "pipeline hygiene",
+    "pipeline quality",
+    "data quality dimensions"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "win_loss",
+   "name": "Win/loss insight map",
+   "family": "gtm",
+   "best_for": "Showing patterns from deal outcomes",
+   "example": "Reasons won/lost by segment, competitor, stage",
+   "claim": "comparison",
+   "tags": [
+    "win loss",
+    "why we win",
+    "why we lose",
+    "deal patterns"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "lifecycle_map",
+   "name": "Customer lifecycle map",
+   "family": "gtm",
+   "best_for": "Showing acquisition through expansion",
+   "example": "Land -> activate -> adopt -> retain -> expand -> advocate",
+   "claim": "sequence",
+   "tags": [
+    "lifecycle",
+    "land activate adopt",
+    "acquisition to expansion"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "land_expand",
+   "name": "Land-and-expand model",
+   "family": "gtm",
+   "best_for": "Showing growth motion",
+   "example": "Initial use case -> team -> department -> enterprise",
+   "claim": "sequence",
+   "tags": [
+    "land and expand",
+    "initial use case to enterprise",
+    "expansion motion"
+   ],
+   "render": "svg:concentric"
+  },
+  {
+   "id": "health_score",
+   "name": "Customer health score",
+   "family": "gtm",
+   "best_for": "Showing risk and opportunity",
+   "example": "Usage, sentiment, support, adoption, commercial status",
+   "claim": "target",
+   "tags": [
+    "health score",
+    "account health",
+    "risk and opportunity"
+   ],
+   "render": "svg:dashboard"
+  },
+  {
+   "id": "expansion_map",
+   "name": "Expansion opportunity map",
+   "family": "gtm",
+   "best_for": "Showing whitespace",
+   "example": "Account teams versus products/modules/regions",
+   "claim": "intensity",
+   "tags": [
+    "whitespace",
+    "expansion map",
+    "accounts vs products",
+    "cross-sell grid"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "voc_collage",
+   "name": "Voice-of-customer collage",
+   "family": "gtm",
+   "best_for": "Making qualitative research tangible",
+   "example": "Short anonymized quotes grouped by theme",
+   "claim": "proof",
+   "tags": [
+    "voice of customer",
+    "quotes by theme",
+    "qualitative research",
+    "what customers say"
+   ],
+   "render": "svg:card"
+  },
+  {
+   "id": "quote_wall",
+   "name": "Quote wall",
+   "family": "gtm",
+   "best_for": "Adding emotional proof",
+   "example": "Customer statements with a few highlighted phrases",
+   "claim": "proof",
+   "tags": [
+    "quote wall",
+    "testimonials",
+    "customer statements"
+   ],
+   "render": "svg:card"
+  },
+  {
+   "id": "case_study_journey",
+   "name": "Case-study journey",
+   "family": "gtm",
+   "best_for": "Showing transformation evidence",
+   "example": "Problem -> intervention -> outcome -> business result",
+   "claim": "proof",
+   "tags": [
+    "case study",
+    "customer story",
+    "problem intervention outcome"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "roi_tree",
+   "name": "ROI tree",
+   "family": "gtm",
+   "best_for": "Showing financial impact",
+   "example": "Efficiency, conversion, retention, expansion, risk reduction",
+   "claim": "hierarchy",
+   "tags": [
+    "ROI",
+    "business case",
+    "value drivers",
+    "financial impact tree"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "value_realization",
+   "name": "Value realization timeline",
+   "family": "gtm",
+   "best_for": "Showing when benefits arrive",
+   "example": "30-day, 90-day, 180-day outcomes",
+   "claim": "timing",
+   "tags": [
+    "value realization",
+    "30 60 90",
+    "when benefits arrive",
+    "time to value"
+   ],
+   "render": "svg:timeline"
+  },
+  {
+   "id": "ai_capability_stack",
+   "name": "AI capability stack",
+   "family": "ai",
+   "best_for": "Showing the layers needed for AI outcomes",
+   "example": "Data, models, tools, workflows, governance, people",
+   "claim": "architecture",
+   "tags": [
+    "AI stack",
+    "capability stack",
+    "layers for AI",
+    "what you need for AI"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "ai_maturity",
+   "name": "AI maturity model",
+   "family": "ai",
+   "best_for": "Showing organizational progression",
+   "example": "Experimenting -> enabling -> scaling -> AI-native",
+   "claim": "maturity",
+   "tags": [
+    "AI maturity",
+    "maturity model",
+    "where are we on AI",
+    "stages of AI adoption",
+    "AI-native"
+   ],
+   "render": "svg:staircase"
+  },
+  {
+   "id": "ai_use_case_portfolio",
+   "name": "AI use-case portfolio",
+   "family": "ai",
+   "best_for": "Prioritizing use cases",
+   "example": "Impact versus feasibility, with risk as bubble size",
+   "claim": "prioritization",
+   "tags": [
+    "AI use cases",
+    "prioritize use cases",
+    "impact feasibility risk",
+    "which AI projects"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "ai_value_chain",
+   "name": "AI value chain",
+   "family": "ai",
+   "best_for": "Showing where AI creates value",
+   "example": "Insight, creation, decisions, operations, customer experience",
+   "claim": "inventory",
+   "tags": [
+    "where AI creates value",
+    "AI value chain",
+    "AI across functions"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "agent_architecture",
+   "name": "Agent architecture",
+   "family": "ai",
+   "best_for": "Explaining roles and handoffs among agents",
+   "example": "Research, planning, execution, QA, memory, governance",
+   "claim": "architecture",
+   "tags": [
+    "agent architecture",
+    "agent roles",
+    "orchestrator",
+    "how agents work together"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "agent_swarm",
+   "name": "Agent swarm diagram",
+   "family": "ai",
+   "best_for": "Showing parallel specialist agents",
+   "example": "Multiple researchers feeding an editor or orchestrator",
+   "claim": "architecture",
+   "tags": [
+    "swarm",
+    "parallel agents",
+    "fan out fan in",
+    "specialist agents"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "human_ai_division",
+   "name": "Human-AI division-of-labor map",
+   "family": "ai",
+   "best_for": "Clarifying responsibility",
+   "example": "AI drafts/analyzes; humans decide, approve, relate, govern",
+   "claim": "ownership",
+   "tags": [
+    "division of labor",
+    "what AI does what humans do",
+    "human vs AI responsibility"
+   ],
+   "render": "svg:before_after"
+  },
+  {
+   "id": "augment_automate",
+   "name": "Augmentation vs. automation spectrum",
+   "family": "ai",
+   "best_for": "Distinguishing types of AI value",
+   "example": "Assistive workflows through autonomous execution",
+   "claim": "continuum",
+   "tags": [
+    "augmentation automation",
+    "assistive to autonomous",
+    "spectrum of AI"
+   ],
+   "render": "svg:spectrum"
+  },
+  {
+   "id": "copilot_workflow",
+   "name": "Copilot workflow",
+   "family": "ai",
+   "best_for": "Showing embedded assistance",
+   "example": "User prompt -> context -> model -> suggestion -> human action",
+   "claim": "sequence",
+   "tags": [
+    "copilot",
+    "assistant workflow",
+    "prompt to suggestion"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "agent_loop",
+   "name": "Agent loop",
+   "family": "ai",
+   "best_for": "Showing iterative autonomy",
+   "example": "Observe -> plan -> act -> evaluate -> learn",
+   "claim": "loop",
+   "tags": [
+    "agent loop",
+    "observe plan act",
+    "agentic loop",
+    "iterative"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "rag",
+   "name": "Retrieval-augmented generation diagram",
+   "family": "ai",
+   "best_for": "Explaining grounded AI",
+   "example": "Query -> retrieve sources -> generate answer -> cite/verify",
+   "claim": "sequence",
+   "tags": [
+    "RAG",
+    "retrieval",
+    "grounded answers",
+    "citations",
+    "knowledge base"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "context_engineering",
+   "name": "Context engineering map",
+   "family": "ai",
+   "best_for": "Showing inputs that shape an AI response",
+   "example": "Instructions, memory, knowledge, tools, constraints, evaluation",
+   "claim": "system",
+   "tags": [
+    "context engineering",
+    "what shapes the response",
+    "inputs to the model",
+    "prompt context"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "knowledge_graph",
+   "name": "Knowledge graph",
+   "family": "ai",
+   "best_for": "Showing connected entities and relationships",
+   "example": "Accounts, contacts, products, issues, content, intent signals",
+   "claim": "system",
+   "tags": [
+    "knowledge graph",
+    "entities relationships",
+    "connected data"
+   ],
+   "render": "svg:network"
+  },
+  {
+   "id": "data_lineage",
+   "name": "Data lineage map",
+   "family": "ai",
+   "best_for": "Showing provenance and reliability",
+   "example": "Source system -> transformation -> model -> action",
+   "claim": "flow",
+   "tags": [
+    "lineage",
+    "provenance",
+    "where data comes from",
+    "trust the data"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "trust_boundary",
+   "name": "Trust boundary diagram",
+   "family": "ai",
+   "best_for": "Showing security and access controls",
+   "example": "Public data, private data, PII, model boundary, audit layer",
+   "claim": "governance",
+   "tags": [
+    "trust boundary",
+    "security",
+    "PII",
+    "access controls",
+    "data boundary"
+   ],
+   "render": "svg:concentric"
+  },
+  {
+   "id": "ai_governance",
+   "name": "AI governance framework",
+   "family": "ai",
+   "best_for": "Showing controls",
+   "example": "Policy, privacy, security, risk, evaluation, ownership",
+   "claim": "governance",
+   "tags": [
+    "governance",
+    "controls",
+    "AI policy",
+    "responsible AI"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "risk_heatmap",
+   "name": "Risk heatmap",
+   "family": "ai",
+   "best_for": "Mapping likelihood and impact",
+   "example": "Hallucination, data leakage, bias, regulatory risk",
+   "claim": "risk",
+   "tags": [
+    "risk heatmap",
+    "likelihood impact",
+    "risk register",
+    "risk matrix"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "guardrails_stack",
+   "name": "Guardrails stack",
+   "family": "ai",
+   "best_for": "Showing safety mechanisms",
+   "example": "Prompt policy, tool permissions, approvals, monitoring, audit",
+   "claim": "governance",
+   "tags": [
+    "guardrails",
+    "safety layers",
+    "permissions approvals monitoring"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "eval_harness",
+   "name": "Evaluation harness diagram",
+   "family": "ai",
+   "best_for": "Showing how output quality is measured",
+   "example": "Test set -> model output -> rubric -> benchmark -> iteration",
+   "claim": "sequence",
+   "tags": [
+    "evals",
+    "evaluation harness",
+    "how we measure quality",
+    "rubric benchmark"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "model_selection",
+   "name": "Model selection matrix",
+   "family": "ai",
+   "best_for": "Comparing models by task needs",
+   "example": "Quality, latency, cost, privacy, context length",
+   "claim": "decision",
+   "tags": [
+    "model selection",
+    "which model",
+    "compare models",
+    "quality latency cost"
+   ],
+   "render": "svg:table"
+  },
+  {
+   "id": "build_buy_partner",
+   "name": "Build / buy / partner matrix",
+   "family": "ai",
+   "best_for": "Framing AI implementation choices",
+   "example": "Strategic differentiation versus implementation complexity",
+   "claim": "decision",
+   "tags": [
+    "build buy partner",
+    "implementation choice",
+    "differentiation vs complexity"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "ai_economics_waterfall",
+   "name": "AI economics waterfall",
+   "family": "ai",
+   "best_for": "Showing value and cost components",
+   "example": "Labor savings, lift, inference cost, tooling, oversight",
+   "claim": "bridge",
+   "tags": [
+    "AI economics",
+    "cost of AI",
+    "value minus cost",
+    "AI ROI walk"
+   ],
+   "render": "svg:waterfall"
+  },
+  {
+   "id": "ai_roi_curve",
+   "name": "AI ROI curve",
+   "family": "ai",
+   "best_for": "Showing investment versus expected return over stages",
+   "example": "Pilot costs before scale benefits",
+   "claim": "trend",
+   "tags": [
+    "ROI curve",
+    "J curve",
+    "investment before return",
+    "AI payback"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "workflow_decomposition",
+   "name": "Workflow decomposition",
+   "family": "ai",
+   "best_for": "Breaking a job into automatable steps",
+   "example": "Research, synthesis, drafting, approval, publishing",
+   "claim": "sequence",
+   "tags": [
+    "decompose workflow",
+    "which steps to automate",
+    "task breakdown"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "task_automation_matrix",
+   "name": "Task automation matrix",
+   "family": "ai",
+   "best_for": "Sorting work",
+   "example": "Repetitive vs. judgment-heavy; low versus high consequence",
+   "claim": "classification",
+   "tags": [
+    "automation matrix",
+    "repetitive judgment",
+    "what to automate",
+    "consequence"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "ai_adoption_funnel",
+   "name": "AI adoption funnel",
+   "family": "ai",
+   "best_for": "Showing movement from access to habitual use",
+   "example": "Enabled -> trained -> activated -> recurring -> high impact",
+   "claim": "flow",
+   "tags": [
+    "AI adoption",
+    "enabled trained activated",
+    "usage funnel",
+    "habitual use"
+   ],
+   "render": "svg:funnel"
+  },
+  {
+   "id": "ai_skills_ladder",
+   "name": "AI skills ladder",
+   "family": "ai",
+   "best_for": "Showing capability development",
+   "example": "Prompting -> workflow design -> evaluation -> orchestration",
+   "claim": "maturity",
+   "tags": [
+    "AI skills",
+    "skills ladder",
+    "prompting to orchestration",
+    "upskilling"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "ai_operating_model",
+   "name": "AI operating model",
+   "family": "ai",
+   "best_for": "Showing people, platforms, governance, and use cases",
+   "example": "Center of excellence plus embedded teams",
+   "claim": "architecture",
+   "tags": [
+    "AI operating model",
+    "center of excellence",
+    "how AI is organized",
+    "AI org"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "ai_transformation_roadmap",
+   "name": "AI transformation roadmap",
+   "family": "ai",
+   "best_for": "Showing stages",
+   "example": "Foundations -> pilots -> scale -> redesign business model",
+   "claim": "timing",
+   "tags": [
+    "AI roadmap",
+    "transformation stages",
+    "foundations pilots scale"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "record_intelligence_action",
+   "name": "System of record / intelligence / action",
+   "family": "ai",
+   "best_for": "Showing AI stack roles",
+   "example": "CRM stores, AI interprets, workflows execute",
+   "claim": "architecture",
+   "tags": [
+    "system of record",
+    "system of intelligence",
+    "system of action",
+    "stack roles"
+   ],
+   "render": "svg:stack"
+  },
+  {
+   "id": "prompt_to_production",
+   "name": "Prompt-to-production path",
+   "family": "ai",
+   "best_for": "Showing operationalization",
+   "example": "Prompt -> prototype -> workflow -> evaluation -> governed deployment",
+   "claim": "sequence",
+   "tags": [
+    "prompt to production",
+    "operationalize",
+    "prototype to deployment"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "digital_labor",
+   "name": "Digital labor portfolio",
+   "family": "ai",
+   "best_for": "Showing agent roles across functions",
+   "example": "SDR research agent, content agent, analyst agent, support agent",
+   "claim": "inventory",
+   "tags": [
+    "digital labor",
+    "agents by function",
+    "agent portfolio",
+    "AI workforce"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "signal_to_action",
+   "name": "Signal-to-action architecture",
+   "family": "ai",
+   "best_for": "Showing real-time GTM",
+   "example": "Buyer signal -> enrichment -> decisioning -> personalized action",
+   "claim": "architecture",
+   "tags": [
+    "signal to action",
+    "real-time GTM",
+    "buyer signals",
+    "intent to action",
+    "signals"
+   ],
+   "render": "svg:signature_signal_to_action"
+  },
+  {
+   "id": "ai_native_org",
+   "name": "AI-native organization chart",
+   "family": "ai",
+   "best_for": "Showing redesigned function structure",
+   "example": "Strategic owners, AI operators, specialists, governance",
+   "claim": "architecture",
+   "tags": [
+    "AI-native org",
+    "org chart",
+    "redesigned team",
+    "new roles"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "data_moat",
+   "name": "Data moat loop",
+   "family": "ai",
+   "best_for": "Explaining defensibility",
+   "example": "Usage -> proprietary data -> better outcomes -> more usage",
+   "claim": "loop",
+   "tags": [
+    "data moat",
+    "defensibility",
+    "proprietary data loop"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "learning_loop",
+   "name": "Learning loop",
+   "family": "ai",
+   "best_for": "Showing why a system improves",
+   "example": "Action -> feedback -> evaluation -> refinement",
+   "claim": "loop",
+   "tags": [
+    "learning loop",
+    "why it gets better",
+    "feedback evaluation refinement"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "autonomy_ladder",
+   "name": "Autonomy ladder",
+   "family": "ai",
+   "best_for": "Showing degrees of delegated authority",
+   "example": "Suggest -> recommend -> execute with approval -> execute within guardrails",
+   "claim": "maturity",
+   "tags": [
+    "autonomy ladder",
+    "degrees of autonomy",
+    "how much AI can do alone",
+    "delegated authority"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "confidence_threshold",
+   "name": "Confidence threshold visual",
+   "family": "ai",
+   "best_for": "Showing how risk changes approval rules",
+   "example": "Low-confidence outputs need review; high-confidence outputs can route",
+   "claim": "decision",
+   "tags": [
+    "confidence threshold",
+    "when to review",
+    "approval rules by confidence"
+   ],
+   "render": "svg:spectrum"
+  },
+  {
+   "id": "model_drift",
+   "name": "Model drift chart",
+   "family": "ai",
+   "best_for": "Showing output quality or data changes over time",
+   "example": "Triggering reevaluation or retraining",
+   "claim": "trend",
+   "tags": [
+    "drift",
+    "quality over time",
+    "degradation",
+    "retraining trigger"
+   ],
+   "render": "chart"
+  },
+  {
+   "id": "ai_decision_rights",
+   "name": "AI decision rights matrix",
+   "family": "ai",
+   "best_for": "Showing what AI can recommend or execute",
+   "example": "By use case risk and business impact",
+   "claim": "governance",
+   "tags": [
+    "decision rights",
+    "what AI may execute",
+    "by risk and impact"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "editorial_franchise_map",
+   "name": "Editorial franchise map",
+   "family": "editorial",
+   "best_for": "Recurring content pillars, formats, and audience jobs",
+   "example": "Newsletter franchises mapped to audience needs",
+   "claim": "inventory",
+   "tags": [
+    "franchises",
+    "content pillars",
+    "recurring series",
+    "editorial"
+   ],
+   "render": "svg:grid"
+  },
+  {
+   "id": "content_portfolio_matrix",
+   "name": "Content portfolio matrix",
+   "family": "editorial",
+   "best_for": "Audience value versus production effort",
+   "example": "Which content formats to double down on",
+   "claim": "prioritization",
+   "tags": [
+    "content portfolio",
+    "value vs effort",
+    "which formats"
+   ],
+   "render": "svg:two_by_two"
+  },
+  {
+   "id": "audience_revenue_flywheel",
+   "name": "Audience-to-revenue flywheel",
+   "family": "editorial",
+   "best_for": "How audience compounds into revenue",
+   "example": "Audience -> authority -> pipeline -> proof -> audience",
+   "claim": "loop",
+   "tags": [
+    "audience to revenue",
+    "authority",
+    "media flywheel",
+    "newsletter to pipeline"
+   ],
+   "render": "svg:signature_audience_flywheel"
+  },
+  {
+   "id": "media_business_model",
+   "name": "Media business model map",
+   "family": "editorial",
+   "best_for": "Audience, attention, products, sponsors, services, community",
+   "example": "How a media brand monetizes",
+   "claim": "system",
+   "tags": [
+    "media business model",
+    "monetization",
+    "sponsors services community"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "newsletter_growth_loop",
+   "name": "Newsletter growth loop",
+   "family": "editorial",
+   "best_for": "High-value issue -> forwarding -> subscription -> data -> better issue",
+   "example": "How the newsletter grows itself",
+   "claim": "loop",
+   "tags": [
+    "newsletter growth",
+    "forwarding loop",
+    "subscriber loop"
+   ],
+   "render": "svg:flywheel"
+  },
+  {
+   "id": "content_ip_ladder",
+   "name": "Content IP ladder",
+   "family": "editorial",
+   "best_for": "Post -> newsletter -> report -> webinar -> workshop -> advisory product",
+   "example": "How content becomes intellectual property and products",
+   "claim": "maturity",
+   "tags": [
+    "content IP",
+    "post to product",
+    "content ladder",
+    "productize content"
+   ],
+   "render": "svg:ladder"
+  },
+  {
+   "id": "signature_series",
+   "name": "Signature-series architecture",
+   "family": "editorial",
+   "best_for": "Flagship report, podcast, newsletter, events, community",
+   "example": "How the flagship properties relate",
+   "claim": "architecture",
+   "tags": [
+    "signature series",
+    "flagship properties",
+    "content architecture"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "distribution_ecosystem",
+   "name": "Distribution ecosystem map",
+   "family": "editorial",
+   "best_for": "Owned audience, LinkedIn, YouTube, partners, search, communities",
+   "example": "Where content travels",
+   "claim": "system",
+   "tags": [
+    "distribution ecosystem",
+    "channels map",
+    "where content goes"
+   ],
+   "render": "svg:orbit"
+  },
+  {
+   "id": "creator_os",
+   "name": "Creator operating system",
+   "family": "editorial",
+   "best_for": "Research, production, publishing, distribution, analytics, repurposing",
+   "example": "The weekly content machine",
+   "claim": "sequence",
+   "tags": [
+    "creator operating system",
+    "content machine",
+    "production system"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "content_performance_tree",
+   "name": "Content performance tree",
+   "family": "editorial",
+   "best_for": "Reach, engagement, trust, leads, pipeline, revenue",
+   "example": "How content metrics roll up to revenue",
+   "claim": "hierarchy",
+   "tags": [
+    "content metrics tree",
+    "reach to revenue",
+    "content attribution"
+   ],
+   "render": "svg:tree"
+  },
+  {
+   "id": "thought_leadership_wedge",
+   "name": "Thought-leadership wedge",
+   "family": "editorial",
+   "best_for": "A sharp thesis that earns attention before expanding into a broader category",
+   "example": "Narrow POV wedge into category ownership",
+   "claim": "positioning",
+   "tags": [
+    "thought leadership wedge",
+    "sharp thesis",
+    "POV first"
+   ],
+   "render": "svg:wedge"
+  },
+  {
+   "id": "attention_authority_journey",
+   "name": "Attention-to-authority journey",
+   "family": "editorial",
+   "best_for": "Discovery -> repeat exposure -> trust -> subscription -> conversation -> commercial intent",
+   "example": "How a stranger becomes a buyer",
+   "claim": "sequence",
+   "tags": [
+    "attention to authority",
+    "stranger to buyer",
+    "trust journey"
+   ],
+   "render": "svg:chevron"
+  },
+  {
+   "id": "market_saying_collage",
+   "name": "What the market is saying collage",
+   "family": "editorial",
+   "best_for": "Quotes from executives, customers, analysts, and creators",
+   "example": "Market sentiment in the market's own words",
+   "claim": "proof",
+   "tags": [
+    "market quotes",
+    "what people are saying",
+    "quote collage"
+   ],
+   "render": "svg:card"
+  },
+  {
+   "id": "signature_metaphor",
+   "name": "Signature visual metaphor",
+   "family": "editorial",
+   "best_for": "A repeatable brand asset",
+   "example": "One metaphor reused across decks, posts, and reports",
+   "claim": "assertion",
+   "tags": [
+    "signature metaphor",
+    "brand visual asset",
+    "repeatable visual"
+   ],
+   "render": "svg"
+  },
+  {
+   "id": "sig_ai_native_revenue_os",
+   "name": "AI-native revenue operating model (signature)",
+   "family": "signature",
+   "best_for": "Showing how signals, agents, humans, and governance form one revenue system",
+   "example": "Signature visual for AI-native GTM decks and workshops",
+   "claim": "architecture",
+   "tags": [
+    "AI-native revenue operating model",
+    "revenue operating model",
+    "AI-native GTM",
+    "operating model"
+   ],
+   "render": "svg:signature_revenue_os"
+  },
+  {
+   "id": "sig_signal_to_action",
+   "name": "Signal-to-action architecture (signature)",
+   "family": "signature",
+   "best_for": "Showing buyer signals flowing through enrichment, decisioning, and orchestration into personalized action",
+   "example": "Signature visual for real-time GTM",
+   "claim": "architecture",
+   "tags": [
+    "signal to action",
+    "real-time GTM architecture"
+   ],
+   "render": "svg:signature_signal_to_action"
+  },
+  {
+   "id": "sig_audience_flywheel",
+   "name": "Audience -> authority -> pipeline flywheel (signature)",
+   "family": "signature",
+   "best_for": "Showing how media builds authority that compounds into pipeline",
+   "example": "Signature visual for media-led GTM",
+   "claim": "loop",
+   "tags": [
+    "audience authority pipeline",
+    "media flywheel"
+   ],
+   "render": "svg:signature_audience_flywheel"
+  },
+  {
+   "id": "sig_category_narrative_map",
+   "name": "Category-creation narrative map (signature)",
+   "family": "signature",
+   "best_for": "Showing old world, shift, new world, and the category that names it",
+   "example": "Signature visual for category design and strategic narrative",
+   "claim": "argument",
+   "tags": [
+    "category creation",
+    "narrative map",
+    "strategic narrative",
+    "old world new world"
+   ],
+   "render": "svg:signature_category_map"
+  },
+  {
+   "id": "sig_ai_maturity_ladder",
+   "name": "AI maturity ladder (signature)",
+   "family": "signature",
+   "best_for": "Showing progression from experimenting to AI-native with what changes at each rung",
+   "example": "Signature visual for AI transformation assessments",
+   "claim": "maturity",
+   "tags": [
+    "AI maturity ladder",
+    "experimenting to AI-native"
+   ],
+   "render": "svg:signature_maturity_ladder"
+  }
+ ]
+}

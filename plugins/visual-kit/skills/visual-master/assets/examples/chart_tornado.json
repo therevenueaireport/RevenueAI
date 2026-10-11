@@ -1,0 +1,32 @@
+{
+  "title": "Win rate moves the plan more than any other assumption",
+  "highlight": [
+    0
+  ],
+  "data": {
+    "base": 30,
+    "unit": "$M",
+    "items": [
+      {
+        "label": "Win rate \u00b15 pts",
+        "low": 24,
+        "high": 36
+      },
+      {
+        "label": "ACV \u00b115%",
+        "low": 26,
+        "high": 34
+      },
+      {
+        "label": "Pipeline \u00b120%",
+        "low": 27,
+        "high": 33
+      },
+      {
+        "label": "Cycle \u00b110 d",
+        "low": 29,
+        "high": 31
+      }
+    ]
+  }
+}

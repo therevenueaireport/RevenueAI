@@ -1,0 +1,25 @@
+{
+  "title": "The bottleneck isn't the models. It's workflow redesign.",
+  "width": 1080,
+  "height": 1080,
+  "source": "Survey of 412 B2B marketing leaders",
+  "data": {
+    "unit": "%",
+    "max": 100,
+    "items": [
+      {
+        "label": "Ran at least one AI pilot",
+        "value": 73
+      },
+      {
+        "label": "Got a pilot into production",
+        "value": 19
+      }
+    ],
+    "gap_label": "54 pts never shipped",
+    "implication": "Three in four can make a model work. One in five can change the work around it."
+  },
+  "highlight": [
+    1
+  ]
+}

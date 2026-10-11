@@ -1,0 +1,32 @@
+{
+  "title": "Enterprise is the only segment below 3x coverage",
+  "data": {
+    "unit": "x",
+    "target_label": "Target",
+    "items": [
+      {
+        "label": "Enterprise",
+        "value": 2.1,
+        "target": 3,
+        "max": 5
+      },
+      {
+        "label": "Mid-market",
+        "value": 3.4,
+        "target": 3,
+        "max": 5
+      },
+      {
+        "label": "SMB",
+        "value": 4.2,
+        "target": 3,
+        "max": 5
+      }
+    ]
+  },
+  "highlight": [
+    0
+  ],
+  "width": 1600,
+  "height": 900
+}

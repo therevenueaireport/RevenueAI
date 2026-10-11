@@ -1,0 +1,39 @@
+{
+  "title": "Capability map: demand and analytics are the weakest links",
+  "data": {
+    "columns": 3,
+    "cells": [
+      {
+        "label": "Strategy",
+        "sub": "Strong",
+        "status": "good"
+      },
+      {
+        "label": "Content",
+        "sub": "Strong",
+        "status": "good"
+      },
+      {
+        "label": "Demand",
+        "sub": "Gap",
+        "status": "risk"
+      },
+      {
+        "label": "Sales enablement",
+        "sub": "Adequate"
+      },
+      {
+        "label": "Analytics",
+        "sub": "Gap",
+        "status": "risk"
+      },
+      {
+        "label": "RevOps",
+        "sub": "Building",
+        "status": "accent"
+      }
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Price is not the top objection - integration risk is",
+  "highlight": [
+    0
+  ],
+  "data": {
+    "categories": [
+      "Integration risk",
+      "No budget owner",
+      "Price",
+      "Security review",
+      "Timing"
+    ],
+    "values": [
+      42,
+      31,
+      27,
+      19,
+      11
+    ],
+    "unit": "%"
+  }
+}

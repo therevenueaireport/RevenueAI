@@ -1,0 +1,32 @@
+{
+  "title": "From signal to revenue in five moves",
+  "data": {
+    "steps": [
+      {
+        "label": "Detect",
+        "sub": "Intent + product signals"
+      },
+      {
+        "label": "Enrich",
+        "sub": "Account + contact context"
+      },
+      {
+        "label": "Decide",
+        "sub": "Play selection"
+      },
+      {
+        "label": "Act",
+        "sub": "Personalized outreach"
+      },
+      {
+        "label": "Learn",
+        "sub": "Outcome feedback"
+      }
+    ]
+  },
+  "highlight": [
+    2
+  ],
+  "width": 1600,
+  "height": 900
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Now / next / later",
+  "data": {
+    "columns": [
+      {
+        "title": "Now",
+        "items": [
+          "Intent-triggered outbound",
+          "AI call notes in CRM",
+          "Weekly signal review"
+        ]
+      },
+      {
+        "title": "Next",
+        "items": [
+          "Agentic SDR pilot",
+          "Account health model"
+        ]
+      },
+      {
+        "title": "Later",
+        "items": [
+          "Autonomous renewals",
+          "Self-optimizing plays"
+        ]
+      }
+    ]
+  },
+  "highlight": [
+    0
+  ],
+  "width": 1600,
+  "height": 900
+}

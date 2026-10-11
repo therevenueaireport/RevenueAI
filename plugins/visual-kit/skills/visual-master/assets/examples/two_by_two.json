@@ -1,0 +1,57 @@
+{
+  "title": "Start with the three high-impact, low-effort plays",
+  "data": {
+    "x_axis": "Effort to implement →",
+    "y_axis": "Business impact →",
+    "quadrants": [
+      "Quick wins",
+      "Strategic bets",
+      "Fill-ins",
+      "Avoid"
+    ],
+    "items": [
+      {
+        "label": "AI call summaries",
+        "x": 0.2,
+        "y": 0.8
+      },
+      {
+        "label": "Intent-triggered outreach",
+        "x": 0.35,
+        "y": 0.9
+      },
+      {
+        "label": "Auto-QBR decks",
+        "x": 0.25,
+        "y": 0.65
+      },
+      {
+        "label": "Agentic SDR",
+        "x": 0.85,
+        "y": 0.85
+      },
+      {
+        "label": "Predictive churn",
+        "x": 0.7,
+        "y": 0.75
+      },
+      {
+        "label": "Chatbot refresh",
+        "x": 0.3,
+        "y": 0.2
+      },
+      {
+        "label": "Full CRM migration",
+        "x": 0.9,
+        "y": 0.3
+      }
+    ]
+  },
+  "highlight": [
+    0,
+    1,
+    2
+  ],
+  "width": 1600,
+  "height": 900
+}

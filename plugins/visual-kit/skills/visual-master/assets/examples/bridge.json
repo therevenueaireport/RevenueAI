@@ -1,0 +1,20 @@
+{
+  "title": "Three planks get us from tool sprawl to a revenue system",
+  "data": {
+    "from": {
+      "label": "Today",
+      "sub": "14 tools, manual handoffs, lagging reports"
+    },
+    "to": {
+      "label": "Future",
+      "sub": "Signal-driven plays, one operating rhythm"
+    },
+    "planks": [
+      "Unify data + signals",
+      "Codify plays with human approval",
+      "Run a weekly learning loop"
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

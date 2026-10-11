@@ -1,0 +1,44 @@
+{
+  "title": "Even the downside case clears $24M if conversion holds",
+  "highlight": [
+    1
+  ],
+  "data": {
+    "x": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "scenarios": [
+      {
+        "name": "Upside",
+        "values": [
+          6,
+          13,
+          21,
+          32
+        ]
+      },
+      {
+        "name": "Base",
+        "values": [
+          6,
+          12,
+          19,
+          28
+        ]
+      },
+      {
+        "name": "Downside",
+        "values": [
+          6,
+          11,
+          17,
+          24
+        ]
+      }
+    ],
+    "unit": "$M"
+  }
+}

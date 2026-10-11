@@ -1,0 +1,40 @@
+{
+  "title": "Audience → authority → pipeline",
+  "subtitle": "Media is the demand engine: every turn of the wheel lowers the cost of the next customer",
+  "data": {
+    "nodes": [
+      {
+        "label": "Sharp POV content",
+        "sub": "Newsletter, posts, reports"
+      },
+      {
+        "label": "Audience",
+        "sub": "Subscribers, followers, community"
+      },
+      {
+        "label": "Authority",
+        "sub": "Trust, category ownership"
+      },
+      {
+        "label": "Conversations",
+        "sub": "Inbound, referrals, invites"
+      },
+      {
+        "label": "Pipeline & customers",
+        "sub": "Advisory, product, sponsors"
+      },
+      {
+        "label": "Proof & insight",
+        "sub": "Cases, data, stories"
+      }
+    ],
+    "center": "Compounding trust",
+    "accelerators": [
+      "Consistency",
+      "Distinct POV",
+      "Distribution partners"
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

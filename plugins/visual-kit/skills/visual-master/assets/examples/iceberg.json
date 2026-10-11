@@ -1,0 +1,17 @@
+{
+  "title": "The pipeline miss is a symptom; positioning is the cause",
+  "data": {
+    "above": [
+      "Missed pipeline target",
+      "Low reply rates"
+    ],
+    "below": [
+      "Undifferentiated message",
+      "No ICP discipline",
+      "Handoffs leak 30% of leads",
+      "No signal-to-action loop"
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

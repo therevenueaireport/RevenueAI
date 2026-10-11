@@ -1,0 +1,30 @@
+{
+  "title": "Perception shifted from 'tool' to 'system' after repositioning",
+  "data": {
+    "left_label": "Before",
+    "right_label": "After",
+    "unit": "%",
+    "items": [
+      {
+        "label": "Seen as a platform",
+        "a": 22,
+        "b": 61
+      },
+      {
+        "label": "Seen as a point tool",
+        "a": 68,
+        "b": 30
+      },
+      {
+        "label": "Unaware",
+        "b": 9,
+        "a": 10
+      }
+    ]
+  },
+  "highlight": [
+    0
+  ],
+  "width": 1600,
+  "height": 900
+}

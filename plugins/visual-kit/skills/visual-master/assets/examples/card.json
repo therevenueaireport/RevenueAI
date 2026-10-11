@@ -1,0 +1,41 @@
+{
+  "title": "Ideal customer profile",
+  "data": {
+    "cards": [
+      {
+        "title": "Firmographics",
+        "lines": [
+          "B2B SaaS, $20-200M ARR",
+          "50-500 person GTM org",
+          "NA / UK"
+        ]
+      },
+      {
+        "title": "Triggers",
+        "lines": [
+          "New CRO or CMO",
+          "AI mandate from board",
+          "Pipeline miss 2+ quarters"
+        ]
+      },
+      {
+        "title": "Pains",
+        "lines": [
+          "Fragmented tools",
+          "Reps drowning in admin",
+          "No signal-to-action loop"
+        ]
+      },
+      {
+        "title": "Buying committee",
+        "lines": [
+          "CRO (economic)",
+          "RevOps lead (champion)",
+          "IT/security (blocker)"
+        ]
+      }
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

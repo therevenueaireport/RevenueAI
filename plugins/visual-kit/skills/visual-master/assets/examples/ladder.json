@@ -1,0 +1,32 @@
+{
+  "title": "Delegate authority one rung at a time",
+  "data": {
+    "rungs": [
+      {
+        "label": "Execute within guardrails",
+        "sub": "No approval, monitored"
+      },
+      {
+        "label": "Execute with approval",
+        "sub": "Human sign-off"
+      },
+      {
+        "label": "Recommend",
+        "sub": "Ranked options"
+      },
+      {
+        "label": "Suggest",
+        "sub": "Drafts only"
+      }
+    ],
+    "marker": {
+      "rung": 2,
+      "label": "Today"
+    }
+  },
+  "highlight": [
+    1
+  ],
+  "width": 1600,
+  "height": 900
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Q3 revenue control tower",
+  "data": {
+    "tiles": [
+      {
+        "label": "Pipeline coverage",
+        "value": "2.8x",
+        "delta": "-0.4x vs plan",
+        "status": "risk"
+      },
+      {
+        "label": "Win rate",
+        "value": "24%",
+        "delta": "+3 pts",
+        "status": "good"
+      },
+      {
+        "label": "Avg cycle",
+        "value": "61 d",
+        "delta": "-9 d",
+        "status": "good"
+      },
+      {
+        "label": "Activated accts",
+        "value": "412",
+        "delta": "+18%",
+        "status": "good"
+      }
+    ],
+    "blockers": [
+      "Enterprise coverage below 3x",
+      "SDR ramp behind by 3 weeks"
+    ],
+    "next_actions": [
+      "Launch intent-triggered outbound",
+      "Re-forecast enterprise Q4"
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Move plays right only as confidence and consequence allow",
+  "data": {
+    "left": "Assistive",
+    "right": "Autonomous",
+    "points": [
+      {
+        "label": "Drafts & summaries",
+        "x": 0.12
+      },
+      {
+        "label": "Recommended next steps",
+        "x": 0.38
+      },
+      {
+        "label": "Auto-send with approval",
+        "x": 0.62
+      },
+      {
+        "label": "Self-optimizing plays",
+        "x": 0.9
+      }
+    ],
+    "thresholds": [
+      {
+        "x": 0.5,
+        "label": "Human approval required →"
+      }
+    ]
+  },
+  "highlight": [
+    1
+  ],
+  "width": 1600,
+  "height": 900
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Hitting $30M needs win rate, not more pipeline",
+  "data": {
+    "root": {
+      "label": "ARR target",
+      "value": "$30M"
+    },
+    "children": [
+      {
+        "label": "Pipeline",
+        "value": "$120M",
+        "children": [
+          {
+            "label": "Inbound",
+            "value": "$70M"
+          },
+          {
+            "label": "Outbound",
+            "value": "$50M"
+          }
+        ]
+      },
+      {
+        "label": "Win rate",
+        "value": "25%",
+        "status": "risk",
+        "children": [
+          {
+            "label": "Enterprise",
+            "value": "18%",
+            "status": "risk"
+          },
+          {
+            "label": "Mid-market",
+            "value": "31%"
+          }
+        ]
+      },
+      {
+        "label": "ACV",
+        "value": "$48K",
+        "children": [
+          {
+            "label": "Land",
+            "value": "$32K"
+          },
+          {
+            "label": "Expand",
+            "value": "+$16K"
+          }
+        ]
+      }
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

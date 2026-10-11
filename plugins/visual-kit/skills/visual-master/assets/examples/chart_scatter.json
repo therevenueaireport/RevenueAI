@@ -1,0 +1,37 @@
+{
+  "title": "Spend and pipeline are barely correlated above $50K per channel",
+  "highlight": [
+    3
+  ],
+  "data": {
+    "x_label": "Monthly spend ($K)",
+    "y_label": "Pipeline ($M)",
+    "points": [
+      {
+        "label": "Paid search",
+        "x": 80,
+        "y": 2.1
+      },
+      {
+        "label": "Events",
+        "x": 120,
+        "y": 2.4
+      },
+      {
+        "label": "Content",
+        "x": 30,
+        "y": 3.2
+      },
+      {
+        "label": "Community",
+        "x": 15,
+        "y": 2.9
+      },
+      {
+        "label": "Display",
+        "x": 60,
+        "y": 0.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": "Most teams are stuck on step two",
+  "data": {
+    "steps": [
+      {
+        "label": "Experimenting",
+        "sub": "Individual prompts"
+      },
+      {
+        "label": "Enabling",
+        "sub": "Tools + training"
+      },
+      {
+        "label": "Scaling",
+        "sub": "Workflows + governance"
+      },
+      {
+        "label": "AI-native",
+        "sub": "Redesigned operating model"
+      }
+    ],
+    "marker": {
+      "step": 1,
+      "label": "Most teams today"
+    }
+  },
+  "highlight": [
+    3
+  ],
+  "width": 1600,
+  "height": 900
+}

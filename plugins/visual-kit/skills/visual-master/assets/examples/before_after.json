@@ -1,0 +1,25 @@
+{
+  "title": "From a funnel of activities to a system that learns",
+  "data": {
+    "left": {
+      "title": "Old model",
+      "items": [
+        "Volume KPIs (MQLs, sends)",
+        "Handoffs by email",
+        "Quarterly retros",
+        "Tool-by-tool automation"
+      ]
+    },
+    "right": {
+      "title": "New model",
+      "items": [
+        "Business KPIs (pipeline, win rate)",
+        "Signal-driven orchestration",
+        "Weekly learning loop",
+        "One operating rhythm"
+      ]
+    }
+  },
+  "width": 1600,
+  "height": 900
+}

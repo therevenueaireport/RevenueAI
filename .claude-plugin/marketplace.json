@@ -1,0 +1,86 @@
+{
+  "name": "revenue-ai-report",
+  "owner": {
+    "name": "The Revenue AI Report",
+    "url": "https://www.therevenueaireport.com"
+  },
+  "metadata": {
+    "description": "Open skill library for AI inside B2B revenue teams, from The Revenue AI Report.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "revenue-ai-report-skills",
+      "source": "./plugins/revenue-ai-report-skills",
+      "description": "36 repeatable AI jobs for B2B revenue teams from The Revenue AI Report: ICP, account research, discovery, deal and forecast review, pipeline health, campaigns, customer health, QBRs, coaching, competitive intel, and evaluating, measuring and governing AI.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "revenue",
+        "sales",
+        "revops",
+        "marketing",
+        "customer-success",
+        "ai-governance"
+      ]
+    },
+    {
+      "name": "analytics-and-decisions",
+      "source": "./plugins/analytics-and-decisions",
+      "description": "Decide with evidence: A/B test evaluation, Bayesian updating, Monte Carlo forecasting, statistical reasoning, data-claim auditing, a five-advisor decision council, and account prioritization.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "analytics",
+        "statistics",
+        "forecasting",
+        "decision-making",
+        "experiments"
+      ]
+    },
+    {
+      "name": "enablement-and-lopaft",
+      "source": "./plugins/enablement-and-lopaft",
+      "description": "Design enablement that changes behavior: learner baselines, coaching, measurement, mid-program momentum, the LOPAFT learning framework, and metric health dashboards.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "enablement",
+        "training",
+        "coaching",
+        "learning-design",
+        "lopaft"
+      ]
+    },
+    {
+      "name": "visual-kit",
+      "source": "./plugins/visual-kit",
+      "description": "Pick and build the right visual for every claim: a 250-visual library with renderers plus focused skills for data charts, strategy diagrams, process maps, GTM and AI visuals, and deck storytelling.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "visualization",
+        "slides",
+        "diagrams",
+        "charts",
+        "storytelling"
+      ]
+    }
+  ]
+}

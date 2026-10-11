@@ -1,0 +1,37 @@
+{
+  "title": "The buying committee has one champion and two blockers",
+  "data": {
+    "center": "Deal",
+    "satellites": [
+      {
+        "label": "CRO",
+        "sub": "Economic buyer"
+      },
+      {
+        "label": "RevOps lead",
+        "sub": "Champion",
+        "status": "good"
+      },
+      {
+        "label": "IT/Security",
+        "sub": "Blocker",
+        "status": "risk"
+      },
+      {
+        "label": "Procurement",
+        "sub": "Blocker",
+        "status": "risk"
+      },
+      {
+        "label": "AEs",
+        "sub": "Users"
+      },
+      {
+        "label": "CFO",
+        "sub": "Approver"
+      }
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

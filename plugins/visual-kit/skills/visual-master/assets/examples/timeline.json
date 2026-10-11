@@ -1,0 +1,27 @@
+{
+  "title": "Value arrives in three waves",
+  "data": {
+    "milestones": [
+      {
+        "label": "Day 30",
+        "title": "Signals live",
+        "sub": "Intent + product usage in CRM"
+      },
+      {
+        "label": "Day 90",
+        "title": "Plays running",
+        "sub": "3 automated plays, human approval"
+      },
+      {
+        "label": "Day 180",
+        "title": "Compounding",
+        "sub": "Learning loop tuned; 2x reply rate"
+      }
+    ]
+  },
+  "highlight": [
+    2
+  ],
+  "width": 1600,
+  "height": 900
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Onboarding friction peaks at data connection, not at signup",
+  "data": {
+    "stages": [
+      "Signup",
+      "Connect data",
+      "First insight",
+      "Invite team",
+      "Renew"
+    ],
+    "sentiment": [
+      0.7,
+      0.15,
+      0.85,
+      0.6,
+      0.9
+    ],
+    "notes": {
+      "1": "62% stall here; 3 integrations required"
+    }
+  },
+  "highlight": [
+    1
+  ],
+  "width": 1600,
+  "height": 900
+}

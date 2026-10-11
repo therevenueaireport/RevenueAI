@@ -1,0 +1,26 @@
+{
+  "title": "Three objections cause 80% of lost deals",
+  "highlight": [
+    0,
+    1,
+    2
+  ],
+  "data": {
+    "categories": [
+      "Integration risk",
+      "No budget owner",
+      "Price",
+      "Security",
+      "Timing",
+      "Other"
+    ],
+    "values": [
+      38,
+      27,
+      16,
+      9,
+      6,
+      4
+    ]
+  }
+}

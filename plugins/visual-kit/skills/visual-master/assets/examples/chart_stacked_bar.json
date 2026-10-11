@@ -1,0 +1,45 @@
+{
+  "title": "Inbound share of pipeline doubled in a year",
+  "highlight": [
+    0
+  ],
+  "data": {
+    "categories": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4"
+    ],
+    "series": [
+      {
+        "name": "Inbound",
+        "values": [
+          2,
+          3,
+          4.5,
+          6
+        ]
+      },
+      {
+        "name": "Outbound",
+        "values": [
+          4,
+          4,
+          3.8,
+          3.5
+        ]
+      },
+      {
+        "name": "Partner",
+        "values": [
+          1,
+          1.2,
+          1.5,
+          1.6
+        ]
+      }
+    ],
+    "unit": "$M",
+    "percent": false
+  }
+}

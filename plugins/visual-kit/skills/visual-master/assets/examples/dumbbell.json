@@ -1,0 +1,36 @@
+{
+  "title": "AI-assisted reps close the gap fastest in research and drafting",
+  "data": {
+    "a_label": "Before AI",
+    "b_label": "With AI",
+    "unit": " hrs/wk",
+    "items": [
+      {
+        "label": "Account research",
+        "a": 9,
+        "b": 3
+      },
+      {
+        "label": "Email drafting",
+        "a": 7,
+        "b": 2.5
+      },
+      {
+        "label": "Call prep",
+        "a": 4,
+        "b": 2
+      },
+      {
+        "label": "CRM updates",
+        "a": 5,
+        "b": 4
+      }
+    ]
+  },
+  "highlight": [
+    0,
+    1
+  ],
+  "width": 1600,
+  "height": 900
+}

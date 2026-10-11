@@ -1,0 +1,61 @@
+{
+  "title": "The orchestrator is the single point of failure",
+  "data": {
+    "nodes": [
+      {
+        "id": "crm",
+        "label": "CRM"
+      },
+      {
+        "id": "wh",
+        "label": "Warehouse"
+      },
+      {
+        "id": "orch",
+        "label": "Orchestrator",
+        "status": "risk"
+      },
+      {
+        "id": "llm",
+        "label": "LLM"
+      },
+      {
+        "id": "human",
+        "label": "Reviewer"
+      },
+      {
+        "id": "out",
+        "label": "Outreach"
+      }
+    ],
+    "edges": [
+      [
+        "crm",
+        "orch"
+      ],
+      [
+        "wh",
+        "orch"
+      ],
+      [
+        "orch",
+        "llm"
+      ],
+      [
+        "llm",
+        "orch"
+      ],
+      [
+        "orch",
+        "human"
+      ],
+      [
+        "human",
+        "out"
+      ]
+    ],
+    "layout": "circle"
+  },
+  "width": 1600,
+  "height": 900
+}

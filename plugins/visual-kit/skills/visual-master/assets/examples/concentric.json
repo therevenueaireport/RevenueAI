@@ -1,0 +1,27 @@
+{
+  "title": "The reachable market is $180M, not $4B",
+  "data": {
+    "rings": [
+      {
+        "label": "TAM",
+        "sub": "$4B",
+        "r": 1.0
+      },
+      {
+        "label": "SAM",
+        "sub": "$900M",
+        "r": 0.62
+      },
+      {
+        "label": "SOM",
+        "sub": "$180M",
+        "r": 0.3
+      }
+    ]
+  },
+  "highlight": [
+    2
+  ],
+  "width": 1600,
+  "height": 900
+}

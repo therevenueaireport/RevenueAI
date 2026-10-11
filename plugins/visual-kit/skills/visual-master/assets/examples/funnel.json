@@ -1,0 +1,33 @@
+{
+  "title": "We lose most deals between opportunity and proposal",
+  "data": {
+    "stages": [
+      {
+        "label": "Visitors",
+        "value": 48000
+      },
+      {
+        "label": "Leads",
+        "value": 3900
+      },
+      {
+        "label": "Opportunities",
+        "value": 610
+      },
+      {
+        "label": "Proposals",
+        "value": 190
+      },
+      {
+        "label": "Customers",
+        "value": 84
+      }
+    ],
+    "show_conversion": true
+  },
+  "highlight": [
+    3
+  ],
+  "width": 1600,
+  "height": 900
+}

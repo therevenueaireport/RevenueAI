@@ -1,0 +1,29 @@
+{
+  "title": "Our strategic choices, top to bottom",
+  "data": {
+    "steps": [
+      {
+        "label": "Winning aspiration",
+        "sub": "Own 'AI-native GTM' for mid-market SaaS"
+      },
+      {
+        "label": "Where to play",
+        "sub": "RevOps-led orgs, $20-200M ARR"
+      },
+      {
+        "label": "How to win",
+        "sub": "Signal-to-action plays with proof"
+      },
+      {
+        "label": "Capabilities",
+        "sub": "Data, plays, enablement, evals"
+      },
+      {
+        "label": "Systems",
+        "sub": "Weekly loop, decision rights, dashboards"
+      }
+    ]
+  },
+  "width": 1600,
+  "height": 900
+}

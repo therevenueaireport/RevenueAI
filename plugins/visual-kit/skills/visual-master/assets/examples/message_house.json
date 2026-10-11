@@ -1,0 +1,32 @@
+{
+  "title": "Message house",
+  "data": {
+    "roof": "AI-native GTM turns signals into revenue - without adding headcount",
+    "pillars": [
+      {
+        "title": "See every signal",
+        "proof": [
+          "Intent + product + CRM in one view",
+          "Live in 30 days"
+        ]
+      },
+      {
+        "title": "Act in hours, not weeks",
+        "proof": [
+          "Pre-built plays",
+          "Human approval built in"
+        ]
+      },
+      {
+        "title": "Learn every week",
+        "proof": [
+          "Outcome feedback loop",
+          "2x reply rate in 90 days"
+        ]
+      }
+    ],
+    "foundation": "Proof: 40 customers, 3 case studies, independent benchmark"
+  },
+  "width": 1600,
+  "height": 900
+}

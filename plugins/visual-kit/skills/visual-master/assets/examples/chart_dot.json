@@ -1,0 +1,25 @@
+{
+  "title": "Only two campaigns beat the 3% conversion bar",
+  "highlight": [
+    0,
+    1
+  ],
+  "data": {
+    "categories": [
+      "AI ROI webinar",
+      "Benchmark report",
+      "Product tour",
+      "Newsletter promo",
+      "Retargeting"
+    ],
+    "values": [
+      4.8,
+      3.6,
+      2.4,
+      1.9,
+      1.1
+    ],
+    "target": 3,
+    "unit": "%"
+  }
+}

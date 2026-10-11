@@ -1,0 +1,51 @@
+{
+  "title": "AI maturity ladder",
+  "subtitle": "What changes at each rung - and what most teams skip",
+  "data": {
+    "rungs": [
+      {
+        "label": "Experimenting",
+        "people": "Individuals",
+        "process": "Ad hoc prompts",
+        "data": "Copy-paste",
+        "governance": "None"
+      },
+      {
+        "label": "Enabling",
+        "people": "Trained teams",
+        "process": "Templates + playbooks",
+        "data": "Connected tools",
+        "governance": "Usage policy"
+      },
+      {
+        "label": "Scaling",
+        "people": "AI operators",
+        "process": "Automated workflows",
+        "data": "Unified signals",
+        "governance": "Decision rights + evals"
+      },
+      {
+        "label": "AI-native",
+        "people": "Redesigned roles",
+        "process": "Agentic plays with learning loop",
+        "data": "Proprietary data moat",
+        "governance": "Continuous audit"
+      }
+    ],
+    "dimensions": [
+      "People",
+      "Process",
+      "Data",
+      "Governance"
+    ],
+    "marker": {
+      "rung": 1,
+      "label": "Most teams today"
+    }
+  },
+  "highlight": [
+    3
+  ],
+  "width": 1600,
+  "height": 900
+}

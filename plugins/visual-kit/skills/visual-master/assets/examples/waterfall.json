@@ -1,0 +1,40 @@
+{
+  "title": "Expansion, not new logos, drove the $6M ARR gain",
+  "source": "Finance, FY26",
+  "data": {
+    "start": {
+      "label": "ARR Jan",
+      "value": 12
+    },
+    "steps": [
+      {
+        "label": "New logos",
+        "value": 2.5
+      },
+      {
+        "label": "Expansion",
+        "value": 4.8
+      },
+      {
+        "label": "Churn",
+        "value": -2.1
+      },
+      {
+        "label": "Downgrades",
+        "value": -0.9
+      },
+      {
+        "label": "Price",
+        "value": 1.7
+      }
+    ],
+    "end_label": "ARR Dec",
+    "unit": "$M",
+    "decimals": 1
+  },
+  "highlight": [
+    1
+  ],
+  "width": 1600,
+  "height": 900
+}

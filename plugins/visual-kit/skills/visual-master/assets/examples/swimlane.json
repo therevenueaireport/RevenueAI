@@ -1,0 +1,47 @@
+{
+  "title": "AI drafts, humans decide, systems execute",
+  "data": {
+    "lanes": [
+      "AI agent",
+      "Human (AE)",
+      "System (CRM)"
+    ],
+    "steps": [
+      {
+        "lane": 0,
+        "label": "Detect intent signal"
+      },
+      {
+        "lane": 0,
+        "label": "Draft outreach + rationale"
+      },
+      {
+        "lane": 1,
+        "label": "Review + approve"
+      },
+      {
+        "lane": 2,
+        "label": "Send + log"
+      },
+      {
+        "lane": 0,
+        "label": "Score outcome"
+      },
+      {
+        "lane": 1,
+        "label": "Coach the model"
+      }
+    ],
+    "loop_back": "Weekly: outcomes re-score plays",
+    "gate": {
+      "after": 1,
+      "label": "Human approval gate"
+    }
+  },
+  "highlight": [
+    2,
+    5
+  ],
+  "width": 1600,
+  "height": 900
+}
