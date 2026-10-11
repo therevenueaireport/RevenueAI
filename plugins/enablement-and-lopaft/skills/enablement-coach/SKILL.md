@@ -18,7 +18,7 @@ description: >
 
 The best-designed program in the world, delivered by a coach who can't execute it, produces the same result as a bad program: nothing changes.
 
-Coach the Coach is not a nice-to-have. It is the execution layer of every enablement initiative. Kyle Norton's 10-week win rate program worked because one manager was given one skill to coach and the support to coach it well. Remove the coaching quality and you remove the outcome.
+Coach the Coach is not a nice-to-have. It is the execution layer of every enablement initiative. Programs that move win rates work because a manager is given one skill to coach and the support to coach it well. Remove the coaching quality and you remove the outcome.
 
 This skill operates in two modes:
 - **Design mode**: Build manager capability before a program launches

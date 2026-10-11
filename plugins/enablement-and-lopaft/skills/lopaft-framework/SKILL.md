@@ -98,7 +98,7 @@ This skill handles pedagogical logic only. For formatted outputs, chain to whate
 
 ## Author Note
 
-LOPAFT framework by Jonathan Kvarfordt. Validated by Kyle Norton's 38% to 52% win rate case, elite athletic coaching science (Matt Thornton / Straight Blast Gym), myelination research (Daniel Coyle / The Talent Code), adult learning science (Malcolm Knowles / Andragogy), and Bloom's Taxonomy.
+LOPAFT framework by Jonathan Kvarfordt. Grounded in elite athletic coaching science (Matt Thornton / Straight Blast Gym), myelination research (Daniel Coyle / The Talent Code), adult learning science (Malcolm Knowles / Andragogy), and Bloom's Taxonomy.
 
 ---
 

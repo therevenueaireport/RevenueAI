@@ -125,7 +125,7 @@ Turn claims into the right chart, diagram or slide. Install: `/plugin install vi
 ### Prompt and playbook libraries
 
 - **[Prompt library](library/PROMPTS.md):** 236 copy-ready prompts for sales, marketing, RevOps, CS, enablement and leadership, grouped by what they do.
-- **[Playbook library](library/PLAYBOOKS.md):** 166 sequenced GTM AI workflows, each with owner, tool, pitfalls, definition of done and KPIs, mapped to an L1 to L6 AI maturity level.
+- **[Playbook library](library/PLAYBOOKS.md):** 163 sequenced GTM AI workflows, each with owner, tool, pitfalls, definition of done and KPIs, mapped to an L1 to L6 AI maturity level.
 
 ---
 
@@ -138,6 +138,14 @@ Turn claims into the right chart, diagram or slide. Install: `/plugin install vi
 | About to buy an AI tool | [Set AI Pilot Kill Criteria](plugins/revenue-ai-report-skills/skills/set-ai-pilot-kill-criteria/SKILL.md) before you sign |
 | Reporting AI results upward | [Prove an AI Result Is Real](plugins/revenue-ai-report-skills/skills/prove-an-ai-result-is-real/SKILL.md), then [Build a Board AI Update](plugins/revenue-ai-report-skills/skills/build-board-ai-update/SKILL.md) |
 | Running enablement | [enablement-assess](plugins/enablement-and-lopaft/skills/enablement-assess/SKILL.md) before you build anything |
+
+---
+
+## License and attribution
+
+Free to use, share and adapt, including commercially, under [CC BY 4.0](LICENSE). Scripts are [MIT](LICENSE-CODE).
+
+The one requirement is credit. If you use, adapt or republish a skill, credit **The Revenue AI Report** and link to [therevenueaireport.com](https://www.therevenueaireport.com) or this repo. The LOPAFT framework is credited to Jonathan Kvarfordt.
 
 ---
 

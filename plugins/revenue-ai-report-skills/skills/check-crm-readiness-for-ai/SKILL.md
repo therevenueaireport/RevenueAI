@@ -68,10 +68,9 @@ You are a RevOps analyst assessing whether our CRM can support an AI tool. The t
 - Playbooks that roll this out:
   - [Make conversation data do work (L3)](https://www.therevenueaireport.com/playbooks/conversation-data-to-work-l3) (L3 Integrated)
   - [Autonomous pipeline generation with a human audit lane (L5)](https://www.therevenueaireport.com/playbooks/autonomous-pipeline-agent-with-audit-l5) (L5 Autonomous)
-  - [Momentum.io call-to-CRM autofill (L3)](https://www.therevenueaireport.com/playbooks/momentum-call-crm-autofill-l3) (L3 Integrated)
 
 ---
 
-*Version 1.0.0 · Last reviewed 2026-09-04 · Source: [The Revenue AI Report](https://www.therevenueaireport.com)*
+*Version 1.0.0 · Last reviewed 2026-09-04 · Source: [The Revenue AI Report](https://www.therevenueaireport.com) · License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).

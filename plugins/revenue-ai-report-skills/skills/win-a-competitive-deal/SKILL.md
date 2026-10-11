@@ -73,11 +73,10 @@ Deal material:
 - Research: [proof-gap](https://www.therevenueaireport.com/research/proof-gap)
 - Playbooks that roll this out:
   - [Certification with AI roleplay scoring (L4)](https://www.therevenueaireport.com/playbooks/ai-roleplay-certification-l4) (L4 Orchestrated)
-  - [Momentum.io call-to-CRM autofill (L3)](https://www.therevenueaireport.com/playbooks/momentum-call-crm-autofill-l3) (L3 Integrated)
   - [Evidence standard for every deal (L6)](https://www.therevenueaireport.com/playbooks/sales-deal-evidence-standard-l6) (L6 Rebuilt)
 
 ---
 
-*Version 1.0.0 · Last reviewed 2026-09-22 · Source: [The Revenue AI Report](https://www.therevenueaireport.com)*
+*Version 1.0.0 · Last reviewed 2026-09-22 · Source: [The Revenue AI Report](https://www.therevenueaireport.com) · License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).

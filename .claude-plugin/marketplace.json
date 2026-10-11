@@ -26,7 +26,8 @@
         "marketing",
         "customer-success",
         "ai-governance"
-      ]
+      ],
+      "license": "CC-BY-4.0"
     },
     {
       "name": "analytics-and-decisions",
@@ -44,7 +45,8 @@
         "forecasting",
         "decision-making",
         "experiments"
-      ]
+      ],
+      "license": "CC-BY-4.0"
     },
     {
       "name": "enablement-and-lopaft",
@@ -62,7 +64,8 @@
         "coaching",
         "learning-design",
         "lopaft"
-      ]
+      ],
+      "license": "CC-BY-4.0"
     },
     {
       "name": "visual-kit",
@@ -80,7 +83,8 @@
         "diagrams",
         "charts",
         "storytelling"
-      ]
+      ],
+      "license": "CC-BY-4.0"
     }
   ]
 }
