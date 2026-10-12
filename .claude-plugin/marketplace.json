@@ -106,6 +106,26 @@
         "marketing"
       ],
       "license": "CC-BY-4.0"
+    },
+    {
+      "name": "skill-graph-kit",
+      "source": "./plugins/skill-graph-kit",
+      "description": "Turn an agent's skills folder from a hierarchical org chart into a validated, self-improving graph: setup, growth, validation, evolution, demo, reporting, a guided first week, and a folder migrator.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "skill-graph",
+        "agent-architecture",
+        "knowledge-management",
+        "governance",
+        "self-improving",
+        "ai-agents"
+      ],
+      "license": "CC-BY-4.0"
     }
   ]
 }
