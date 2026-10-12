@@ -6,7 +6,7 @@
 - Two tools in your stack are converging on the same job and renewal for one of them is coming up.
 - Finance asks "will we still need this in eighteen months?" and you need a defensible answer.
 
-The SKILL.md holds the logic: the five category questions and the decision rules. This file holds the instruments: the scoring sheet, the absorption-pressure check, the verdict rules, contract terms by verdict, diligence questions, and a worked test.
+The SKILL.md holds the logic: the five category questions of RENEW, a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/renew)), and the decision rules. RENEW stands for R: replace or amplify, E: existing intent, N: new work, E: economics unlocked, W: where does the human go. RENEW is directional: it shows where the product sits on each axis and what has to be true for it to still exist in eighteen months. This file holds the instruments: the scoring sheet, the absorption-pressure check, the verdict rules, contract terms by verdict, diligence questions, and a worked test.
 
 ---
 
@@ -40,17 +40,17 @@ The SKILL.md holds the logic: the five category questions and the decision rules
 
 ---
 
-## 3. Category Score: The Five Questions
+## 3. Category Score: The Five RENEW Questions
 
 Score each 0, 1, or 2. Write one line of evidence per score.
 
-| Question | 0 (absorbable side) | 1 (mixed) | 2 (durable side) |
+| RENEW question | 0 (absorbable side) | 1 (mixed) | 2 (durable side) |
 |---|---|---|---|
-| Replace or amplify | Removes the person from the step; the pitch is fewer people | Removes some steps, leaves the person owning the outcome | Makes the person measurably more capable; the person stays accountable |
-| Existing intent | Buyers do not search for or budget for this category; vendor creates the need | Buyers have the problem but budget sits elsewhere | Buyers already search, budget, and ask for the category by its job |
-| New work | Same work, done faster | Faster work plus some new output | Work that was not done at all before, because it was not feasible |
-| Economics unlocked | Cost reduction only | Cost reduction that enables a modest new use | Makes something previously unaffordable affordable, so new buyers or uses appear |
-| Where the human goes | Nowhere; no human decision remains | Human reviews outputs | Human holds a clear decision the tool feeds, and the tool gets better with their judgment |
+| R: Replace or amplify | Removes the person from the step; the pitch is fewer people | Removes some steps, leaves the person owning the outcome | Makes the person measurably more capable; the person stays accountable |
+| E: Existing intent | Buyers do not search for or budget for this category; vendor creates the need | Buyers have the problem but budget sits elsewhere | Buyers already search, budget, and ask for the category by its job |
+| N: New work | Same work, done faster | Faster work plus some new output | Work that was not done at all before, because it was not feasible |
+| E: Economics unlocked | Cost reduction only | Cost reduction that enables a modest new use | Makes something previously unaffordable affordable, so new buyers or uses appear |
+| W: Where the human goes | Nowhere; no human decision remains | Human reviews outputs | Human holds a clear decision the tool feeds, and the tool gets better with their judgment |
 
 **Category score = sum, 0 to 10.**
 
@@ -58,7 +58,7 @@ Score each 0, 1, or 2. Write one line of evidence per score.
 
 ## 4. Absorption Pressure Score
 
-These are the checks from the Quick prompt that measure how exposed the tool is to your existing platforms.
+RENEW reads the category. These checks, from the Quick prompt, add what RENEW does not cover: how exposed the tool is to the platforms you already own. They are this toolkit's addition, not part of RENEW.
 
 | Check | 0 (low pressure) | 1 | 2 (high pressure) |
 |---|---|---|---|
@@ -85,6 +85,8 @@ These are the checks from the Quick prompt that measure how exposed the tool is 
 - The grid prices risk. An absorbable verdict can still justify a one-year purchase if the payback lands inside the year.
 
 ### The four positions
+
+These come from the RENEW amplification axis: the R question (amplify or replace) crossed with the N question (new or old work). Amplification plus new work is the durable corner.
 
 | Position | Description | Buying stance |
 |---|---|---|
@@ -194,11 +196,11 @@ Reviewed by (someone who did the work): [name]
 
 | Question | Score | Evidence |
 |---|---|---|
-| Replace or amplify | 2 | Solutions engineers still own final answers; tool makes each one cover far more questionnaires |
-| Existing intent | 2 | Buyers already budget for questionnaire response; Acme's own team asked for it |
-| New work | 1 | Mostly faster old work; answer-freshness tracking is new |
-| Economics unlocked | 1 | Lets Acme respond to smaller deals' questionnaires it used to decline |
-| Where the human goes | 2 | Subject experts approve and own the answer library |
+| R: Replace or amplify | 2 | Solutions engineers still own final answers; tool makes each one cover far more questionnaires |
+| E: Existing intent | 2 | Buyers already budget for questionnaire response; Acme's own team asked for it |
+| N: New work | 1 | Mostly faster old work; answer-freshness tracking is new |
+| E: Economics unlocked | 1 | Lets Acme respond to smaller deals' questionnaires it used to decline |
+| W: Where the human goes | 2 | Subject experts approve and own the answer library |
 
 Category score: 8.
 

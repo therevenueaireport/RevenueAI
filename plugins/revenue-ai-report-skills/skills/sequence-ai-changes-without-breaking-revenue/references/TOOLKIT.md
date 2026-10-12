@@ -6,7 +6,7 @@
 - A previous change broke something quietly and you want the next one to fail loudly and small.
 - Two teams want to move at different speeds on a shared workflow and you need an order both can live with.
 
-The SKILL.md holds the logic: the five moves (set the foundation, layer it in, iterate in parallel, nudge don't shove, ground truth every number) and the decision rules. This file holds the instruments: scoring sheets, move cards, the warning-signal and rollback design, and a worked sequence.
+The SKILL.md holds the logic: the five moves of SLING, a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/sling)), which are S: set the foundation, L: layer it in, I: iterate in parallel, N: nudge, don't shove, and G: ground truth every number, plus the decision rules. SLING is the sequencing rule; the level of ambition you are climbing toward (Optimize, Amplify, Reinvent) comes from OAR, also a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/oar)). Each section below is tagged with the SLING move it serves. This file holds the instruments: scoring sheets, move cards, the warning-signal and rollback design, and a worked sequence.
 
 ---
 
@@ -54,7 +54,7 @@ The AI assistant cannot see your dependencies. Fill this before asking it to seq
 
 ---
 
-## 4. Foundation Check (set the foundation)
+## 4. Foundation Check (SLING S: set the foundation)
 
 Score each line before any AI touches the workflow.
 
@@ -70,7 +70,7 @@ Score each line before any AI touches the workflow.
 
 ---
 
-## 5. Baseline Record (ground truth every number)
+## 5. Baseline Record (SLING G: ground truth every number)
 
 Capture this before the switch is flipped. Without it, no later number can be claimed.
 
@@ -117,15 +117,15 @@ Any move scoring 3 on reversibility is approval-gated regardless of total.
 
 Apply in this order. Earlier rules win.
 
-| # | Rule | Source |
+| # | Rule | Source (SLING move) |
 |---|---|---|
-| 1 | Foundation fixes before any AI move | Set the foundation |
+| 1 | Foundation fixes before any AI move | S: set the foundation |
 | 2 | Reversible before irreversible, even if the irreversible move pays more | SKILL decision rule |
-| 3 | Read-only before write; staging field before live field | Layer it in |
+| 3 | Read-only before write; staging field before live field | L: layer it in |
 | 4 | Never change the system of record and the workflow in the same move | SKILL decision rule |
-| 5 | One team or segment before all; volunteers then assigned cohort before everyone | Nudge, don't shove |
-| 6 | Human approves, then human samples, then human audits after the fact | Nudge, don't shove |
-| 7 | Small efficiency moves may run alongside one larger redesign bet, on separate workflows | Iterate in parallel |
+| 5 | One team or segment before all; volunteers then assigned cohort before everyone | N: nudge, don't shove |
+| 6 | Human approves, then human samples, then human audits after the fact | N: nudge, don't shove |
+| 7 | Small Optimize moves may run alongside one larger Reinvent bet, on separate workflows | I: iterate in parallel |
 | 8 | No irreversible move in the closing weeks of a quarter | Calendar |
 
 **The assigned cohort step:** pilots run on volunteers and curated data. Before an all-team move, run one cohort that did not ask for the change, on live data. If it holds there, it is real.
@@ -282,7 +282,7 @@ Exit criteria to next move: [what must be true, for how long, before the next mo
 | No baseline | Launch date precedes baseline window | Delay or accept the result is unprovable |
 | Rip and replace | A move removes a working system | Thread through it first |
 | The shove | One move goes to the whole function | Split by team or segment |
-| Post-mortem blames the tool | Nobody checks which move was skipped | Run the skipped-move check: foundation, layer, iterate, nudge, ground truth |
+| Post-mortem blames the tool | Nobody checks which move was skipped | Run the SLING skipped-move check: S foundation, L layer, I iterate, N nudge, G ground truth. The skipped move is usually the first or the last |
 
 ---
 

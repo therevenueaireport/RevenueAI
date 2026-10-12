@@ -6,7 +6,7 @@
 - A pilot is already running and nobody can say what result would end it.
 - You are writing the order form and want the fail conditions in the contract, not in a slide.
 
-The SKILL.md holds the logic. This file holds the instruments: the anatomy of a criterion, a criteria bank by pilot type, threshold-setting methods, the charter template, and a worked charter.
+The SKILL.md holds the logic. This file holds the instruments: the anatomy of a criterion, a criteria bank by pilot type, threshold-setting methods, a kill-condition coverage check built on the Reversal Ledger's reason codes, the charter template, and a worked charter.
 
 ---
 
@@ -148,6 +148,21 @@ Record the method used for every threshold. The SKILL.md limitation is real: thr
 | In the contract | The order form says the pilot ends, without penalty, when it trips |
 
 **Minimum set (rule of thumb):** one harm condition (complaints, wrong answers to customers, compliance breach) and one cost condition (spend ceiling or cost per outcome far above baseline).
+
+### Coverage check against the Reversal Ledger reason codes
+
+The Reversal Ledger, a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/reversal-ledger)), is a running record of AI tools revenue teams have shut off, coded by why. Its six reason codes are the ways tools actually die in production, so use them to check that your kill conditions and pass criteria cover each one that applies to this tool.
+
+| Reason code | What it means | Covered in this charter by |
+|---|---|---|
+| DATA | Data exposure, leakage, or compliance failure | Kill: sensitive data outside approved boundary; send to a suppression list |
+| HALLUCINATION | Brand or accuracy risk from generated output | Kill: wrong price, term, or policy reaching a customer; pass: audit error rate |
+| DIAGNOSTIC | Nobody can explain what the AI did or why | Pass: explainability share; kill: output cannot be explained when challenged |
+| ECONOMICS | Cost per outcome exceeds the manual baseline | Pass: outcome per fully loaded dollar; kill: spend ceiling |
+| INTEGRATION | Technical or workflow break with the existing revenue stack | Kill: writes to live fields without approval; pass: sequences needing no manual repair |
+| ADOPTION | Reps or CSMs stopped using it | Pass: weekly active use among assigned users |
+
+**Rule:** if a code applies to this tool and nothing in the charter would catch it, add a criterion or write down why the risk is accepted. Before signing, check whether the tool or its category already appears in the live Ledger, and read the reason; a tool's presence reflects specific implementations that failed, not a verdict on the category.
 
 ---
 
@@ -307,6 +322,7 @@ Signed:        [decider, date, before day one]
 - Fully loaded cost including internal hours, so per-dollar metrics are honest.
 - Data return and deletion terms agreed with legal.
 - A pre-agreed scale plan: what production looks like if it passes, so a pass leads to a decision, not another pilot.
+- After a full quarter in production (not during the pilot, which is too short), track the Proof Gap, a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/proof-gap)): total AI spend divided by verified, incremental AI-influenced pipeline, on a rolling four-quarter view. The framework treats under 1.0x as defensible, 1.0x to 4.0x as a watch, and over 4.0x as the trigger for a Reversal Ledger review. Write the production kill threshold into the scale plan now, so the go decision carries its own exit.
 
 ---
 *Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*

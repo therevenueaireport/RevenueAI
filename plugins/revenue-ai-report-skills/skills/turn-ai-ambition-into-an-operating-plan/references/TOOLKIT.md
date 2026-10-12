@@ -6,7 +6,7 @@
 - Every team is buying its own AI tool and nobody can say which number any of them moves.
 - Pilots keep starting from a vendor demo, then stall because nothing was baselined.
 
-The SKILL.md holds the logic: five steps (strategic outcomes, chart friction, align capabilities, launch with control, evolve and expand), one deliverable each. This file holds the instruments for each deliverable, the scoring sheets, a decision table, and a worked plan.
+The SKILL.md holds the logic: the five steps of SCALE, a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/scale)), which are S: strategic outcomes, C: chart friction, A: align capabilities, L: launch with control, E: evolve and expand, with one deliverable each. SCALE's defining rule is that it starts with the business number, not the tool. Step 3 also sets the ambition level using OAR, also a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/oar)). This file holds the instruments for each deliverable, the scoring sheets, a decision table, and a worked plan.
 
 ---
 
@@ -16,11 +16,11 @@ One week per step is a working default. Larger organizations stretch Step 2, bec
 
 | Week | Step | Question | Deliverable | Signed off by |
 |---|---|---|---|---|
-| 1 | Strategic outcomes | What is the number? | Outcome charter | CFO or finance lead |
-| 2 | Chart friction | Where does work get stuck, and what does it cost? | Ranked friction map | Process owners |
-| 3 | Align capabilities | What capability fits the top friction, and are we ready? | Capability match map and shortlist | RevOps and security |
-| 4 | Launch with control | How do we test small? | Running pilot with controls | Pilot owner and decider |
-| 5+ | Evolve and expand | Scale, kill, or govern? | Scaling blueprint and governance structure | CRO or CEO |
+| 1 | S: Strategic outcomes | What is the number? | Outcome charter | CFO or finance lead |
+| 2 | C: Chart friction | Where does work get stuck, and what does it cost? | Ranked friction map | Process owners |
+| 3 | A: Align capabilities | What capability fits the top friction, and are we ready? | Capability match map and shortlist | RevOps and security |
+| 4 | L: Launch with control | How do we test small? | Running pilot with controls | Pilot owner and decider |
+| 5+ | E: Evolve and expand | Scale, kill, or govern? | Scaling blueprint and governance structure | CRO or CEO |
 
 **Completion rule:** a step is done when a named person signs off on its deliverable, not when the meeting ends. Each deliverable is the entry ticket to the next step.
 
@@ -40,7 +40,7 @@ One week per step is a working default. Larger organizations stretch Step 2, bec
 
 ---
 
-## 3. Step 1: Outcome Charter
+## 3. Step 1 (SCALE S): Outcome Charter
 
 ```
 OUTCOME CHARTER
@@ -70,7 +70,7 @@ Finance sign-off:      [name, date]
 
 ---
 
-## 4. Step 2: Friction Map
+## 4. Step 2 (SCALE C): Friction Map
 
 Map each workflow step by step. For each point where work gets stuck, classify and cost it.
 
@@ -101,7 +101,7 @@ Map each workflow step by step. For each point where work gets stuck, classify a
 
 ---
 
-## 5. Step 3: Capability Match Map
+## 5. Step 3 (SCALE A): Capability Match Map
 
 | Top friction | Capability that fits | Data ready? (0-2) | Process ready? (0-2) | People ready? (0-2) | Readiness total | Already owned? |
 |---|---|---|---|---|---|---|
@@ -110,6 +110,18 @@ Map each workflow step by step. For each point where work gets stuck, classify a
 **Readiness scale:** 0 not ready, 1 partial, 2 ready. **Threshold (rule of thumb):** 5+ of 6 with no zero to proceed to launch. Any zero becomes a foundation task before the pilot.
 
 **Already owned?** Check whether a platform you already pay for does this. If yes, the shortlist starts there.
+
+### Set the ambition level (OAR)
+
+Label each matched capability with its OAR level only after the outcome, friction, and readiness are known. Choosing a level before that turns OAR into branding rather than a decision.
+
+| OAR level | What changes | Typical measures | Readiness demand |
+|---|---|---|---|
+| O: Optimize | A task inside the current process gets better | Task cost, quality, the chosen driver | Lowest. The correct first level for a low-maturity team |
+| A: Amplify | Workflow, decision quality, or ownership changes inside the current operating model | Win rate, cycle length, retention | Medium |
+| R: Reinvent | A different operating model, built from the outcome back | Revenue, margin, operating model | Highest. One function at a time, as a bet, not a policy |
+
+**Rule:** describe the work at the level it actually is. Reinvent language on Optimize work is where reported return disappears.
 
 ### Vendor shortlist scoring
 
@@ -130,7 +142,7 @@ Map each workflow step by step. For each point where work gets stuck, classify a
 
 ---
 
-## 6. Step 4: Pilot Controls Sheet
+## 6. Step 4 (SCALE L): Pilot Controls Sheet
 
 ```
 PILOT CONTROLS
@@ -151,7 +163,7 @@ Owner:                   [one person]
 
 ---
 
-## 7. Step 5: Scaling Blueprint and Governance
+## 7. Step 5 (SCALE E): Scaling Blueprint and Governance
 
 | Result at decision date | Action |
 |---|---|
@@ -159,6 +171,8 @@ Owner:                   [one person]
 | Passed on usage, flat on the leading indicator | Kill or redesign. Usage is not outcome |
 | Mixed | Default is stop; rerun only with new written criteria |
 | Stop condition tripped | Kill. Record the reason |
+
+To sequence the scale-up without breaking production, use SLING, a framework from The Revenue AI Report ([framework](https://www.therevenueaireport.com/frameworks/sling)), as applied in the sequence-ai-changes-without-breaking-revenue skill. OAR names the target level; SLING orders the moves to reach it.
 
 ### Governance structure (minimum)
 
@@ -251,7 +265,7 @@ Reviewed by (someone who did the work): [name]
 
 **Reasoning.** Proposal drafting is the largest time cost, but it sits after the buyer has formed a view; no named path to win rate. It ranks fourth and is parked. Discovery prep ranks first because it feeds both leading indicators.
 
-**Step 3. Capability match.** Discovery prep: account research and stakeholder summary. Readiness: data 1 (stakeholder fields stale), process 2, people 2. Total 5, no zero: proceed, with a stakeholder-data cleanup task for the pilot accounts. Already owned? The CRM's AI assistant drafts account summaries; it is switched off. Shortlist starts there, avoiding the six-week security review for a new vendor.
+**Step 3. Capability match.** Discovery prep: account research and stakeholder summary. Readiness: data 1 (stakeholder fields stale), process 2, people 2. Total 5, no zero: proceed, with a stakeholder-data cleanup task for the pilot accounts. Already owned? The CRM's AI assistant drafts account summaries; it is switched off. Shortlist starts there, avoiding the six-week security review for a new vendor. OAR level: Optimize (same process, better prep task), which is the right first level here; the plan does not describe it as anything bigger.
 
 **Step 4. Pilot controls.** One team of 7 AEs (assigned), comparison team of 7. Baseline: economic buyer identified by stage 3 on 38 percent of the pilot team's opportunities. Success: 55 percent or more within 8 weeks. Stop condition: if prep is used on fewer than half of first calls by week 4, stop and diagnose. Decision date booked.
 
