@@ -1,6 +1,6 @@
 # Revenue AI Report: Open Skill Library
 
-**58 free, installable AI skills for B2B revenue teams.** Sales, marketing, RevOps, customer success, enablement and the executives who own the number.
+**81 free, installable AI skills for B2B revenue teams.** Sales, marketing, RevOps, customer success, enablement and the executives who own the number.
 
 Every skill here is a repeatable job with a ready prompt, a process, decision rules and a quality bar. Use them in Claude Code, Claude.ai, or paste the prompt into any assistant.
 
@@ -22,6 +22,9 @@ Add the marketplace once, then install the packs you want:
 /plugin install analytics-and-decisions@revenue-ai-report
 /plugin install enablement-and-lopaft@revenue-ai-report
 /plugin install visual-kit@revenue-ai-report
+/plugin install brand-distinctiveness@revenue-ai-report
+/plugin install voice-and-content@revenue-ai-report
+/plugin install skill-graph-kit@revenue-ai-report
 ```
 
 ### Claude.ai or Claude Desktop
@@ -38,7 +41,7 @@ Open a skill's `SKILL.md`, copy the **Quick prompt**, and paste it into ChatGPT,
 
 ### Revenue AI Report skills (36)
 
-Repeatable AI jobs for revenue teams. Each one has a copy-ready prompt, a process, decision rules, quality checks, limitations and a worked example. Install: `/plugin install revenue-ai-report-skills@revenue-ai-report`
+Repeatable AI jobs for revenue teams. Each one has a copy-ready prompt, a process, decision rules and a worked example, plus a toolkit file with templates, scoring sheets and a full worked case. Install: `/plugin install revenue-ai-report-skills@revenue-ai-report`
 
 | Skill | What it does |
 |---|---|
@@ -86,7 +89,7 @@ Tools for deciding with evidence, not vibes. Install: `/plugin install analytics
 | Skill | What it does |
 |---|---|
 | [A/B Test Evaluator](plugins/analytics-and-decisions/skills/ab-test-evaluator/SKILL.md) | Full-protocol A/B test and experiment evaluation skill. |
-| [Account priority buckets (no quote, no PAIN)](plugins/analytics-and-decisions/skills/account-priority-buckets/SKILL.md) | Grade an account list on FIT, PAIN, MOMENT and CONFIDENCE using any data source or enrichment tool (CSV, CRM export, Clay, Apollo, ZoomInfo, manual research) and sort it… |
+| [Account priority buckets (no quote, no PAIN)](plugins/analytics-and-decisions/skills/account-priority-buckets/SKILL.md) | Grade an account list on FIT, PAIN, MOMENT and CONFIDENCE using any data source or enrichment tool (CSV, CRM export, an enrichment or data tool such as Clay, Apollo or Z… |
 | [Bayesian Updater](plugins/analytics-and-decisions/skills/bayesian-updater/SKILL.md) | Formal Bayesian belief-updating framework. |
 | [Council](plugins/analytics-and-decisions/skills/council/SKILL.md) | Pressure-test a real decision with five independent AI advisors, blind peer review, and a chairman verdict with kill criteria. |
 | [Data Claims Auditor](plugins/analytics-and-decisions/skills/data-claims-auditor/SKILL.md) | Systematic teardown and validation of third-party data claims, vendor stats, market sizing reports, competitor assertions, analyst projections, and any externally source… |
@@ -122,6 +125,50 @@ Turn claims into the right chart, diagram or slide. Install: `/plugin install vi
 | [Visual Storytelling](plugins/visual-kit/skills/visual-storytelling/SKILL.md) | Add the NARRATIVE and PROOF layer that makes a deck or document feel designed, not assembled - framing slides, comparison layouts, credibility visuals, editorial/media v… |
 | [Visual Strategy Diagrams](plugins/visual-kit/skills/visual-strategy-diagrams/SKILL.md) | Build a NARRATIVE or ARGUMENT diagram - the kind that carries a point, not data. |
 
+### Brand distinctiveness (10)
+
+Audit a B2B brand 0-24 across eight distinctive assets, gate on positioning, and build the asset your category left open. Install: `/plugin install brand-distinctiveness@revenue-ai-report`
+
+| Skill | What it does |
+|---|---|
+| [Distinctive asset: color](plugins/brand-distinctiveness/skills/brand-asset-color/SKILL.md) | Distinctive brand asset skill for color. |
+| [Distinctive asset: human identity](plugins/brand-distinctiveness/skills/brand-asset-human-identity/SKILL.md) | Distinctive brand asset skill for human identity: a character, mascot, or recurring face. |
+| [Distinctive asset: logo](plugins/brand-distinctiveness/skills/brand-asset-logo/SKILL.md) | Distinctive brand asset skill for the logo. |
+| [Distinctive asset: product UI motif](plugins/brand-distinctiveness/skills/brand-asset-product-ui-motif/SKILL.md) | Distinctive brand asset skill for the product UI motif: a signature inside the product, the software equivalent of packaging. |
+| [Distinctive asset: music / sound](plugins/brand-distinctiveness/skills/brand-asset-sound/SKILL.md) | Distinctive brand asset skill for music and sound. |
+| [Distinctive asset: taglines](plugins/brand-distinctiveness/skills/brand-asset-taglines/SKILL.md) | Distinctive brand asset skill for taglines. |
+| [Distinctive asset: typography](plugins/brand-distinctiveness/skills/brand-asset-typography/SKILL.md) | Distinctive brand asset skill for typography. |
+| [Distinctive asset: visual device](plugins/brand-distinctiveness/skills/brand-asset-visual-device/SKILL.md) | Distinctive brand asset skill for the visual device. |
+| [Brand Manager (orchestrator)](plugins/brand-distinctiveness/skills/brand-manager/SKILL.md) | Orchestrator for the brand distinctiveness system. |
+| [Positioning gate](plugins/brand-distinctiveness/skills/brand-positioning-gate/SKILL.md) | The precondition for the brand distinctiveness system. |
+
+### Voice and content (4)
+
+Build a voice skill from your own writing, test content against your ICP reader, and turn sources into posts and newsletters. Install: `/plugin install voice-and-content@revenue-ai-report`
+
+| Skill | What it does |
+|---|---|
+| [ICP Reader Test](plugins/voice-and-content/skills/icp-reader-test/SKILL.md) | Test content, subject lines, offers, prices and product ideas against a named-by-role persona built from your own ideal customer profile, before you publish or build. |
+| [Newsletter From Source](plugins/voice-and-content/skills/newsletter-from-source/SKILL.md) | Turn a podcast episode, interview, webinar, transcript, demo recording or a set of news items into a newsletter issue worth paying for: executable intelligence, not a su… |
+| [Social Post](plugins/voice-and-content/skills/social-post/SKILL.md) | Write professional social posts, built for LinkedIn first and adaptable to other feeds, that stop the scroll and earn the read: insight posts, story posts, contrarian ta… |
+| [Voice Builder](plugins/voice-and-content/skills/voice-builder/SKILL.md) | Build a voice skill from a person's own writing, so an AI assistant can draft new material that reads like them on topics they have never written about. |
+
+### Skill graph kit (9)
+
+Turn a folder of agent skills into a validated, self-improving graph. Install: `/plugin install skill-graph-kit@revenue-ai-report`
+
+| Skill | What it does |
+|---|---|
+| [demo](plugins/skill-graph-kit/skills/demo/SKILL.md) | Show the user the before/after of having a populated skill graph. |
+| [first-week](plugins/skill-graph-kit/skills/first-week/SKILL.md) | Walk a brand-new user through their first 5 graph-grow operations with full hand-holding. |
+| [graph-concept](plugins/skill-graph-kit/skills/graph-concept/SKILL.md) | Explain the skill-graph architecture in plain English. |
+| [graph-evolve](plugins/skill-graph-kit/skills/graph-evolve/SKILL.md) | Read session signals, detect structural patterns in how the user actually works, and propose ranked improvements to the skill graph. |
+| [graph-grow](plugins/skill-graph-kit/skills/graph-grow/SKILL.md) | Add, split, merge, extract, or retire a skill node in a skill-graph workspace without breaking the graph. |
+| [graph-report](plugins/skill-graph-kit/skills/graph-report/SKILL.md) | Show the user their actual speed and quality gains from using the skill graph, computed from their own signal data. |
+| [graph-validate](plugins/skill-graph-kit/skills/graph-validate/SKILL.md) | Audit the skill graph for broken links, orphan nodes, sub-folder hierarchy, duplicate knowledge, and iron-law violations. |
+| [init-workspace](plugins/skill-graph-kit/skills/init-workspace/SKILL.md) | Initialize a new skill-graph workspace in 60 seconds with a wow-worthy first experience. |
+| [migrate-folder](plugins/skill-graph-kit/skills/migrate-folder/SKILL.md) | Convert an existing hierarchical skills folder (like a typical .claude/ or skills/ directory with files organized by role or category) into a graph-shaped workspace. |
+
 ### Prompt and playbook libraries
 
 - **[Prompt library](library/PROMPTS.md):** 236 copy-ready prompts for sales, marketing, RevOps, CS, enablement and leadership, grouped by what they do.
@@ -137,6 +184,7 @@ Turn claims into the right chart, diagram or slide. Install: `/plugin install vi
 | A sales leader | [Review a Deal](plugins/revenue-ai-report-skills/skills/review-sales-deal/SKILL.md) and [Review Forecast Risk](plugins/revenue-ai-report-skills/skills/review-forecast-risk/SKILL.md) |
 | About to buy an AI tool | [Set AI Pilot Kill Criteria](plugins/revenue-ai-report-skills/skills/set-ai-pilot-kill-criteria/SKILL.md) before you sign |
 | Reporting AI results upward | [Prove an AI Result Is Real](plugins/revenue-ai-report-skills/skills/prove-an-ai-result-is-real/SKILL.md), then [Build a Board AI Update](plugins/revenue-ai-report-skills/skills/build-board-ai-update/SKILL.md) |
+| A marketing leader | [brand-manager](plugins/brand-distinctiveness/skills/brand-manager/SKILL.md) for a 0-24 distinctiveness audit, then [icp-reader-test](plugins/voice-and-content/skills/icp-reader-test/SKILL.md) on your next campaign |
 | Running enablement | [enablement-assess](plugins/enablement-and-lopaft/skills/enablement-assess/SKILL.md) before you build anything |
 
 ---
