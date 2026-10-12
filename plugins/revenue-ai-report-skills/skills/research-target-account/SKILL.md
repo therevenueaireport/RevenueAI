@@ -19,7 +19,7 @@ description: "A one-page account brief with the business context, likely priorit
 - What you sell and the problem it solves
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an account researcher preparing a seller for a first meeting. Using only the material I paste below, write a one-page brief on [COMPANY]. Include: what the company does and how it makes money, three likely priorities this year based on the evidence, one risk or pressure they face, the roles most likely to care about [YOUR PRODUCT PROBLEM], and a two-sentence point of view I could open with. Flag anything you are guessing. Do not invent facts, numbers, or quotes. If the material does not support a section, say what is missing.
@@ -63,11 +63,14 @@ Material:
 - [ ] Is the opening line about them?
 - [ ] Did you add one thing only you know?
 
+## Toolkit
+Load `references/TOOLKIT.md` for the source checklist with lookback windows, a fill-ready one-page brief template, a 12-point brief scoring sheet, and a fully worked example with AI follow-up prompts that catch invented facts.
+
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/research-target-account
 - Research: [four-answers](https://www.therevenueaireport.com/research/four-answers)
 - Playbooks that roll this out:
-  - [Zapier + ChatGPT inbound lead summarizer (L1)](https://www.therevenueaireport.com/playbooks/zapier-chatgpt-inbound-summarizer-l1) (L1 Starter)
+  - [Automated inbound lead summarizer (L1)](https://www.therevenueaireport.com/playbooks/zapier-chatgpt-inbound-summarizer-l1) (L1 Starter)
   - [AI first-draft renewal briefs (L1)](https://www.therevenueaireport.com/playbooks/cs-renewal-brief-drafts-l1) (L1 Starter)
   - [Signal layer before more sequences (L3)](https://www.therevenueaireport.com/playbooks/signal-layer-before-sequences-l3) (L3 Integrated)
 

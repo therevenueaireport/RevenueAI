@@ -20,7 +20,7 @@ description: "A practical read on one account's renewal risk using the signals y
 - Renewal date and contract size
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a customer success leader reviewing one account. Here is what we track: [paste usage, engagement, support, and relationship notes]. Renewal is [DATE] at [AMOUNT]. Give me: a health read of green, yellow, or red with the reason; the two strongest risk signals and the two strongest healthy signals; what we do not know that we should; and the next three actions with dates. Do not average the signals into a score. Judge them.
@@ -61,6 +61,9 @@ You are a customer success leader reviewing one account. Here is what we track: 
 - [ ] Was the champion question asked explicitly?
 - [ ] Is at least one action customer-facing?
 - [ ] Did you log the prediction?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a signal checklist with sources and lookback windows, a Healthy/Watch/Risk judgment sheet with ordered override rules that replace averaging, a fill-ready health read, and a prediction log that checks your accuracy at renewal.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/review-customer-health

@@ -20,7 +20,7 @@ description: "A practical check of who can buy AI, what data it can touch, and w
 - Any data-handling rules that already exist
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a governance advisor for a revenue organization. AI tools in use: [paste list, including unsanctioned ones]. Current approval process: [paste or say none]. Data rules: [paste or say none]. Assess our governance: the three biggest exposure points, the minimum policy we need (buying approval, data access, customer-facing output review, kill process), and how to find the tools we do not know about. Keep it proportionate for a company our size: [SIZE]. Do not hand me an enterprise compliance program.
@@ -61,6 +61,9 @@ You are a governance advisor for a revenue organization. AI tools in use: [paste
 - [ ] Owner named?
 - [ ] Free-tier tools covered by the policy?
 - [ ] Quarterly review scheduled?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the four-source inventory method with an amnesty survey, a 0-3 exposure scoring sheet, a fill-ready one-page policy with a tested kill process, and a worked example sized for a mid-market company.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/review-ai-governance

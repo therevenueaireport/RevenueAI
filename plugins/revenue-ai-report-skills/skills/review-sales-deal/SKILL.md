@@ -20,7 +20,7 @@ description: "A structured read on one open deal: what is proven, what is assume
 - What the champion and the blocker each said, if known
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a deal coach. Here is everything I know about one open deal: [paste notes]. Review it. Split what is proven (the buyer said it or did it) from what is assumed (I believe it but have no evidence). Then tell me: the biggest risk to this deal, whether the close date is justified, and the single next action most likely to move it forward or kill it honestly. If my notes are too thin to judge, list the three facts I need to go get.
@@ -61,6 +61,9 @@ You are a deal coach. Here is everything I know about one open deal: [paste note
 - [ ] Is anything labeled proven that the buyer never actually said?
 - [ ] Does the next action put work on the buyer?
 - [ ] Did the CRM change after the review?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a six-fact proven-versus-assumed sheet with evidence levels, a close-date test that walks the date backward, a five-part next-action test, and a discount gate to run before cutting price to save a deal.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/review-sales-deal

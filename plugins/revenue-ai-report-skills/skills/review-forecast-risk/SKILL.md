@@ -20,7 +20,7 @@ description: "A deal-by-deal stress test of the commit, with the specific deals 
 - Last period's forecast accuracy
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a skeptical forecast reviewer. Here is my commit list for this period: [paste deals with amount, close date, and why each closes]. Stress test it. For each deal, name what must be true for it to close on time and what evidence is missing. Rank the five deals that decide the number. Then give me the commit, the honest range, and what you would tell the board. Do not smooth it over. If a why-it-closes reason is really a hope, call it a hope.
@@ -61,6 +61,9 @@ You are a skeptical forecast reviewer. Here is my commit list for this period: [
 - [ ] Is each commit deal buyer-confirmed?
 - [ ] Did the deciding deals get evidence requests?
 - [ ] Is the range what you would defend in a board meeting?
+
+## Toolkit
+Load `references/TOOLKIT.md` for four evidence tiers that separate buyer words from rep hope, a stress-test sheet with risk types and evidence asks, a stated method for the low/commit/high range and board sentence, and an accuracy log to make the next forecast better.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/review-forecast-risk

@@ -19,7 +19,7 @@ description: "A go, fix, or stop call on an AI pilot based on the criteria you s
 - What the vendor or internal team promised
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are reviewing an AI pilot with no stake in the outcome. Criteria set before the pilot: [paste]. Results: [paste usage, output, quality, cost]. What was promised: [paste]. Give me a go, fix, or stop call. Judge results against the original criteria, not against criteria invented after the fact. Where results are ambiguous, say what would resolve them and how long that takes. If the pilot never had real criteria, say that first and stop the review until they exist.
@@ -60,6 +60,9 @@ You are reviewing an AI pilot with no stake in the outcome. Criteria set before 
 - [ ] Pre-pilot criteria in hand?
 - [ ] One-word call made?
 - [ ] Record written for the next reviewer?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a criteria card that tests whether pre-pilot criteria are real, a scoring sheet with skew and enthusiast-bias checks, go/fix/stop call rules with valid-fix examples, and a fill-ready decision record with stop reason codes.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/review-ai-pilot
