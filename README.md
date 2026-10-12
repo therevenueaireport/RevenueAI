@@ -193,7 +193,7 @@ Turn a folder of agent skills into a validated, self-improving graph. Install: `
 
 Free to use, share and adapt, including commercially, under [CC BY 4.0](LICENSE). Scripts are [MIT](LICENSE-CODE).
 
-The one requirement is credit. If you use, adapt or republish a skill, credit **The Revenue AI Report** and link to [therevenueaireport.com](https://www.therevenueaireport.com) or this repo. The LOPAFT framework is credited to Jonathan Kvarfordt.
+The one requirement is credit. If you use, adapt or republish a skill, credit **The Revenue AI Report** and link to [therevenueaireport.com](https://www.therevenueaireport.com) or this repo. Frameworks are credited to Jonathan Kvarfordt (Coach K).
 
 ---
 
@@ -201,6 +201,6 @@ The one requirement is credit. If you use, adapt or republish a skill, credit **
 
 The Revenue AI Report is written for revenue leaders who are expected to grow revenue with AI instead of headcount, and need proof of what actually works. CROs, CCOs, heads of sales, marketing, RevOps, GTM engineering, enablement, partnerships and CS, plus the founders and CEOs who own revenue.
 
-Created by Jonathan Kvarfordt. The LOPAFT learning framework is his original work.
+Created by **Jonathan Kvarfordt (Coach K)** of The Revenue AI Report and GTM AI Academy. LOPAFT, SCALE and OAR are his frameworks, and the Proof Gap, the Reversal Ledger, the Eight-Seat Read and Optimization Theater are concepts he coined. See them all at [therevenueaireport.com/frameworks](https://www.therevenueaireport.com/frameworks).
 
 **[Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com)** · Found a skill useful? Star the repo so other revenue teams can find it.

@@ -460,4 +460,4 @@ Root cause named: **coaching quality degradation**, compounded by environmental 
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). LOPAFT framework by Jonathan Kvarfordt. Licensed CC BY 4.0.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). LOPAFT framework by Jonathan Kvarfordt (Coach K). Licensed CC BY 4.0.*

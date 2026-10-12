@@ -285,4 +285,4 @@ All 12 AEs could discriminate D1-D5 and spot at least one of the three planted A
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). LOPAFT framework by Jonathan Kvarfordt. Licensed CC BY 4.0.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). LOPAFT framework by Jonathan Kvarfordt (Coach K). Licensed CC BY 4.0.*

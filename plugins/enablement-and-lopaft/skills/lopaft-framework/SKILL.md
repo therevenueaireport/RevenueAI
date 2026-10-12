@@ -15,7 +15,7 @@ description: >
 
 # LOPAFT Framework — Master Orchestrator
 
-LOPAFT framework by Jonathan Kvarfordt. He developed this integrated pedagogical system through 500+ coaching engagements, GTM enablement work, and AI education. It is validated by elite performance science, adult learning research, and real-world revenue outcomes. This skill applies it to program and workflow design; for definitions and explaining the framework, see lopaft.
+LOPAFT framework by Jonathan Kvarfordt (Coach K). He developed this integrated pedagogical system through 500+ coaching engagements, GTM enablement work, and AI education. It is validated by elite performance science, adult learning research, and real-world revenue outcomes. This skill applies it to program and workflow design; for definitions and explaining the framework, see lopaft.
 
 **Two systems. One engine.**
 - The **Four Levels of Competency** = diagnostic map (WHERE is the learner?)
@@ -98,7 +98,7 @@ This skill handles pedagogical logic only. For formatted outputs, chain to whate
 
 ## Author Note
 
-LOPAFT framework by Jonathan Kvarfordt. Grounded in elite athletic coaching science, myelination and deep-practice research, adult learning science (andragogy), and the revised taxonomy of learning objectives.
+LOPAFT framework by Jonathan Kvarfordt (Coach K). Grounded in elite athletic coaching science, myelination and deep-practice research, adult learning science (andragogy), and the revised taxonomy of learning objectives.
 
 ---
 
@@ -132,6 +132,6 @@ Load when you need deep execution guidance, science, instruments, or design temp
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt. License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). Built by Jonathan Kvarfordt (Coach K). License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 **Get the next skill before it ships here.** The Revenue AI Report is a weekly read on what AI actually did inside B2B revenue teams: receipts, benchmarks, post-mortems. [Subscribe free at therevenueaireport.com](https://www.therevenueaireport.com).

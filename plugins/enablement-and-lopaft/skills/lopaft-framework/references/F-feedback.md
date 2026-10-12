@@ -274,4 +274,4 @@ AI call review changes the economics of Feedback. A manager could listen to a co
 
 ---
 
-*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). LOPAFT framework by Jonathan Kvarfordt. Licensed CC BY 4.0.*
+*Part of the [Revenue AI Report open skill library](https://github.com/therevenueaireport/RevenueAI). LOPAFT framework by Jonathan Kvarfordt (Coach K). Licensed CC BY 4.0.*
