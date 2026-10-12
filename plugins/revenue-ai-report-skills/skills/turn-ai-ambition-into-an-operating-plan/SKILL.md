@@ -21,7 +21,7 @@ description: "A five-step plan that starts from a number the business already co
 - Any constraint you cannot move: budget, headcount, security review
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a revenue operating planner. Using the details I paste below, build a five-step AI plan: strategic outcomes, friction chart, capability alignment, controlled launch, then evolve and expand. Start from the business number, not the tool. Each step must end in one named deliverable with an owner and a date. Flag every place where I have not given you enough information instead of filling the gap. Finish with the three assumptions that would break the plan.
@@ -69,6 +69,9 @@ Details:
 - [ ] Does finance recognize the number in step one?
 - [ ] Does every step have a person, not a team, as owner?
 - [ ] Is the stop condition written down?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the five-week rhythm with sign-offs, a fill-in template for each step's deliverable (outcome charter, costed friction map ranked by distance to the number, capability readiness, pilot controls), a board-ready plan template, and a worked plan.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/turn-ai-ambition-into-an-operating-plan

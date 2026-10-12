@@ -20,7 +20,7 @@ description: "A plan for one deal where a competitor is in the final round: the 
 - Your battlecard or competitor profile
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a deal strategist. Using only the deal material I paste below, analyse this late-stage competitive deal. Produce: the decision criteria the buyer has actually stated, the criteria we are guessing at, where we are strong and weak against [COMPETITOR] on each stated criterion, the three biggest risks to this deal in order, the two moves most likely to change the outcome and who must make them, and the question that would confirm or kill our theory. Separate what the buyer said from what the rep believes. Do not assume the buyer prefers us.
@@ -66,6 +66,9 @@ Deal material:
 - [ ] Did the manager read it and challenge the weakest assumption?
 - [ ] Was the confirming question actually asked, and what came back?
 - [ ] Did the forecast category change based on the answer?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the stated-versus-assumed criteria ledger with classification rules, an honest scorecard with a buying-group check and default risk ranking, a discount gate and move menu, a confirming question bank tied to the forecast call, and a fully worked deal plan.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/win-a-competitive-deal

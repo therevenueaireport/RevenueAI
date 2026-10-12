@@ -126,6 +126,26 @@
         "ai-agents"
       ],
       "license": "CC-BY-4.0"
+    },
+    {
+      "name": "voice-and-content",
+      "source": "./plugins/voice-and-content",
+      "description": "Write content that sounds like you and lands with your buyer: build a personal voice, test content and offers against your ICP reader, write professional social posts, and turn podcasts, transcripts and news into newsletters worth paying for.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "content",
+        "voice",
+        "newsletter",
+        "social-media",
+        "icp",
+        "copywriting"
+      ],
+      "license": "CC-BY-4.0"
     }
   ]
 }

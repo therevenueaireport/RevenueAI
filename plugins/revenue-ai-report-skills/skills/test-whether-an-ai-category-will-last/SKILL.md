@@ -21,7 +21,7 @@ description: "A read on whether the tool you are about to buy is a durable categ
 - What happens to the work if the vendor disappears
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a technology buyer's analyst. Using the details I paste below, test whether this is a durable category or an absorbable feature. Check: is there existing buyer intent for the category itself, does the tool unlock economics my platforms cannot, does it own a whole workflow or one step, where does the human decision sit, and what is the switching cost if it is absorbed. Give a verdict of durable, contested, or absorbable, with the evidence for each check. Then give me the contract terms that protect me if the verdict is contested.
@@ -69,6 +69,9 @@ Details:
 - [ ] Did procurement see the exit terms?
 - [ ] Is the watch signal assigned to someone with a review date?
 - [ ] Are any vendor roadmap claims stated as fact?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a 0-2 scoring sheet on the five category questions plus an absorption-pressure score, a verdict grid with override rules, contract terms by verdict, written diligence questions, and a worked test on a three-year offer.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/test-whether-an-ai-category-will-last

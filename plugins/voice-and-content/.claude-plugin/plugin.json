@@ -1,0 +1,20 @@
+{
+  "name": "voice-and-content",
+  "version": "1.0.0",
+  "description": "Write content that sounds like you and lands with your buyer: build a personal voice, test content and offers against your ICP reader, write professional social posts, and turn podcasts, transcripts and news into newsletters worth paying for.",
+  "author": {
+    "name": "Jonathan Kvarfordt",
+    "url": "https://www.therevenueaireport.com"
+  },
+  "homepage": "https://www.therevenueaireport.com",
+  "repository": "https://github.com/therevenueaireport/RevenueAI",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "content",
+    "voice",
+    "newsletter",
+    "social-media",
+    "icp",
+    "copywriting"
+  ]
+}

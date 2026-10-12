@@ -21,7 +21,7 @@ description: "An order of moves that raises your AI ambition one level at a time
 - How you would notice, within a week, that revenue slipped
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a revenue operations sequencer. Using the details I paste below, order the moves that get me from the current process to the intended one without breaking what already works. For each move, state what it changes, what stays untouched, the early warning signal that it is going wrong, and the rollback step. Put the reversible moves first. Flag any move that cannot be undone in a week and tell me what evidence I should require before taking it.
@@ -69,6 +69,9 @@ Details:
 - [ ] Would the process owner agree the order is safe?
 - [ ] Is every warning signal something a human already looks at?
 - [ ] Is one person accountable for calling the rollback?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the move scoring sheet (reversibility, blast radius, system-of-record impact) with approval thresholds, the move card with warning-signal and rollback design tests, the foundation and baseline checks, and a fully worked six-move sequence.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/sequence-ai-changes-without-breaking-revenue

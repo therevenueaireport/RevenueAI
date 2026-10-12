@@ -20,7 +20,7 @@ description: "A pattern read across deals against one competitor: why you win, w
 - Segment fields: size, industry, entry point, deal value
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a revenue analyst. Using only the closed deal data I paste below, find the pattern in our results against [COMPETITOR]. Produce: win rate against them overall and by segment, the reasons that appear in three or more losses, the reasons that appear in three or more wins, any segment where the pattern reverses, and what the data cannot answer. Count reasons, do not narrate individual deals. Tell me the sample size for every figure, and say plainly when a sample is too small to support a conclusion.
@@ -66,6 +66,9 @@ Deal data:
 - [ ] Are buyer-stated and rep-stated reasons kept apart?
 - [ ] Is every figure published with its sample size?
 - [ ] Is there exactly one change with an owner and a date?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the reason-coding scheme with source labels, sample-size support levels and the flip test for segment reversals, a decision table for what each pattern means, and a fully worked review ending in one change with owner, measure, and kill rule.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/run-a-competitive-win-loss-review

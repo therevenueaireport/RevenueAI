@@ -19,7 +19,7 @@ description: "Written pass and fail conditions for an AI pilot, agreed before th
 - Who decides go or stop at the end
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are helping me design an AI pilot that can actually fail. Tool and goal: [paste]. Pilot length and cost: [paste]. Decision-maker: [paste]. Write the pilot charter: three to five measurable pass criteria with thresholds, two automatic kill conditions that end the pilot early regardless of other results, the measurement plan (what we count, from where, weekly), and the decision meeting date. Criteria must be measurable with data we actually have. If a proposed criterion cannot be measured, replace it with one that can.
@@ -58,6 +58,9 @@ You are helping me design an AI pilot that can actually fail. Tool and goal: [pa
 - [ ] Thresholds and sources on every criterion?
 - [ ] Kill conditions truly automatic?
 - [ ] Decision meeting booked?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the five-part anatomy of a criterion, a criteria bank by pilot type (with criteria to refuse), threshold-setting methods with a variance check, a signable charter template with contract terms, and a worked charter that ends in a stop.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/set-ai-pilot-kill-criteria
