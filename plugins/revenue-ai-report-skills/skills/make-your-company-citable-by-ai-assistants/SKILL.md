@@ -21,7 +21,7 @@ description: "A checked list of what an AI assistant can and cannot answer about
 - Answers an assistant currently returns when asked about you
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an answer-engine analyst. Using the buyer questions and pages I paste below, check each question five ways: is it answerable from public pages, is the answer grounded in evidence a machine can verify, is the page easy for a machine to read, is a named human attached, and can the claim be traced back to a source. Score each question pass or fail per check, cite the page you used, and give me the fix list ordered by how many buyer questions each fix unlocks.
@@ -69,6 +69,9 @@ Buyer questions and pages:
 - [ ] Did someone re-ask the assistant two weeks after publishing?
 - [ ] Does every new page name a human?
 - [ ] Are the claims ones you could defend to a customer?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a buyer question set built from real calls, an assistant sampling protocol, pass and fail descriptors for each AGENT check, and a fix library by page type with a full worked example.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/make-your-company-citable-by-ai-assistants

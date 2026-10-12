@@ -19,7 +19,7 @@ description: "A buying evaluation of an AI SDR tool: the real cost per meeting, 
 - Your domain and deliverability situation
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an advisor who has seen AI SDR deployments fail. Vendor quote: [paste pricing and terms]. My current cost per qualified meeting: [paste or say unknown]. My situation: [paste volume, domain, team]. Build the evaluation: the fully loaded cost per qualified meeting including data, domains, deliverability management, and human review time; the five risks vendors do not volunteer; the questions I must ask before signing; and the contract terms I should refuse. Compare against my current cost honestly. If my inputs are too thin to compute the real cost, list what I need to get.
@@ -60,6 +60,9 @@ You are an advisor who has seen AI SDR deployments fail. Vendor quote: [paste pr
 - [ ] Fully loaded cost computed?
 - [ ] Baseline comparison honest?
 - [ ] Refused terms written into the negotiation plan?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the baseline and fully loaded cost sheets with a quality adjustment to cost per qualified meeting, a market burn check, a vendor question bank with red-flag answers, and the contract terms to require and refuse.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/evaluate-ai-sdr

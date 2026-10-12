@@ -21,7 +21,7 @@ description: "A sourcing call for one AI capability, with the reasoning written 
 - Whether the capability touches your buyer or only your team
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a go-to-market architect. Using the details I paste below, make a three-way sourcing call for the capability: build it, buy it, or connect existing systems. For each option state the cost, the time to first value, the maintenance burden, and the failure mode. Weigh whether the capability is buyer-facing or internal. Recommend one option, name the second-best, and write the condition that should make me switch. Do not assume engineering capacity I did not give you.
@@ -68,6 +68,9 @@ Details:
 - [ ] Did engineering confirm the time estimate in writing?
 - [ ] Is maintenance owned by a named team?
 - [ ] Is the flip condition on someone's review calendar?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the layer-by-layer quadrant test, the five-line connect test, the sourcing record template with a full worked example, and a library of observable flip conditions.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/decide-build-buy-or-connect

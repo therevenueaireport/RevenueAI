@@ -19,7 +19,7 @@ description: "A structured build-versus-buy call for one AI capability, with the
 - Your engineering capacity and what else it would not do
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an advisor helping me decide build versus buy for one AI capability: [paste]. Vendor quotes: [paste]. Our engineering capacity and competing priorities: [paste]. Walk me through the decision: the true three-year cost of each side including maintenance, model changes, and the opportunity cost of engineering time; what we would need to believe for build to win; what we would need to believe for buy to win; and your recommendation with the assumption it rests on. If the capability is close to our core product advantage, say so early, because that changes the answer.
@@ -60,6 +60,9 @@ You are an advisor helping me decide build versus buy for one AI capability: [pa
 - [ ] Three-year costs on both sides?
 - [ ] Core-versus-commodity answered?
 - [ ] Kill criteria for the decision itself?
+
+## Toolkit
+Load `references/TOOLKIT.md` for three-year buy and build cost worksheets with exit and maintenance lines, a core-versus-commodity score, the belief test, and kill criteria for the decision itself.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/decide-build-or-buy-ai

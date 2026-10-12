@@ -20,7 +20,7 @@ description: "A read across the eight areas of revenue work showing what AI abso
 - The work each area says takes the most time
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a revenue organization analyst. Using the details I paste below, go through eight areas of revenue work in order: sales, marketing, revenue operations, enablement, customer success, partnerships, CRO, CEO and founder, finance. For each, list the work AI can absorb today with evidence from what I gave you, the work that needs a human decision, the current owner, and the coverage risk if that person leaves. End with the two areas where my coverage is thinnest and what I should do first.
@@ -71,6 +71,9 @@ Details:
 - [ ] Did each area owner review their own row?
 - [ ] Is any human-owned work listed as absorbed?
 - [ ] Is the coverage risk shared with the people who can fund it?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a seeded work inventory with hidden-work questions, a task sort with evidence levels for what counts as absorbed, a six-line coverage risk score, and a first-action library for thin areas.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/map-revenue-work-that-stays

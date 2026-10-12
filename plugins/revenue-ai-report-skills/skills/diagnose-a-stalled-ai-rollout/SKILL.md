@@ -21,7 +21,7 @@ description: "A named reason your team is not using the tool, tied to one rung o
 - Two or three quotes from people who stopped using it
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an enablement diagnostician. Using the rollout details I paste below, work through six adoption rungs in order: Learn, Observe, Practice, Apply, Feedback, Teach. For each rung, state whether the deliverable existed, cite the evidence I gave you, and mark it pass, partial, or missing. Then name the single lowest failing rung as the root cause, explain why the rungs above it cannot be fixed first, and give me a two-week fix for that rung with an owner and a measurable check. Separate what my evidence shows from what you are inferring.
@@ -70,6 +70,9 @@ Rollout details:
 - [ ] Did a manager who ran the rollout agree with the rung verdicts?
 - [ ] Is the fix small enough to finish in two weeks?
 - [ ] Is there a date to re-check usage?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the tool-versus-adoption check, a rung-by-rung interview bank with quote coding, scoring descriptors for each rung, and a two-week fix library with measurable checks.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/diagnose-a-stalled-ai-rollout
