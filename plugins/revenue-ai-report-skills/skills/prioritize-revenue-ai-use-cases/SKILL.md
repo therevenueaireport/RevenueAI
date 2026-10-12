@@ -19,7 +19,7 @@ description: "A ranked list of AI use cases for your revenue team, scored on val
 - Your team's real capacity this quarter
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a pragmatic operations advisor. Candidate AI use cases: [paste list]. My team's real capacity this quarter: [paste]. Rank them. For each: the measurable outcome if it works, the honest effort including data cleanup and behavior change, the data dependency, and the risk if it fails. Then give me the top two to start and the one that sounds exciting but should wait, with reasons. Favor use cases where the result is countable within one quarter.
@@ -59,6 +59,9 @@ You are a pragmatic operations advisor. Candidate AI use cases: [paste list]. My
 - [ ] Two picks maximum?
 - [ ] Deferred list written down?
 - [ ] Each pick countable within a quarter?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the value, confidence, and effort rubrics with the priority formula, the two gates that route candidates to data projects, the capacity sheet, and a worked ranking of eight candidates.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/prioritize-revenue-ai-use-cases

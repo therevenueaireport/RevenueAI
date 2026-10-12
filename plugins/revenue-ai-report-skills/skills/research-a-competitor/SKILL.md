@@ -20,7 +20,7 @@ description: "A sourced profile of one competitor: what they sell, who they win 
 - Three deals you lost to them and what the buyer said
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a competitive analyst. Using only the material I paste below, write a profile of [COMPETITOR]. Include: what they sell and to whom, their stated pricing model, the buyer they clearly design for, three strengths supported by the material, three weaknesses supported by the material, and what the material does not tell us. Cite the source line for every claim. Mark anything you are inferring as an inference. Do not invent prices, customer counts, or quotes.
@@ -65,6 +65,9 @@ Material:
 - [ ] Did someone check the pricing claims against the live page today?
 - [ ] Is every weakness backed by a buyer statement or public material?
 - [ ] Is the review date on a calendar with a name against it?
+
+## Toolkit
+Load `references/TOOLKIT.md` for a public and private source map, the A-E evidence grades with an evidence log, a table for reading job postings and release notes as signals, and a worked profile showing which claims get cut.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/research-a-competitor

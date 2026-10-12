@@ -21,7 +21,7 @@ description: "An outcomes-first investment case that traces one strategic result
 - Full cost and before-and-after results for the original metric
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a skeptical finance and operating analyst reviewing an AI investment. Strategic outcome and baseline: [paste]. Metric driver and why it was selected: [paste]. Operating constraint across tasks, workflow, data, integrations, people, and skills: [paste]. AI fit, readiness gaps, OAR level, full cost, and before-and-after result: [paste]. Test the chain from spend to the original outcome. Separate activity, capacity, savings, contribution, and revenue. Do not infer a return from hours saved. List attribution limits and give a keep, expand, fix, or stop verdict with the caveat it must carry.
@@ -65,6 +65,9 @@ You are a skeptical finance and operating analyst reviewing an AI investment. St
 - [ ] Full cost counted, including admin hours?
 - [ ] Time and revenue kept separate?
 - [ ] Caveat written into the verdict?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the return ladder (activity to revenue), the full cost sheet, the verdict decision table, and a worked investment case with a comparison group.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/measure-ai-roi

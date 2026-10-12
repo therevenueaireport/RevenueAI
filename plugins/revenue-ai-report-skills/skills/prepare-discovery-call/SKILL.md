@@ -19,7 +19,7 @@ description: "A call plan with hypotheses, questions that test them, and the one
 - The problem your product solves
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a sales coach helping me prepare a 30-minute discovery call with [ROLE] at [COMPANY]. Here is what I know: [paste notes]. Build a call plan: three hypotheses about their problem, two open questions that would confirm or kill each hypothesis, one question about how they buy (who else decides, how the last similar purchase went), and the single most important thing I must learn before the call ends. Do not script a pitch. Do not ask questions their website already answers.
@@ -62,11 +62,14 @@ You are a sales coach helping me prepare a 30-minute discovery call with [ROLE] 
 - [ ] One buying-process question included?
 - [ ] Kill answers written before the call?
 
+## Toolkit
+Load `references/TOOLKIT.md` for the hypothesis builder and quality score, a question bank with weak-to-strong rewrites, the post-call scorecard with a next-step decision table, and a fully worked call plan.
+
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/prepare-discovery-call
 - Research: [four-answers](https://www.therevenueaireport.com/research/four-answers)
 - Playbooks that roll this out:
-  - [Zapier + ChatGPT inbound lead summarizer (L1)](https://www.therevenueaireport.com/playbooks/zapier-chatgpt-inbound-summarizer-l1) (L1 Starter)
+  - [Automated inbound lead summarizer (L1)](https://www.therevenueaireport.com/playbooks/zapier-chatgpt-inbound-summarizer-l1) (L1 Starter)
   - [AI first-draft renewal briefs (L1)](https://www.therevenueaireport.com/playbooks/cs-renewal-brief-drafts-l1) (L1 Starter)
   - [Score your ICP on stack density (L4)](https://www.therevenueaireport.com/playbooks/score-icp-on-stack-density-l4) (L4 Orchestrated)
 

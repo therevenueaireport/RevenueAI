@@ -21,7 +21,7 @@ description: "A scorecard that separates a repeatable AI result from a good week
 - What else changed in the same window
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a skeptical analyst. Using the claim I paste below, score it against five checks: can it be run again, is there a named owner, is the failure mode written down, does the number come from a system rather than a survey, and does the comparison period hold. For each check give pass, partial, or fail with the reason. Then state what single piece of evidence would move the weakest check to pass, and write the one-paragraph version I could show a board without overstating it.
@@ -69,6 +69,9 @@ Claim:
 - [ ] Did finance agree with the source of the number?
 - [ ] Is the failure mode written down before the next run?
 - [ ] Is the board paragraph free of words the evidence cannot support?
+
+## Toolkit
+Load `references/TOOLKIT.md` for pass, partial, and fail descriptors for each of the five checks, the comparison and noise tests with a confounder checklist, the words a board paragraph must earn, and a worked example that corrects a claimed win-rate gain.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/prove-an-ai-result-is-real

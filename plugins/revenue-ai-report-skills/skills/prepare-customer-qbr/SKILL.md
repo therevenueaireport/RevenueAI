@@ -19,7 +19,7 @@ description: "A QBR agenda that leads with the customer's results, admits what d
 - What went wrong this quarter, honestly
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a customer success leader preparing a quarterly business review. The customer bought to achieve: [paste outcomes]. This quarter's results: [paste usage and results]. What went wrong: [paste]. Build a 45-minute agenda: open with their results in their terms, one honest section on what did not work and what we changed, the plan for next quarter tied to their goals, and one decision we need from them. Give me the three questions most likely to come from their executive and draft answers. Do not hide the bad news in the middle.
@@ -60,13 +60,16 @@ You are a customer success leader preparing a quarterly business review. The cus
 - [ ] Every miss paired with a fix?
 - [ ] One clear decision requested?
 
+## Toolkit
+Load `references/TOOLKIT.md` for the metric-to-customer-terms translation table, the miss card, the executive question bank, and a fully worked QBR with drafted answers.
+
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/prepare-customer-qbr
 - Research: [trust](https://www.therevenueaireport.com/research/trust)
 - Playbooks that roll this out:
   - [AI first-draft renewal briefs (L1)](https://www.therevenueaireport.com/playbooks/cs-renewal-brief-drafts-l1) (L1 Starter)
   - [Tone and clarity rewrite for customer replies (L1)](https://www.therevenueaireport.com/playbooks/cs-ticket-tone-rewrite-l1) (L1 Starter)
-  - [Zapier + ChatGPT inbound lead summarizer (L1)](https://www.therevenueaireport.com/playbooks/zapier-chatgpt-inbound-summarizer-l1) (L1 Starter)
+  - [Automated inbound lead summarizer (L1)](https://www.therevenueaireport.com/playbooks/zapier-chatgpt-inbound-summarizer-l1) (L1 Starter)
 
 ---
 
