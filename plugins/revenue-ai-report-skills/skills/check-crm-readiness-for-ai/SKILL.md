@@ -19,7 +19,7 @@ description: "A blunt assessment of whether your CRM data can support the AI too
 - Who owns data quality today
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a RevOps analyst assessing whether our CRM can support an AI tool. The tool needs to: [paste read and write requirements]. Here is our data reality: [paste field-fill rates, duplicates, record samples or an honest description]. Assess readiness: which requirements our data can support today, which it cannot, the cleanup work needed with rough effort, and the risks of connecting the tool before cleanup. If the honest answer is that we do not know our fill rates, the first deliverable is a one-week audit plan.
@@ -60,6 +60,9 @@ You are a RevOps analyst assessing whether our CRM can support an AI tool. The t
 - [ ] Fill rates measured on the actual required fields?
 - [ ] Write access constrained?
 - [ ] Cleanup has an owner and an estimate?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the read/write requirement inventory with vendor questions, real fill-rate and accuracy checks, a six-level write-risk ladder, and a one-week audit plan.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/check-crm-readiness-for-ai

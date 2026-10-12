@@ -19,7 +19,7 @@ description: "A one-page campaign brief with audience, message, offer, channels,
 - Budget range and timing
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a B2B campaign strategist. Draft a one-page campaign brief. Goal: [GOAL]. Audience: [SEGMENT and one insight]. Budget and timing: [paste]. Include: the single message, the offer, three channels ranked by fit for this audience, the one number that defines success, and what we will stop doing to fund this. Also list the three assumptions most likely to be wrong. No jargon. If the goal cannot be measured, say so and propose one that can.
@@ -53,12 +53,15 @@ You are a B2B campaign strategist. Draft a one-page campaign brief. Goal: [GOAL]
 ## Worked example
 **Input:** Goal: 40 qualified meetings with RevOps leaders at 500+ person SaaS firms in Q4. Insight: they are being asked to govern AI tools they did not choose. Budget $60k.
 
-**Output:** Message: you did not choose these AI tools, but you own the risk. Offer: a 20-minute governance teardown with a written kill-criteria checklist. Channels: LinkedIn to named accounts, a sponsored operator newsletter, one webinar with a practitioner guest. Success: 40 meetings; kill the webinar if it has not produced 8 by week four.
+**Output:** Message: you did not choose these AI tools, but you own the risk. Offer: a 20-minute governance teardown with a written kill-criteria checklist. Channels: professional social outreach to named accounts, a sponsored operator newsletter, one webinar with a practitioner guest. Success: 40 meetings; kill the webinar if it has not produced 8 by week four.
 
 ## Review checklist
 - [ ] One message?
 - [ ] Success number agreed with the budget owner?
 - [ ] Stop list attached?
+
+## Toolkit
+Load `references/TOOLKIT.md` for intake questions that turn a tactic into a goal, goal math that back-solves the funnel, a channel fit scorecard with kill criteria, and a midpoint decision table.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-marketing-campaign-brief

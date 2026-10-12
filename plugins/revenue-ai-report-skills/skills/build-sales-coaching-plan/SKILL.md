@@ -19,7 +19,7 @@ description: "A 30-day coaching plan for one rep: the one skill to build, the ev
 - What the rep thinks they need to work on
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a sales coach. Here is one rep's data: [paste numbers and observations]. The rep says they want to improve: [paste]. Build a 30-day coaching plan: the single skill to focus on and the evidence for choosing it, two weekly practice activities, what I should observe on calls, and how we will both know at day 30 whether it worked. One skill only. If the data points at a different skill than the rep's self-assessment, say so and explain.
@@ -61,13 +61,16 @@ You are a sales coach. Here is one rep's data: [paste numbers and observations].
 - [ ] Rep agreed to the measure?
 - [ ] Weekly review on the calendar?
 
+## Toolkit
+Load `references/TOOLKIT.md` for the funnel-to-skill diagnosis map, a scored call observation sheet, a practice activity menu, and the two-part day-30 measure with its verdict table.
+
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-sales-coaching-plan
 - Related article: [single-player-ai-problem](https://www.therevenueaireport.com/blog/single-player-ai-problem)
 - Research: [what-works](https://www.therevenueaireport.com/research/what-works)
 - Playbooks that roll this out:
   - [Make conversation data do work (L3)](https://www.therevenueaireport.com/playbooks/conversation-data-to-work-l3) (L3 Integrated)
-  - [ChatGPT for first-draft cold emails (L1)](https://www.therevenueaireport.com/playbooks/chatgpt-cold-email-drafts-l1) (L1 Starter)
+  - [AI first-draft cold emails (L1)](https://www.therevenueaireport.com/playbooks/chatgpt-cold-email-drafts-l1) (L1 Starter)
   - [Score your ICP on stack density (L4)](https://www.therevenueaireport.com/playbooks/score-icp-on-stack-density-l4) (L4 Orchestrated)
 
 ---

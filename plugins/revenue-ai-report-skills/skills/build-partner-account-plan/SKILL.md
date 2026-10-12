@@ -19,7 +19,7 @@ description: "A one-page plan for a partnership: the shared customer, what each 
 - What you can offer: integration, services, co-selling, content
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a partnerships lead. Here is a partner: [paste their business and customers]. Shared or target accounts: [paste]. What we can offer: [paste]. Draft a one-page partner plan: the shared customer profile we both win with, what each side gives and gets, the first joint play with a named account, how we will measure the partnership at 90 days, and the most likely reason it produces nothing. Keep it to what both sides will actually do.
@@ -59,13 +59,16 @@ You are a partnerships lead. Here is a partner: [paste their business and custom
 - [ ] Gives and gets balanced?
 - [ ] A named account in the first play?
 
+## Toolkit
+Load `references/TOOLKIT.md` for the five-check shared customer test, a costed gives and gets ledger, a partner counting rule, and the 90-day scale, fix, or end decision table.
+
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-partner-account-plan
 - Research: [four-answers](https://www.therevenueaireport.com/research/four-answers)
 - Playbooks that roll this out:
   - [AI first-draft renewal briefs (L1)](https://www.therevenueaireport.com/playbooks/cs-renewal-brief-drafts-l1) (L1 Starter)
   - [Make conversation data do work (L3)](https://www.therevenueaireport.com/playbooks/conversation-data-to-work-l3) (L3 Integrated)
-  - [ChatGPT for first-draft cold emails (L1)](https://www.therevenueaireport.com/playbooks/chatgpt-cold-email-drafts-l1) (L1 Starter)
+  - [AI first-draft cold emails (L1)](https://www.therevenueaireport.com/playbooks/chatgpt-cold-email-drafts-l1) (L1 Starter)
 
 ---
 

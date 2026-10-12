@@ -20,7 +20,7 @@ description: "A blunt read on whether your pipeline can support the number, with
 - This period's target and how much is already closed
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a revenue operations analyst. Here is my current pipeline by stage: [paste]. Here are my historical win rates and cycle times by stage: [paste]. Target is [NUMBER] with [AMOUNT] already closed. Tell me plainly: does this pipeline support the number? Where are the three biggest leaks (stage where deals die, age past cycle, coverage shortfall)? What should I inspect this week? Use my numbers only. Where you make an assumption, name it.
@@ -61,6 +61,9 @@ You are a revenue operations analyst. Here is my current pipeline by stage: [pas
 - [ ] Did the read use your numbers only?
 - [ ] Are stale deals reclassified honestly?
 - [ ] Does each leak have an owner and a date?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the pipeline export checklist and rate card, a stale-deal reclassification rule, headline vs true coverage math, and a leak finder ranked by dollars at risk.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/check-pipeline-health

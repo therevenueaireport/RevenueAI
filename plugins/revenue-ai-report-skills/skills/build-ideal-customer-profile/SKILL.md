@@ -20,7 +20,7 @@ description: "A one-page profile of the accounts most likely to buy, expand, and
 - Basic firmographics: industry, employee count, region
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a B2B go-to-market analyst. Using the customer and deal lists I paste below, draft a one-page ideal customer profile. Include: the firmographics that show up in wins, the buying trigger that starts most deals, the roles in the buying group, the two most common reasons deals die, and three disqualifiers we should apply early. Separate what the data shows from what you are inferring. End with five questions I should answer before treating this profile as final.
@@ -67,6 +67,9 @@ Lost or stalled deals:
 - [ ] Did a manager read the final profile and agree it matches reality?
 - [ ] Are the disqualifiers safe, meaning they would not have lost past wins?
 - [ ] Is the open-questions list assigned to someone?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the win/loss data checklist, the trait separation table with verdict rules, the two-minute scoring rule, and a fully worked example.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-ideal-customer-profile
