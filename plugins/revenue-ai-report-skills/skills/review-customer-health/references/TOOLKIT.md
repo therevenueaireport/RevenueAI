@@ -232,6 +232,7 @@ The step most teams skip, and the one that makes the next read better. One row p
 | Invented tone | "Customer is frustrated" with no quoted ticket text | Ask for the quote |
 | Internal-only actions | All three actions are "review," "discuss," "flag" | Prompt 5 |
 | Missing unknowns | No "what we do not know" section | Prompt 1 lists untracked categories |
+| Automated outreach to an unhappy account | An AI-drafted check-in or upsell goes to a red account | Human sends anything customer-facing on yellow or red accounts. This is the customer success failure named in [the Eight Seats, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/eight-seats) |
 
 ---
 

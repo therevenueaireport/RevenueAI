@@ -149,6 +149,8 @@ Next review: [date, one quarter out]
    After a pause: owner reviews within [2] business days: fix, restart, or retire.
 ```
 
+**Make the policy pass PROOF.** Two of the five checks in [PROOF, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/proof) are governance in one line each: Owner has a name, and Failure mode is clear. Every row in the tool register should pass both before it is approved.
+
 ### Kill process detail
 
 | Trigger | Who can pull it | First action | Within 2 business days |
@@ -160,6 +162,8 @@ Next review: [date, one quarter out]
 
 ---
 
+**Record every kill.** When a tool is retired, log the reason with the codes from [the Reversal Ledger, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/reversal-ledger): DATA, HALLUCINATION, DIAGNOSTIC, ECONOMICS, INTEGRATION, ADOPTION. Add the sunk spend. After a few quarters the log shows which kind of failure your company keeps buying.
+
 ## 6. Proportionality: what to do at your size
 
 Do not hand a 200-person company an enterprise compliance program.
@@ -169,6 +173,8 @@ Do not hand a 200-person company an enterprise compliance program.
 | Up to ~150 | Revenue operations lead or COO | Quarterly survey + expense scan | One page | Tool-native logs where available |
 | ~150-500 | Named RevOps or ops leader with CFO sponsorship | Quarterly, all four sources | One page + approved-tool list | Required for any customer-facing workflow |
 | ~500-1,000 | Named owner plus security and legal partners | Quarterly, plus continuous app-list monitoring | One page + short standards appendix | Central logging and spend caps for all AI calls touching customer data |
+
+**Size is one input; maturity is the other.** On [the L1 to L6 AI Maturity Ladder, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/ai-maturity-ladder), getting shadow tools into the light is L3 work and central logging with spend caps per workflow is L4 work. Once more than a couple of AI workflows touch customers or revenue data, central logging stops being optional, whatever your headcount.
 
 ---
 

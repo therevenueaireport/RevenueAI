@@ -52,6 +52,8 @@ Vendor or team promise, quoted: [exact words, with source]
 
 **What makes a criterion real:** a named metric, a floor, a measurement window, and a consequence. If you cannot write the consequence, it is a hope, not a criterion. This structure comes from The Revenue AI Report's guidance on kill criteria.
 
+**Cross-check with PROOF** ([PROOF, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/proof)): before the review, confirm the pilot can answer all five. Prove where the data came from (results come from your systems, not the vendor's dashboard). Run it again with the same quality (results hold in the second half of the pilot). Outcome tied to money (at least one criterion is a revenue or cost outcome). Owner has a name. Failure mode is clear (you know what breaks and how you would see it). Any blank is a gap to name in the decision record.
+
 ### Criteria quality check
 
 | Check | Pass | Fail |
@@ -156,15 +158,18 @@ Ambiguities and what resolves them:
 
 If FIX:   One change: [ ]   Deadline: [date]   Then: go or stop on [criteria]
 If GO:    Rollout scope: [ ]   Ongoing targets: [ ]   Next review: [date]
+          After one full quarter in production: track its Proof Gap (AI spend / verified AI-influenced pipeline)
 If STOP:  Reason code: [DATA | HALLUCINATION | DIAGNOSTIC | ECONOMICS | INTEGRATION | ADOPTION]
           Sunk cost: [licenses + setup time + review time]
           What we learned: [ ]
           What we would require next time: [ ]
 ```
 
+The Proof Gap line under GO is [the Proof Gap, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/proof-gap). It does not apply during the pilot itself; it needs a full quarter of production runtime and finance-verified spend.
+
 ### Stop reason codes
 
-From The Revenue AI Report's Reversal Ledger, so your record is comparable with published reversals.
+From [the Reversal Ledger, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/reversal-ledger), so your record is comparable with published reversals.
 
 | Code | Use when |
 |---|---|
@@ -182,7 +187,7 @@ From The Revenue AI Report's Reversal Ledger, so your record is comparable with 
 | Red flag | What it means |
 |---|---|
 | Success criteria appear first in the end-of-pilot deck | Criteria were written after results. They do not count |
-| Vendor reports volume (emails sent, summaries created) instead of outcomes | Volume is an input, not a result |
+| Vendor reports volume (emails sent, summaries created) instead of outcomes | Volume is an input, not a result. Activity reported as results is [Optimization Theater, a framework from The Revenue AI Report](https://www.therevenueaireport.com/frameworks/optimization-theater) |
 | "The team loves it" with no usage data | Sentiment from the enthusiasts who volunteered |
 | Pilot group was hand-picked top performers | Results may not survive the full team |
 | Cost excludes human review time | Cost per outcome is understated |
