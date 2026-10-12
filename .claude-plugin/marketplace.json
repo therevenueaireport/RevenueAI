@@ -85,6 +85,27 @@
         "storytelling"
       ],
       "license": "CC-BY-4.0"
+    },
+    {
+      "name": "brand-distinctiveness",
+      "source": "./plugins/brand-distinctiveness",
+      "description": "Audit any B2B or AI brand 0-24 across eight distinctive brand assets, gate on positioning first, and build the one asset your category left open, with a brand-manager orchestrator and one skill per asset.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "brand",
+        "distinctiveness",
+        "distinctive-brand-assets",
+        "positioning",
+        "mental-availability",
+        "b2b",
+        "marketing"
+      ],
+      "license": "CC-BY-4.0"
     }
   ]
 }
