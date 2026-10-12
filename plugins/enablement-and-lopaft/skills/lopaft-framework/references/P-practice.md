@@ -29,18 +29,18 @@ Practice is deliberate, low-consequence repetition. It is not a test, and nobody
 
 ## 2. The science you are applying
 
-| Principle | Originator | What it means for Practice |
+| Principle | Research base | What it means for Practice |
 |---|---|---|
-| Deliberate practice | K. Anders Ericsson | Improvement comes from practice with a specific goal, full focus, immediate feedback, and difficulty just beyond current ability. Repetition alone is not deliberate practice. |
-| Zone of proximal development | Lev Vygotsky | The useful zone is what the learner can do with help but not yet alone. Practice lives there. |
-| Scaffolding | Wood, Bruner and Ross | Temporary support (scripts, prompts, simplified scenarios) that is removed as competence grows. |
-| Self-efficacy | Albert Bandura | The strongest source of belief that "I can" is mastery experience: succeeding at a real attempt. Practice manufactures early mastery experiences. |
-| Social learning | Albert Bandura | People learn from watching and being watched by peers. Triads and group practice use this. |
-| Affective filter | Stephen Krashen | Anxiety blocks acquisition. LOPAFT is explicit: Practice must be safe. |
-| Psychological safety | Amy Edmondson | Teams learn when members believe they will not be punished for mistakes. |
-| Desirable difficulties | Robert Bjork | Some difficulty (variation, spacing, interleaving) slows practice performance and improves long-term retention. |
-| Interleaving | Rohrer; Kornell and Bjork | Mixing problem types after initial learning improves the ability to choose the right approach. |
-| Deep practice | Daniel Coyle (The Talent Code) | Slow, error-focused, chunked practice at the edge of ability. |
+| Deliberate practice | Expertise research | Improvement comes from practice with a specific goal, full focus, immediate feedback, and difficulty just beyond current ability. Repetition alone is not deliberate practice. |
+| Zone of proximal development | Developmental psychology | The useful zone is what the learner can do with help but not yet alone. Practice lives there. |
+| Scaffolding | Developmental psychology | Temporary support (scripts, prompts, simplified scenarios) that is removed as competence grows. |
+| Self-efficacy | Self-efficacy research | The strongest source of belief that "I can" is mastery experience: succeeding at a real attempt. Practice manufactures early mastery experiences. |
+| Social learning | Social-learning research | People learn from watching and being watched by peers. Triads and group practice use this. |
+| Affective filter | Language-acquisition research | Anxiety blocks acquisition. LOPAFT is explicit: Practice must be safe. |
+| Psychological safety | Team-learning research | Teams learn when members believe they will not be punished for mistakes. |
+| Desirable difficulties | Memory research | Some difficulty (variation, spacing, interleaving) slows practice performance and improves long-term retention. |
+| Interleaving | Memory research | Mixing problem types after initial learning improves the ability to choose the right approach. |
+| Deep practice | Skill-acquisition and myelination research | Slow, error-focused, chunked practice at the edge of ability. |
 
 ---
 
@@ -56,7 +56,7 @@ Do not practice the whole call first. Break the skill into sub-skills, isolate o
 | Isolate | Drill only that sub-skill, many short reps, with a partner who pushes back on that element only | 10 reps of D3: partner gives vague pain, rep must get a buyer-confirmed number |
 | Integrate | Combine with previously isolated sub-skills in a realistic scenario | Full 15-minute discovery call, D1-D5, partner improvises |
 
-This sequence mirrors how athletic coaching progresses a technique: introduce it, isolate it against increasing resistance, then integrate it into live, unscripted play. The LOPAFT author note cites athletic coaching science (Matt Thornton / Straight Blast Gym) as a source for this kind of progression.
+This sequence mirrors how athletic coaching progresses a technique: introduce it, isolate it against increasing resistance, then integrate it into live, unscripted play. The LOPAFT author note cites athletic coaching science as a source for this kind of progression.
 
 **Isolation rules**
 - One sub-skill per drill. If the rep is working on D3, the partner does not punish weak D1.
@@ -215,7 +215,7 @@ Write 4-6 personas per skill. Rotate them so reps cannot memorize answers.
 
 ## 6. Practice in the AI era
 
-AI changes Practice more than any other step. LOPAFT's AI role at P: AI tutors and simulators give unlimited practice; the Socratic method keeps the learner thinking.
+AI changes Practice more than any other step. LOPAFT's AI role at P: AI tutors and simulators give unlimited practice; question-first coaching keeps the learner thinking.
 
 | Shift | Implication |
 |---|---|
@@ -230,7 +230,7 @@ AI changes Practice more than any other step. LOPAFT's AI role at P: AI tutors a
 3. **Calibrate the simulator's scoring.** Same rule as call review: score a sample of simulated sessions by hand and compare before trusting the tool's feedback.
 4. **Keep scores private.** Simulator scores follow the same safety rules as human practice scores. No leaderboards of AI-detected weakness.
 5. **Keep humans in the loop.** AI roleplay adds volume; it does not replace the triad. Peer practice builds vicarious learning, scoring skill, and team norms that solo AI practice does not.
-6. **Use Socratic prompts.** Configure the AI coach to ask "what did you notice when the buyer said X?" before telling the rep the answer. Telling first skips the thinking.
+6. **Use question-first prompts.** Configure the AI coach to ask "what did you notice when the buyer said X?" before telling the rep the answer. Telling first skips the thinking.
 
 **Practicing judgment of AI output.** When the AI drafts the review, summary, or email, the rep must practice catching what is wrong. Build drills where the correct answer is "this output contains an error, here it is."
 - Give reps AI call reviews with one planted error. The rep finds it.

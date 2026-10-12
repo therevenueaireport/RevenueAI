@@ -31,7 +31,7 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Two-by-two matrix | Prioritization and segmentation | Impact versus effort; market attractiveness versus ability to win | prioritization | `svg:two_by_two` |
 | Nine-box matrix | More granular prioritization | Segment attractiveness x competitive position | prioritization | `svg:grid` |
 | Portfolio map | Showing investments across dimensions | Products by growth rate and strategic fit | portfolio | `chart` |
-| Wardley-style evolution map | Showing maturity of capabilities | Custom vs. productized vs. commodity AI components | maturity | `svg:scatter_labels` |
+| Capability evolution map | Showing maturity of capabilities | Custom vs. productized vs. commodity AI components | maturity | `svg:scatter_labels` |
 | Value chain diagram | Showing how value is created | Awareness -> evaluation -> purchase -> adoption -> expansion | sequence | `svg:chevron` |
 | Ecosystem map | Showing stakeholders and dependencies | Customer, partners, platforms, influencers, data providers | system | `svg:orbit` |
 | System map | Showing interdependent components | AI system, data sources, governance, workflows, users | system | `svg:network` |

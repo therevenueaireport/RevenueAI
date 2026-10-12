@@ -16,7 +16,7 @@ Contents: 1. The three renderers · 2. Spec conventions · 3. Surface recipes (p
 
 List what exists: `render_svg.py --types`, `chart.py --kinds`. Print a starting spec: `render_svg.py --example flywheel`, `chart.py --example line`. Every example is also saved in `assets/examples/` (diagram specs as `<type>.json`, chart specs as `chart_<kind>.json`).
 
-Catalog routes that need a library the scripts do not bundle (Sankey, alluvial, treemap, sunburst, marimekko, bump, cohort heatmaps, calendar heatmap, box/violin, fan chart): use §5.
+Catalog routes that need a library the scripts do not bundle (Sankey, alluvial, treemap, sunburst, mosaic, bump, cohort heatmaps, calendar heatmap, box/violin, fan chart): use §5.
 
 ## 2. Spec conventions (both scripts)
 
@@ -33,13 +33,13 @@ Catalog routes that need a library the scripts do not bundle (Sankey, alluvial, 
 ```
 
 - `highlight` is how you make the annotated-chart pattern: list the index(es) of the story element; everything else is drawn in `context` gray. Leave it empty when all elements matter equally.
-- Sizes: 1600×900 for 16:9 slides; 1600×1200 for documents; 1080×1080 (square) or 1200×627 (landscape) for LinkedIn; 1080×1350 for portrait social.
+- Sizes: 1600×900 for 16:9 slides; 1600×1200 for documents; 1080×1080 (square) or 1200×627 (landscape) for professional-network posts; 1080×1350 for portrait social.
 - Units: put currency symbols first (`"$M"`, `"$K"`) and suffixes last (`"%"`, `"x"`, `" hrs/wk"`); the scripts format `$12.0M`, `+$4.8M`, `42%` correctly.
 - Always run `python scripts/audit_visual.py spec.json --type <type>` before rendering. Fix any FAIL (topic title) and take WARNs seriously (too many elements, missing source).
 
 ## 3. Surface recipes
 
-### 3a. PowerPoint (pptx) — with your deck tool
+### 3a. Slide decks (PPTX) — with your deck tool
 
 Use whatever deck tool or library you already work with (python-pptx below) for deck mechanics; this recipe covers only how visuals land on slides.
 
@@ -90,7 +90,7 @@ for i, hexcol in enumerate(["C7CBD1", "2563EB", "C7CBD1"]):
 - Sizes: 1080×1080 square, 1200×627 link-preview, 1080×1350 portrait. Set `"width"`/`"height"` in the spec.
 - Fewer elements than a slide: ≤ 4 steps, ≤ 5 nodes, one highlight. Bump label sizes if the renderer's defaults look small at square aspect (edit the `size=` arguments or post-scale).
 - `hero_stat`, `compare_bars` (two-number contrast), `before_after`, `chevron`, `flywheel`, `two_by_two`, and `staircase` are the most shareable forms.
-- Export PNG at scale 2; LinkedIn compresses, so avoid thin 1px lines and light-gray text under 14px.
+- Export PNG at scale 2; social platforms compress images, so avoid thin 1px lines and light-gray text under 14px.
 
 ## 4. Native-shape rebuilds in pptx
 
@@ -117,7 +117,7 @@ Always apply the same color roles (accent / accent2 / risk / context) to native 
 |---|---|
 | Sankey / alluvial | `plotly.graph_objects.Sankey` → `fig.write_image()` (needs kaleido) or an HTML artifact; color the one flow that matters, gray the rest |
 | Treemap / sunburst | `plotly.express.treemap` / `sunburst`; ≤ 2 levels visible |
-| Marimekko | matplotlib: variable-width `bar()` with `left` offsets from cumulative segment sizes |
+| Mosaic (variable-width stacked bar) | matplotlib: variable-width `bar()` with `left` offsets from cumulative segment sizes |
 | Bump chart | matplotlib lines of rank per period; invert y; label at both ends |
 | Cohort heatmap / calendar heatmap | `seaborn.heatmap` with a single-hue sequential palette; annotate cells |
 | Box / violin | `seaborn.boxplot` / `violinplot`; gray boxes, accent for the segment in question |

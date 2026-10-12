@@ -26,7 +26,7 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Gauge or dial | Showing status against a threshold (only when the audience already understands the scale) | Health score in a familiar 0-100 scale | target | `shapes` |
 | Dot plot | Comparing many values cleanly | Conversion rate by campaign | comparison | `chart` |
 | Lollipop chart | A lighter alternative to bars | Pipeline contribution by source | comparison | `chart` |
-| Cleveland dot plot | Comparing two values per category | Current vs. target conversion rates | comparison | `chart` |
+| Two-value dot plot | Comparing two values per category | Current vs. target conversion rates | comparison | `chart` |
 | Dumbbell chart | Showing the distance between two values | Pre- versus post-AI productivity | before_after | `svg:dumbbell` |
 | Scatter plot | Showing relationships and outliers | Spend versus pipeline; satisfaction versus retention | relationship | `chart` |
 | Bubble chart | Adding a third variable to a scatter plot | Market size, growth, and competitive intensity | relationship | `chart` |
@@ -40,7 +40,7 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Pareto chart | Showing the few drivers behind most impact | Top objections causing most deal losses | ranking | `chart` |
 | Treemap | Showing hierarchical composition | Revenue by region, segment, and account | composition | `chart` |
 | Sunburst chart | Showing layered hierarchy | Product portfolio or customer segmentation | composition | `chart` |
-| Marimekko chart | Showing two dimensions of market composition | Segment size and vendor share | composition | `chart` |
+| Mosaic (variable-width stacked bar) chart | Showing two dimensions of market composition | Segment size and vendor share | composition | `chart` |
 | Funnel chart | Showing stage conversion | Visitor -> lead -> opportunity -> customer | flow | `svg:funnel` |
 | Conversion staircase | A more analytical funnel | Stage counts plus conversion and leakage | flow | `svg:funnel` |
 | Sankey diagram | Showing flow between stages or categories | Lead source -> sales motion -> outcome | flow | `chart` |

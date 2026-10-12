@@ -70,7 +70,7 @@ For newsletter, media, category-creation, and thought-leadership work (also in `
 - Newsletter growth loop — high-value issue → forwarding → subscription → data → better issue (`flywheel`)
 - Content IP ladder — post → newsletter → report → webinar → workshop → advisory product (`ladder`)
 - Signature-series architecture — flagship report, podcast, newsletter, events, community (`orbit`)
-- Distribution ecosystem map — owned audience, LinkedIn, YouTube, partners, search, communities (`orbit`)
+- Distribution ecosystem map — owned audience, social networks, video platforms, partners, search, communities (`orbit`)
 - Creator operating system — research, production, publishing, distribution, analytics, repurposing (`chevron`, with `loop_back`)
 - Content performance tree — reach, engagement, trust, leads, pipeline, revenue (`tree`)
 - Thought-leadership wedge — sharp thesis first, category later (`wedge`)

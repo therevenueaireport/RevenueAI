@@ -13,7 +13,7 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Newsletter growth loop | High-value issue -> forwarding -> subscription -> data -> better issue | How the newsletter grows itself | loop | `svg:flywheel` |
 | Content IP ladder | Post -> newsletter -> report -> webinar -> workshop -> advisory product | How content becomes intellectual property and products | maturity | `svg:ladder` |
 | Signature-series architecture | Flagship report, podcast, newsletter, events, community | How the flagship properties relate | architecture | `svg:orbit` |
-| Distribution ecosystem map | Owned audience, LinkedIn, YouTube, partners, search, communities | Where content travels | system | `svg:orbit` |
+| Distribution ecosystem map | Owned audience, social networks, video platforms, partners, search, communities | Where content travels | system | `svg:orbit` |
 | Creator operating system | Research, production, publishing, distribution, analytics, repurposing | The weekly content machine | sequence | `svg:chevron` |
 | Content performance tree | Reach, engagement, trust, leads, pipeline, revenue | How content metrics roll up to revenue | hierarchy | `svg:tree` |
 | Thought-leadership wedge | A sharp thesis that earns attention before expanding into a broader category | Narrow POV wedge into category ownership | positioning | `svg:wedge` |

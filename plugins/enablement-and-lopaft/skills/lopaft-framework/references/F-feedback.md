@@ -31,17 +31,17 @@ Feedback in LOPAFT is a measurement, not a check-in. "How did it go?" is a conve
 
 ## 2. The science you are applying
 
-| Principle | Originator | What it means for Feedback |
+| Principle | Research base | What it means for Feedback |
 |---|---|---|
-| Forgetting curve | Hermann Ebbinghaus | Without review, recall drops steeply soon after learning, then levels off. Each well-timed review flattens the curve. |
-| Spacing effect | Ebbinghaus; many later researchers | Reviews spread over time produce more durable learning than the same reviews massed together. |
-| Retrieval practice | Roediger and Karpicke | Recalling or performing from memory strengthens learning more than re-reading or re-watching. |
-| Leitner system | Sebastian Leitner | Items you get right move to longer review intervals; items you miss move back to short ones. A simple way to run spacing by individual. |
-| Three feedback questions | Hattie and Timperley | Where am I going? (feed up) How am I going? (feed back) Where to next? (feed forward) |
-| Feedback can backfire | Kluger and DeNisi | Feedback interventions do not always improve performance; a meaningful share make it worse, especially when feedback draws attention to the self rather than the task. |
-| SBI | Center for Creative Leadership | Situation, Behavior, Impact: anchor feedback in a specific moment and an observable behavior. |
-| Feedforward | Marshall Goldsmith | Focus on the next attempt, not a post-mortem on the last one. |
-| Statistical process control | Walter Shewhart | Not every week-to-week change is real. Separate signal from noise before reacting. |
+| Forgetting curve | Memory research | Without review, recall drops steeply soon after learning, then levels off. Each well-timed review flattens the curve. |
+| Spacing effect | Memory research, widely replicated | Reviews spread over time produce more durable learning than the same reviews massed together. |
+| Retrieval practice | Testing-effect research | Recalling or performing from memory strengthens learning more than re-reading or re-watching. |
+| Box-based spaced review | Spaced-review practice | Items you get right move to longer review intervals; items you miss move back to short ones. A simple way to run spacing by individual. |
+| Three feedback questions | Feedback research | Where am I going? (feed up) How am I going? (feed back) Where to next? (feed forward) |
+| Feedback can backfire | Meta-analytic feedback research | Feedback interventions do not always improve performance; a meaningful share make it worse, especially when feedback draws attention to the self rather than the task. |
+| Situation-Behavior-Impact | Leadership-development practice | Situation, Behavior, Impact: anchor feedback in a specific moment and an observable behavior. |
+| Feedforward | Executive-coaching practice | Focus on the next attempt, not a post-mortem on the last one. |
+| Statistical process control | Quality-engineering research | Not every week-to-week change is real. Separate signal from noise before reacting. |
 
 ---
 
@@ -69,7 +69,7 @@ The learner scores first, then sees the coach or AI score. The gap between the t
 
 ### Pattern E: Spaced reinforcement schedule
 
-Rule of thumb: expanding intervals after initial learning, adjusted per person by performance (Leitner logic).
+Rule of thumb: expanding intervals after initial learning, adjusted per person by performance (box-based review logic).
 
 | Touch | When (after initial practice) | Format | Time |
 |---|---|---|---|
@@ -81,7 +81,7 @@ Rule of thumb: expanding intervals after initial learning, adjusted per person b
 | 6 | Day 60 | Retrieval scenario on far-transfer situations | 10 min |
 | 7 | Day 90 | Delayed check: live calls plus a teach-back (see T-teach.md) | 30 min |
 
-Leitner rule: if the learner performs at standard at a touch, the next interval expands. If not, the next touch returns to the previous interval for that behavior.
+Box-review rule: if the learner performs at standard at a touch, the next interval expands. If not, the next touch returns to the previous interval for that behavior.
 
 **Retrieval, not re-exposure.** Each touch asks the learner to recall or perform, not to rewatch the training. Re-watching feels productive and does less.
 
@@ -138,7 +138,7 @@ Feedback targets the transition from Level 3 to Level 4. Feedback never fully en
 | 16-19 | Rehearse | Rep rehearses the adjusted moment once, out loud |
 | 19-20 | Feedforward commitment | Rep states when they will use it next; manager logs it |
 
-### 5.2 Coaching note (SBI plus feedforward)
+### 5.2 Coaching note (Situation-Behavior-Impact plus feedforward)
 
 ```
 Rep: ______   Date: ______   Focus behavior: ______
@@ -268,7 +268,7 @@ AI call review changes the economics of Feedback. A manager could listen to a co
 - `A-application.md`: Feedback runs on live application.
 - `T-teach.md`: next step for reps holding at standard across spaced checks.
 - `O-observe.md`: the rubric and anchors Feedback measures against.
-- `enablement-measure`: calibration gap, behavior change rate, and Kirkpatrick-level metrics.
+- `enablement-measure`: calibration gap, behavior change rate, and four-level training-evaluation metrics.
 - `enablement-coach`: manager feedback quality.
 - `metric-health-dashboard`: signal versus noise on skill trends.
 

@@ -1,6 +1,6 @@
 ---
 name: "account-priority-buckets"
-description: "Grade an account list on FIT, PAIN, MOMENT and CONFIDENCE using any data source or enrichment tool (CSV, CRM export, Clay, Apollo, ZoomInfo, manual research) and sort it into Action, Research, Monitor and Deprioritize buckets with Account Context drafts."
+description: "Grade an account list on FIT, PAIN, MOMENT and CONFIDENCE using any data source or enrichment tool (CSV, CRM export, an enrichment or data tool, manual research) and sort it into Action, Research, Monitor and Deprioritize buckets with Account Context drafts."
 ---
 
 # Account priority buckets (no quote, no PAIN)
@@ -40,7 +40,7 @@ becomes unavailable rather than guessing. Where a default is used, say so in the
 | **MOMENT weights** | points per signal type | default is the signal library from Jonathan Kvarfordt's GTM AI OS framework: public pain quote 10, competitor dissatisfaction 8, new executive 6, job posting 5, tech installed 4, funding 3, engagement 3. Say the default is in use |
 | **First-party evidence** | anything the installer already holds per account: call quotes, CRM notes, review excerpts, web visits, content downloads, webinar attendance | PAIN can only come from public statements found in Step 5; engagement scores as unobserved |
 | **Where the evidence lives** | which system holds call notes and engagement (CRM, call recorder, marketing automation, a spreadsheet) and how to export it | ask; never assume a CRM |
-| **Enrichment source** | where firmographics, tech stack, funding, executive hires and job postings come from: columns already on the list, a CRM or data-warehouse export, an enrichment tool (Clay, Apollo, ZoomInfo, Crunchbase, BuiltWith or similar), or manual research | score only on what the list and first-party evidence carry; every signal with no source stays in the output as unobserved |
+| **Enrichment source** | where firmographics, tech stack, funding, executive hires and job postings come from: columns already on the list, a CRM or data-warehouse export, an enrichment tool, a contact or company database, a funding database, a technographic lookup, or manual research | score only on what the list and first-party evidence carry; every signal with no source stays in the output as unobserved |
 | **Spend ceiling** | maximum credits or dollars this run may spend, if the enrichment source bills per call | ask before Step 4; stop at the ceiling. Not needed when every source is a file you already hold |
 
 **If an answer sheet is present beside this skill, load it and ask only for what it does not cover.**
@@ -70,14 +70,14 @@ Then confirm each source is reachable before relying on it:
 - **Files (CSV, spreadsheet, CRM or warehouse export):** open each one, report row count and the
   columns it carries, and map columns to ICP dimensions and signals. A column you cannot map is
   reported, not guessed.
-- **An enrichment tool with a CLI, API or connector (Clay, Apollo, ZoomInfo, Crunchbase or similar):**
-  run its cheapest identity or account check and name the workspace or account it reports. For Clay,
-  that is `clay whoami; echo "exit=$?"` and `clay --version`.
+- **An enrichment tool or database with a CLI, API or connector:** run its cheapest identity or
+  account check (a "who am I" or account-status call, plus its version command if it has a CLI) and
+  name the workspace or account it reports.
 - **Manual research:** say which signals the installer or a researcher will fill by hand and in what
   format.
 
-If a check fails, name the component and the one step that fixes it (for Clay, `clay login` or the
-Clay plugin's `setup` skill), then stop. Do not install, upgrade or fetch anything to repair a
+If a check fails, name the component and the one step that fixes it (usually the tool's login
+command or its connector's setup step), then stop. Do not install, upgrade or fetch anything to repair a
 platform.
 
 Where the work runs decides what it costs: the scoring, bucketing, hypotheses and message drafts run
@@ -160,7 +160,7 @@ signal date.
 2. **Load first-party evidence.** Attach quotes and engagement to their accounts by domain. A quote
    that cannot be matched to a domain is reported, not guessed.
 3. **Liveness.** A dead or acquired company enriches perfectly well on last-known data. Send a free
-   HTTP status request to each domain with a `User-Agent` header (in Clay, the `http-api-v2` action).
+   HTTP status request to each domain with a `User-Agent` header (any plain HTTP request action or script).
    If it fails, flag the account "liveness doubt" and exclude it from paid calls.
 
 Report what the free pass eliminated before any credit is spent.
@@ -176,14 +176,14 @@ the 10-account sample and stop for review.
    per-result pricing. Record exactly which endpoint, action or column you resolved for each signal.
    **If a named function or field is absent, say so and leave that signal unobserved. Never
    substitute the nearest thing.**
-   - *Clay:* `clay routines list --limit 100`, `clay routines get <id>` for `estimatedCreditCost`
-     (the list call omits it), and `clay workflows actions schema <packageId> <actionKey>` for real
-     inputs and any per-unit billing in the parameter descriptions. Record the
-     `(packageId, actionKey)` pair you resolved.
-   - *Apollo, ZoomInfo, Crunchbase and similar APIs:* check the endpoint's documented fields and
-     the credit cost per call or per record returned.
+   - *A tool with a function or action catalogue:* list the available functions, open each one you
+     plan to call for its estimated credit cost (list views often omit it) and its input schema,
+     including any per-unit billing in the parameter descriptions. Record the exact function or
+     action identifier you resolved.
+   - *A plain API or database:* check the endpoint's documented fields and the credit cost per call
+     or per record returned.
 2. Run Step 5 on **10 accounts** that survived Step 3. Read the reported cost off each response where
-   the tool reports one (in Clay, `metadata.upfrontCreditUsage.totalCost`), never the balance delta.
+   the tool reports one (a per-call usage or cost field in the response metadata), never the balance delta.
 3. Send **one message** with: the 10 rows as they would appear on the board, anything that looks
    wrong (a wrong-entity match, an empty arm), the actual credits spent, the projected total for the
    remaining accounts in the unit the installer thinks in, whether it fits the spend ceiling, and the
@@ -201,12 +201,12 @@ the examples are options, not requirements.
 
 | Signal | Typical sources (examples) | What goes in | What to verify | Confidence |
 |---|---|---|---|---|
-| FIT firmographics | columns already on the list; a CRM or warehouse export; a company-enrichment call (Apollo or ZoomInfo organization enrichment, Clay's managed **Enrich Company** function) | domain | exact headcount where present, else the band string compared as a band; industry; HQ region; confirm identity from the returned website, not just the domain you sent | Supported |
-| Tech installed | a technographic source (BuiltWith, Wappalyzer, HG Insights, Clay's managed **Website Technology Stack** function) or a technology column in the export | domain | one of the installer's replacement targets appears in the result; drop metadata pseudo-entries; flag a result that looks cut off (in Clay, exactly 8,192 characters) as truncated | Verified, noted "may be historical" |
-| New executive | a people search filtered by start date (Apollo or ZoomInfo people search, LinkedIn Sales Navigator, Clay's people-index new-hire lookup) filtered to the installer's persona seniority and titles | domain, persona titles | a start date inside the window, title matches a persona | Supported |
-| Job posting | a job-postings source that filters by seniority or department and returns a true total (the company's careers page, a job-board API, Apollo job postings, a Clay job-postings action with `jobCount`) | domain, persona function, window | at least one posting inside the window matching the persona function; record it as yes/no with the posting as evidence, never as a count | Supported |
-| Funding | a funding database (Crunchbase, PitchBook, Apollo or ZoomInfo funding fields, Clay's funding waterfall normalized through `company/fundingRound`) | domain | a dated round inside the window where the account raised the money; an investment the account made in another company is not its funding | Supported |
-| Public pain or competitor dissatisfaction | **standard enrichment tools do not discover these.** Two sources only: the installer's first-party evidence, and a public URL the installer names, fetched with any web fetch (in Clay, `scrape-website` with `outputFields: bodyText`) after a free HTTP status check | the URL | a verbatim quote from a named person at the account, with a date; a 404 or soft-404 is a miss | Verified if the page is the speaker's own post or review, otherwise Supported |
+| FIT firmographics | columns already on the list; a CRM or warehouse export; a company-enrichment call from an enrichment tool or company database | domain | exact headcount where present, else the band string compared as a band; industry; HQ region; confirm identity from the returned website, not just the domain you sent | Supported |
+| Tech installed | a technographic lookup tool or a technology column in the export | domain | one of the installer's replacement targets appears in the result; drop metadata pseudo-entries; flag a result that looks cut off (for example, one that ends exactly at a round character limit) as truncated | Verified, noted "may be historical" |
+| New executive | a people search filtered by start date (a contact database, a professional-network search tool, or an enrichment tool's new-hire lookup) filtered to the installer's persona seniority and titles | domain, persona titles | a start date inside the window, title matches a persona | Supported |
+| Job posting | a job-postings source that filters by seniority or department and returns a true total (the company's careers page, a job-board API, or an enrichment tool's job-postings action that returns a total count) | domain, persona function, window | at least one posting inside the window matching the persona function; record it as yes/no with the posting as evidence, never as a count | Supported |
+| Funding | a funding database, or the funding fields of a contact or company database or enrichment tool, normalized to one round record | domain | a dated round inside the window where the account raised the money; an investment the account made in another company is not its funding | Supported |
+| Public pain or competitor dissatisfaction | **standard enrichment tools do not discover these.** Two sources only: the installer's first-party evidence, and a public URL the installer names, fetched with any web fetch or page-scrape action that returns the body text, after a free HTTP status check | the URL | a verbatim quote from a named person at the account, with a date; a 404 or soft-404 is a miss | Verified if the page is the speaker's own post or review, otherwise Supported |
 | Engagement | installer's first-party data only (CRM activity, marketing automation, web analytics, an intent-data export) | the export from Step 1 | a dated event inside the window | Verified |
 
 News results are topical, not evidence. Before any news item counts, check that it names the account
@@ -254,16 +254,16 @@ liveness-doubt list, the weights, windows and cutoffs used, the source used for 
 
 | Bucket | Account | Fit | MOMENT (Inferred/Unknown share) | PAIN | Top evidence | Next action |
 |---|---|---|---|---|---|---|
-| Action, high | northwind.example | 8.7 | 19 (3 of 19) | Verified | VP Analytics, 12 days ago: "spending 30% of our data team's time on reconciliations" | outreach today |
-| Research | contoso.example | 8.1 | 11 (0 of 11) | none found | new Head of Data 38 days ago; Director of Data Engineering posting 9 days ago | find the pain, then reclassify |
-| Deprioritize | fabrikam.example | 3.2 | n/a | n/a | 140 employees, below the 500 floor (gate) | remove from list |
+| Action, high | acmefin.example | 8.7 | 19 (3 of 19) | Verified | VP Analytics, 12 days ago: "spending 30% of our data team's time on reconciliations" | outreach today |
+| Research | accountb.example | 8.1 | 11 (0 of 11) | none found | new Head of Data 38 days ago; Director of Data Engineering posting 9 days ago | find the pain, then reclassify |
+| Deprioritize | accountc.example | 3.2 | n/a | n/a | 140 employees, below the 500 floor (gate) | remove from list |
 
 ### Account Context
 
-**Northwind Fintech (northwind.example)**. Fit Score 8.7/10 on weights band 35, industry 30, region 22,
+**Acme Fintech (acmefin.example, a placeholder)**. Fit Score 8.7/10 on weights band 35, industry 30, region 22,
 replacement target 13: employee band 1 (1,200, exact count), industry 1 (fintech), region 1 (Canada),
 replacement target 0 (none detected). **PAIN, Verified:**
-VP Analytics, LinkedIn post, 12 days ago: "We're spending 30% of our data team's time on spreadsheet
+VP Analytics, public social post, 12 days ago: "We're spending 30% of our data team's time on spreadsheet
 reconciliations. That is not why I hired them." **MOMENT 19 (3 points Inferred):** public pain quote 10 (Verified); new
 Head of Data 44 days ago, joined from a data-warehouse vendor, 6 (Supported); Series C 97 days ago, 3,
 not counted, outside the 90-day window. Two pricing-page visits from the CTO, 3, Inferred from an IP
@@ -282,8 +282,8 @@ supplied]. Action: worth 20 minutes next week to compare notes?
 
 - Its logic comes from Jonathan Kvarfordt's written GTM AI OS framework and this interview. It has never run end to end, so nothing here has been checked against accounts that were worked and won.
 - The default MOMENT weights are the author's signal library; they have not been fit to any installer's close rates, and the framework itself says weights should come from your own win/loss data.
-- The tool and function names in Step 5 are examples taken from observations dated August 2026 and were not confirmed against live catalogues while writing this; Step 4 confirms them at runtime and the live catalogue or API reference wins.
-- Standard enrichment tools (Clay included) do not discover public pain statements, reviews or identified website visitors, so PAIN and engagement are only as complete as the evidence and URLs the installer supplies.
+- The source categories in Step 5 are examples, not a confirmed catalogue of any particular tool; Step 4 confirms what the chosen tool actually offers at runtime, and its live catalogue or API reference wins.
+- Standard enrichment tools do not discover public pain statements, reviews or identified website visitors, so PAIN and engagement are only as complete as the evidence and URLs the installer supplies.
 - A tech-stack detection can be historical, so "tech installed" may count a tool the account has already replaced.
 - Inferred and Unknown signals count toward MOMENT at full weight by the author's choice, so an account can move up a bucket on unverified intent; the board shows that share, and nothing here tests whether it predicts outcomes.
 - Enrichment cost per account is unmeasured and varies by tool; Step 4 measures it on 10 accounts before anything larger runs.
@@ -312,7 +312,7 @@ Ask: "Which of our 400 prioritized accounts should the team work this week?" Int
 500 to 2,500 (gate), regions US, Canada, UK (gate), industries SaaS, fintech, healthtech, replacement
 targets a legacy data platform and spreadsheet processes; High FIT cutoff 7.5; MOMENT window 90 days;
 personas VP Analytics and Head of Data (champion), CTO (economic buyer); default MOMENT weights; call
-quotes exported from their call recorder for 31 accounts; firmographics from the list itself, other signals from their enrichment tool (Clay in this run; Apollo or a CRM export would follow the same steps); spend ceiling set by the installer.
+quotes exported from their call recorder for 31 accounts; firmographics from the list itself, other signals from their enrichment tool (a CRM export or a different data tool would follow the same steps); spend ceiling set by the installer.
 
 Free pass: 400 rows, 6 duplicate domains collapsed to 394; 22 fail a gate on supplied headcount and go
 straight to Deprioritize; 3 fail the status probe and go to liveness doubt. 369 go to the batch. The

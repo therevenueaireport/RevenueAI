@@ -28,13 +28,13 @@ These expand the seven traits in the SKILL.md into teachable, assessable units. 
 
 | # | Sub-skill | Observable behavior | Science behind it |
 |---|---|---|---|
-| 1 | Select one skill | Names a single skill per rep per cycle, with evidence for the choice | Sweller's cognitive load theory: working memory is limited; one change at a time can be practiced |
+| 1 | Select one skill | Names a single skill per rep per cycle, with evidence for the choice | Cognitive load theory: working memory is limited; one change at a time can be practiced |
 | 2 | Observe with precision | Cites a timestamp or quote, separates what happened from what it meant | Argyris's ladder of inference: people jump from data to conclusions without noticing |
-| 3 | Diagnose the root cause | Distinguishes a knowledge gap, a skill gap, a will gap, and an environment gap | Mager and Pipe's performance analysis: "could they do it if their life depended on it?" |
-| 4 | Deliver one adjustment | Gives one behavior to change, framed forward | Kluger and DeNisi's review of feedback interventions: feedback that pulls attention toward the self rather than the task can make performance worse |
-| 5 | Practice in the session | Runs a short rehearsal of the adjustment before the session ends | Ericsson's deliberate practice: focused reps on a specific weakness with immediate feedback |
-| 6 | Secure a commitment and follow up | Ends with a specific, dated feedforward commitment and checks it next time | Spaced repetition (Ebbinghaus's forgetting curve): reinforcement must return before the skill decays |
-| 7 | Keep it safe | Rep talks more than the manager, admits mistakes, brings their own bad calls | Edmondson's psychological safety; the affective filter principle in LOPAFT's Practice step |
+| 3 | Diagnose the root cause | Distinguishes a knowledge gap, a skill gap, a will gap, and an environment gap | Classic performance analysis: "could they do it if their life depended on it?" |
+| 4 | Deliver one adjustment | Gives one behavior to change, framed forward | A large meta-analytic review of feedback interventions: feedback that pulls attention toward the self rather than the task can make performance worse |
+| 5 | Practice in the session | Runs a short rehearsal of the adjustment before the session ends | Deliberate practice research: focused reps on a specific weakness with immediate feedback |
+| 6 | Secure a commitment and follow up | Ends with a specific, dated feedforward commitment and checks it next time | Spaced repetition (the forgetting curve): reinforcement must return before the skill decays |
+| 7 | Keep it safe | Rep talks more than the manager, admits mistakes, brings their own bad calls | Psychological safety research; the affective filter principle in LOPAFT's Practice step |
 
 ---
 
@@ -223,7 +223,7 @@ For each scenario, managers decide: knowledge, skill, will, or environment.
 | Rep would do it, but the CRM stage requires a proposal date before discovery is complete | Environment | Fix the process, not the rep |
 | Rep sends AI-drafted follow-ups unedited, says the tool "is usually right" | Skill (judgment) + belief | Seeded-error drill; Observe good vs. bad outputs |
 
-The "could they do it if their life depended on it?" test from Mager and Pipe separates skill gaps (no) from will and environment gaps (yes). Coaching fixes skill gaps. It does not fix environment gaps; escalate those.
+The "could they do it if their life depended on it?" test from classic performance analysis separates skill gaps (no) from will and environment gaps (yes). Coaching fixes skill gaps. It does not fix environment gaps; escalate those.
 
 ### Exercise A: Score the same session (calibration, 40 minutes)
 
@@ -247,13 +247,13 @@ Managers rate each statement 1 (weak) to 4 (strong) on: specific, behavioral, on
 | "At 14:20 when they asked about price, you gave a number before asking about budget" | 2 | Specific and behavioral, but backward-looking with no adjustment |
 | "At 14:20 when they asked about price, you gave a number. Next time, try asking what they've budgeted first. Let's practice it now" | 4 | Specific, one behavior, forward, includes practice |
 
-Use the SBI structure (Situation, Behavior, Impact, from the Center for Creative Leadership) for the observation, then add the forward step (what to do next time, sometimes called feedforward, a term popularized by Marshall Goldsmith).
+Use the Situation-Behavior-Impact structure, a widely used leadership-development model, for the observation, then add the forward step (what to do next time, sometimes called feedforward, a term from executive-coaching practice).
 
 ---
 
 ## 6. Coaching Question Banks
 
-Questions beat statements because the rep's answer is a retrieval act, and retrieval strengthens learning (Roediger and Karpicke's work on the testing effect). Use 3-5 per session, not the whole bank.
+Questions beat statements because the rep's answer is a retrieval act, and retrieval strengthens learning (published research on the testing effect). Use 3-5 per session, not the whole bank.
 
 ### Opening and commitment check
 - "Last time you said you'd try [X] on [call]. What happened?"
@@ -325,7 +325,7 @@ Built around three judgments a rep must make on AI output: is it true, is it rig
 | Evidence first | Choose from the rep's numbers and scored observations, not impressions. Stage conversion is often the clearest pointer: find the stage where this rep loses deals at a higher rate than the team |
 | Upstream first | If two skills are weak, coach the one earlier in the sale. Downstream skills cannot hold when upstream ones fail |
 | Highest leverage | The skill whose improvement would change the most deals this quarter |
-| Within reach | Pick a skill the rep can improve with support now (Vygotsky's zone of proximal development). Skills with missing prerequisites go later |
+| Within reach | Pick a skill the rep can improve with support now (the zone of proximal development). Skills with missing prerequisites go later |
 | Rep's view included | Ask the rep what they want to work on first. If the data disagrees, coach the data and show the rep why |
 
 ### The cycle
@@ -374,7 +374,7 @@ AI call review gives managers coverage they never had: analysis on every call, n
 4. **Rep access first.** Reps can see their own call data and scores. A rep who reviews their own call before the session arrives with a self-assessment, which is the best coaching material there is.
 5. **Calibrate before you trust.** Compare model scores to human scores on a sample before anyone coaches from them. Drop or rewrite rubric lines where agreement is low. Consistent is not the same as correct: a model applies the wrong parts of a rubric just as consistently as the right parts.
 6. **A dispute path.** One simple way for a rep to say "this score is wrong," read by a human. Disputes improve the rubric.
-7. **Watch for Goodhart's law.** When a measure becomes a target, people optimize the measure. If reps learn that talk ratio is scored, talk ratio will move, and the conversation may not improve. Rotate what is emphasized and always pair a metric with a clip.
+7. **Watch for metric gaming.** When a measure becomes a target, people optimize the measure. If reps learn that talk ratio is scored, talk ratio will move, and the conversation may not improve. Rotate what is emphasized and always pair a metric with a clip.
 
 ### Team data charter (agree before rollout)
 
@@ -448,7 +448,7 @@ Supports the "affective environment" rows of the SKILL.md audit.
 
 ## 10. Diagnosing a Manager Who Is Not Coaching
 
-Do not assume a capability gap. Training a manager who lacks time, incentive, or belief produces a trained manager who still does not coach. Use Thomas Gilbert's Behavior Engineering Model as the frame: performance depends on the environment (information, resources, incentives) as well as the individual (knowledge, capacity, motives). Check the environment first; it is cheaper to fix and more often the cause.
+Do not assume a capability gap. Training a manager who lacks time, incentive, or belief produces a trained manager who still does not coach. Use a well-established behavior-engineering model of performance as the frame: performance depends on the environment (information, resources, incentives) as well as the individual (knowledge, capacity, motives). Check the environment first; it is cheaper to fix and more often the cause.
 
 ### Diagnostic table
 

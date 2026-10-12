@@ -148,7 +148,7 @@ Points within the control limits represent normal variation. Points outside repr
 
 ### Detection Rules
 
-**Standard Western Electric rules for identifying special cause variation:**
+**Standard control-chart run rules for identifying special cause variation:**
 
 | Rule | Pattern | What It Signals |
 |---|---|---|
@@ -195,7 +195,7 @@ When a metric moves unexpectedly, run this assessment before sounding the alarm.
 
 2. **Seasonality check**: Is this movement consistent with known seasonal patterns? Compare to the same period last year, not just last week.
 
-3. **SPC check**: Does this trigger any of the Western Electric rules, or is it within normal variance?
+3. **SPC check**: Does this trigger any of the control-chart run rules, or is it within normal variance?
 
 4. **Confounder check**: Did anything else change during this period? New product launch, pricing change, team restructure, major holiday, competitor move? Coincident changes make attribution uncertain.
 

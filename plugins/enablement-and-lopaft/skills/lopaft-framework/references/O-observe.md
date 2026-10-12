@@ -30,16 +30,16 @@ Observe produces three things:
 
 ## 2. The science you are applying
 
-| Principle | Originator | What it means for Observe |
+| Principle | Research base | What it means for Observe |
 |---|---|---|
-| Observational learning (modeling) | Albert Bandura | People learn by watching models. Four processes must all work: attention, retention, reproduction, motivation. |
-| Vicarious experience | Albert Bandura (self-efficacy) | Seeing a similar peer succeed raises belief that "I can do this." Peer models beat expert models for this. |
-| Worked example effect | John Sweller | Novices learn more from studying worked examples than from solving problems unaided. |
-| Expertise reversal | Slava Kalyuga | Worked examples help novices and can slow down advanced learners. Fade them as competence grows. |
-| Contrasting cases | Schwartz and Bransford | Side-by-side cases that differ on one feature help learners notice what matters. |
-| Cognitive apprenticeship: modeling | Collins, Brown and Newman | The expert makes thinking visible by narrating decisions, not just showing the result. |
+| Observational learning (modeling) | Social-learning research | People learn by watching models. Four processes must all work: attention, retention, reproduction, motivation. |
+| Vicarious experience | Self-efficacy research | Seeing a similar peer succeed raises belief that "I can do this." Peer models beat expert models for this. |
+| Worked example effect | Cognitive-load research | Novices learn more from studying worked examples than from solving problems unaided. |
+| Expertise reversal | Cognitive-load research | Worked examples help novices and can slow down advanced learners. Fade them as competence grows. |
+| Contrasting cases | Learning-science research | Side-by-side cases that differ on one feature help learners notice what matters. |
+| Cognitive apprenticeship: modeling | Apprenticeship-learning research | The expert makes thinking visible by narrating decisions, not just showing the result. |
 
-### Bandura's four processes as a design checklist
+### The four processes of observational learning as a design checklist
 
 | Process | Question | Design move |
 |---|---|---|

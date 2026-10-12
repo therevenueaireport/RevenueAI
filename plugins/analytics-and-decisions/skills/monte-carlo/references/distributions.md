@@ -14,7 +14,7 @@ business variables.
 
 ## Distribution Catalog
 
-### Normal (Gaussian)
+### Normal (bell curve)
 **Shape:** Symmetric bell curve around the mean
 **Use when:** Variable is the sum of many small independent factors
 **Business examples:** Daily website traffic (large sites), aggregated monthly revenue (stable business)

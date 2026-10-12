@@ -5,7 +5,7 @@ description: >
   visuals, GTM and AI frameworks, metaphors, and deck storyboards - from a 250-visual library with bundled
   SVG/PNG/matplotlib renderers, a selector script, and a takeaway-title audit. Brand-neutral; applies any palette.
   ALWAYS use when the user is making or improving a slide deck, presentation, keynote, webinar, board/exec deck,
-  one-pager, report figure, dashboard, LinkedIn or newsletter graphic, or says "what visual/chart/diagram should I
+  one-pager, report figure, dashboard, social or newsletter graphic, or says "what visual/chart/diagram should I
   use", "make this visual", "turn this into a flywheel/funnel/2x2/roadmap/waterfall/framework", "storyboard this
   deck", "this slide doesn't land", "make it look designed", or wants a strategy, workflow, AI system, or operating
   model explained visually - even if they only say "add a chart" or "put this on a slide". Use alongside your deck,
@@ -40,7 +40,7 @@ Everything routes through four questions: *What should the audience understand a
 
 Three shapes of request arrive; handle the one you have:
 
-- **Single visual** ("make a funnel for this", "chart these numbers", "a graphic for LinkedIn") → STEPS 1–5 once.
+- **Single visual** ("make a funnel for this", "chart these numbers", "a graphic for a social post") → STEPS 1–5 once.
 - **Deck / document with many visuals** ("build the board deck", "add visuals to this report") → STEP 1 for each slide, then a storyboard (STEP 2b), then build.
 - **Advice only** ("what visual should I use for…") → STEPS 1–3 and stop at the spec; offer to build.
 

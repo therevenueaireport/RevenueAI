@@ -29,9 +29,9 @@ This skill operates in two modes:
 
 ---
 
-## The Kirkpatrick-Adjacent Metrics Stack
+## The Four-Level Metrics Stack
 
-Kirkpatrick's four levels of training evaluation (Reaction, Learning, Behavior, Results) are the industry standard framework. This skill extends them with leading indicators at each level — signals that tell you what's coming before the lagging metrics confirm it.
+The four-level training evaluation model (Reaction, Learning, Behavior, Results) is the industry standard framework. This skill extends them with leading indicators at each level — signals that tell you what's coming before the lagging metrics confirm it.
 
 | Level | What It Measures | Lagging Indicator | Leading Indicator |
 |---|---|---|---|
@@ -40,7 +40,7 @@ Kirkpatrick's four levels of training evaluation (Reaction, Learning, Behavior, 
 | 3 — Behavior | Did behavior change? | Manager observation score, skill assessment | Practice session quality, self-assessment accuracy |
 | 4 — Results | Did outcomes move? | Win rate, conversion, revenue, retention | Leading skill scores trending upward, behavior change rate |
 
-Load `references/MEASURE-metrics.md` for full metric definitions by Kirkpatrick level and LOPAFT step, data sources, collection cadences, comparison-group design, dashboard layout, Phillips ROI calculation, and the executive reporting template.
+Load `references/MEASURE-metrics.md` for full metric definitions by evaluation level and LOPAFT step, data sources, collection cadences, comparison-group design, dashboard layout, conservative training-ROI calculation, and the executive reporting template.
 
 ---
 

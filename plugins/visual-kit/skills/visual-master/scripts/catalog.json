@@ -1,5 +1,5 @@
 {
- "_about": "Visual library catalog for the visual-master skill. Each entry: id, name, family, best_for, example, claim (what kind of claim it answers), tags (search vocabulary), render (preferred build method: chart=matplotlib/native chart, svg=render_svg.py type name, shapes=pptx shapes/HTML+CSS, text=typographic slide).",
+ "_about": "Visual library catalog for the visual-master skill. Each entry: id, name, family, best_for, example, claim (what kind of claim it answers), tags (search vocabulary), render (preferred build method: chart=Python plotting library/native chart, svg=render_svg.py type name, shapes=pptx shapes/HTML+CSS, text=typographic slide).",
  "visuals": [
   {
    "id": "hero_stat",
@@ -349,8 +349,8 @@
    "render": "chart"
   },
   {
-   "id": "cleveland",
-   "name": "Cleveland dot plot",
+   "id": "dot_compare",
+   "name": "Two-value dot plot",
    "family": "data",
    "best_for": "Comparing two values per category",
    "example": "Current vs. target conversion rates",
@@ -560,8 +560,8 @@
    "render": "chart"
   },
   {
-   "id": "marimekko",
-   "name": "Marimekko chart",
+   "id": "mosaic",
+   "name": "Mosaic (variable-width stacked bar) chart",
    "family": "data",
    "best_for": "Showing two dimensions of market composition",
    "example": "Segment size and vendor share",
@@ -569,7 +569,7 @@
    "tags": [
     "segment size and share",
     "market composition",
-    "mekko"
+    "variable-width stacked bar"
    ],
    "render": "chart"
   },
@@ -1143,7 +1143,7 @@
     "3x3",
     "nine box",
     "attractiveness position",
-    "GE McKinsey"
+    "portfolio matrix"
    ],
    "render": "svg:grid"
   },
@@ -1163,14 +1163,13 @@
    "render": "chart"
   },
   {
-   "id": "wardley",
-   "name": "Wardley-style evolution map",
+   "id": "evolution_map",
+   "name": "Capability evolution map",
    "family": "strategy",
    "best_for": "Showing maturity of capabilities",
    "example": "Custom vs. productized vs. commodity AI components",
    "claim": "maturity",
    "tags": [
-    "wardley",
     "evolution",
     "genesis custom product commodity",
     "value chain evolution"
@@ -2041,7 +2040,7 @@
     "change management",
     "org stages",
     "awareness to reinforcement",
-    "ADKAR"
+    "individual change stages"
    ],
    "render": "svg:chevron"
   },
@@ -2223,16 +2222,16 @@
   },
   {
    "id": "five_forces",
-   "name": "Porter's Five Forces",
+   "name": "Five competitive forces",
    "family": "gtm",
    "best_for": "Showing industry structure",
    "example": "Supplier power, buyer power, substitutes, rivalry, entrants",
    "claim": "market",
    "tags": [
     "five forces",
-    "Porter",
     "industry structure",
-    "rivalry"
+    "rivalry",
+    "competitive forces"
    ],
    "render": "svg:orbit"
   },
@@ -2260,7 +2259,7 @@
    "tags": [
     "opportunity solution tree",
     "outcome to solutions",
-    "Teresa Torres"
+    "discovery tree"
    ],
    "render": "svg:tree"
   },
@@ -2426,28 +2425,27 @@
    "render": "svg:journey_curve"
   },
   {
-   "id": "storybrand",
-   "name": "StoryBrand-style journey",
+   "id": "customer_hero_journey",
+   "name": "Customer-as-hero journey",
    "family": "gtm",
    "best_for": "Centering the customer",
    "example": "Customer problem -> guide -> plan -> success",
    "claim": "argument",
    "tags": [
-    "StoryBrand",
     "customer as hero",
     "guide plan success"
    ],
    "render": "svg:chevron"
   },
   {
-   "id": "value_prop_canvas",
-   "name": "Value proposition canvas",
+   "id": "value_prop_fit",
+   "name": "Value proposition fit map",
    "family": "gtm",
    "best_for": "Connecting buyer needs and offer",
    "example": "Jobs, pains, gains versus products, relievers, creators",
    "claim": "customer",
    "tags": [
-    "value proposition canvas",
+    "value proposition fit",
     "jobs pains gains",
     "fit"
    ],
@@ -2990,14 +2988,14 @@
    "render": "svg:spectrum"
   },
   {
-   "id": "copilot_workflow",
-   "name": "Copilot workflow",
+   "id": "assistant_workflow",
+   "name": "Embedded-assistant workflow",
    "family": "ai",
    "best_for": "Showing embedded assistance",
    "example": "User prompt -> context -> model -> suggestion -> human action",
    "claim": "sequence",
    "tags": [
-    "copilot",
+    "embedded assistant",
     "assistant workflow",
     "prompt to suggestion"
    ],
@@ -3566,7 +3564,7 @@
    "id": "distribution_ecosystem",
    "name": "Distribution ecosystem map",
    "family": "editorial",
-   "best_for": "Owned audience, LinkedIn, YouTube, partners, search, communities",
+   "best_for": "Owned audience, social networks, video platforms, partners, search, communities",
    "example": "Where content travels",
    "claim": "system",
    "tags": [

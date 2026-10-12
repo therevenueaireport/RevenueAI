@@ -28,25 +28,25 @@ T is the proof point. If you can teach it, you own it. If you cannot, you do not
 
 ## 2. The science you are applying
 
-| Principle | Originator | What it means for Teach |
+| Principle | Research base | What it means for Teach |
 |---|---|---|
-| Revised Bloom's taxonomy | Anderson and Krathwohl (revising Bloom) | Six cognitive process levels: Remember, Understand, Apply, Analyze, Evaluate, Create. Teaching and creation exercises push learners to the top three. |
-| Learning by teaching | Fiorella and Mayer, among others | Preparing to teach and, more so, actually explaining to others improves the teacher's own learning. |
-| Self-explanation effect | Michelene Chi | Learners who explain material to themselves while learning understand it more deeply. |
-| Generation effect | Slamecka and Graf | Information you generate is remembered better than information you read. |
-| Retrieval practice | Roediger and Karpicke | Teaching without notes is retrieval practice under realistic demand. |
-| Cognitive apprenticeship: articulation and reflection | Collins, Brown and Newman | The learner states their reasoning and compares it to an expert's. |
-| Reciprocal teaching | Palincsar and Brown | Learners take turns leading: questioning, clarifying, summarizing, predicting. |
-| Jigsaw | Elliot Aronson | Each learner masters one piece and teaches it to the group. Everyone teaches. |
-| Peer instruction | Eric Mazur | Learners answer, then convince a peer, then answer again. Explaining to a peer corrects misconceptions. |
+| Revised taxonomy of learning objectives | Educational-objectives research | Six cognitive process levels: Remember, Understand, Apply, Analyze, Evaluate, Create. Teaching and creation exercises push learners to the top three. |
+| Learning by teaching | Learning-science research | Preparing to teach and, more so, actually explaining to others improves the teacher's own learning. |
+| Self-explanation effect | Cognitive-science research | Learners who explain material to themselves while learning understand it more deeply. |
+| Generation effect | Memory research | Information you generate is remembered better than information you read. |
+| Retrieval practice | Testing-effect research | Teaching without notes is retrieval practice under realistic demand. |
+| Cognitive apprenticeship: articulation and reflection | Apprenticeship-learning research | The learner states their reasoning and compares it to an expert's. |
+| Reciprocal teaching | Reading-comprehension research | Learners take turns leading: questioning, clarifying, summarizing, predicting. |
+| Jigsaw | Cooperative-learning research | Each learner masters one piece and teaches it to the group. Everyone teaches. |
+| Peer instruction | Classroom-teaching research | Learners answer, then convince a peer, then answer again. Explaining to a peer corrects misconceptions. |
 
-### Bloom is not the Four Levels
+### The taxonomy of learning objectives is not the Four Levels
 
-Do not confuse the two. The Four Levels of Competency describe where a learner is on a specific skill (from not knowing the gap exists to doing it without thought). Bloom's taxonomy describes the cognitive demand of a task (from remembering to creating). Teach uses Bloom to design tasks that move a learner across the Four Levels.
+Do not confuse the two. The Four Levels of Competency describe where a learner is on a specific skill (from not knowing the gap exists to doing it without thought). The revised taxonomy of learning objectives describes the cognitive demand of a task (from remembering to creating). Teach uses the taxonomy to design tasks that move a learner across the Four Levels.
 
-### Bloom levels mapped to Teach exercises
+### Taxonomy levels mapped to Teach exercises
 
-| Bloom level | What the learner does | Teach exercise (revenue example) |
+| Taxonomy level | What the learner does | Teach exercise (revenue example) |
 |---|---|---|
 | Remember | Recall facts or terms | Not Teach. This is Learn and spaced retrieval. |
 | Understand | Explain in own words | Teach-back: explain D3 and why it matters to a peer, no notes |
@@ -213,7 +213,7 @@ This matters more now, not less. When agents draft the email, summarize the call
 | Surface candidate clips the rep then selects and annotates | Answer the audience's questions on the rep's behalf |
 
 **AI-era Teach exercises that prove human judgment**
-- **Correct the machine, out loud.** The rep takes an AI call review of their own call, finds what it got wrong or missed, and teaches a peer why. This is Evaluate on Bloom and directly tests the second skill.
+- **Correct the machine, out loud.** The rep takes an AI call review of their own call, finds what it got wrong or missed, and teaches a peer why. This is Evaluate on the taxonomy and directly tests the second skill.
 - **Build the planted-error drill.** The rep creates an AI review with a realistic error for others to catch. To plant a good error, you must understand where the machine fails.
 - **Teach when not to use the tool.** The rep explains a situation where the AI output should not be acted on, and why.
 
@@ -225,7 +225,7 @@ This matters more now, not less. When agents draft the email, summarize the call
 
 **Teach starts per AE once they hold at standard in Application (from week 6), with team-wide teach-backs in week 9 and certification in week 10.**
 
-| Week | Teach activity | Bloom level |
+| Week | Teach activity | Taxonomy level |
 |---|---|---|
 | 2-5 | Informal teach-backs inside Practice triads ("tell your partner what went well and what didn't") | Understand |
 | 6-8 | AEs at standard: peer coach one AE on one behavior per week, manager reviews the note | Evaluate |

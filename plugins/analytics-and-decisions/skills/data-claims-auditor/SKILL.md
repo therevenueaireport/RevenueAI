@@ -44,8 +44,8 @@ Who produced this number, and what are their incentives?
 
 | Tier | Source Type | Default Trust | Incentive Risk |
 |---|---|---|---|
-| **Tier 1** | Peer-reviewed research, government statistics (BLS, Census), central bank data | High | Low — reputation-dependent, methodology transparent |
-| **Tier 2** | Established analyst firms (Gartner, Forrester, IDC), major consultancies (McKinsey, BCG), reputable academic working papers | Moderate-High | Moderate — methodology usually sound but often funded by vendors; read the fine print on sponsorship |
+| **Tier 1** | Peer-reviewed research, government statistics agencies, central bank data | High | Low — reputation-dependent, methodology transparent |
+| **Tier 2** | Established analyst firms, major consultancies, reputable academic working papers | Moderate-High | Moderate — methodology usually sound but often funded by vendors; read the fine print on sponsorship |
 | **Tier 3** | Industry associations, well-established trade publications, large-scale surveys with disclosed methodology | Moderate | Moderate — member/advertiser incentives may bias framing |
 | **Tier 4** | Vendor-produced "research," case studies, proprietary benchmarks, startup-funded surveys | Low-Moderate | High — the producer has a financial interest in the conclusion. This is marketing, not research. Treat accordingly |
 | **Tier 5** | Blog posts citing unnamed sources, social media claims, "according to experts" without attribution, press release statistics | Low | Very high — no accountability, no methodology, no verification path |
@@ -152,7 +152,7 @@ Market sizing is the most systematically inflated category of data claims in B2B
 
 1. **Identify the methodology**: Top-down (total market × penetration assumption) or bottom-up (count of potential buyers × average deal size). Top-down is easier to inflate.
 2. **Check the definition**: "AI market" and "AI agent market" and "conversational AI market" are different things reported with overlapping numbers. What's included?
-3. **Compare across analysts**: If Gartner says $40B and IDC says $65B for the "same" market, the definitions differ. The gap IS the insight.
+3. **Compare across analysts**: If two analyst firms put very different sizes on the "same" market, the definitions differ. The gap IS the insight.
 4. **Look at the CAGR**: >30% CAGR sustained over 5+ years is optimistic for any market. The base year matters enormously — a small base inflates percentage growth.
 5. **SAM is what matters**: TAM is a vanity metric. SAM (Serviceable Available Market) scoped to the user's actual addressable segment is the number worth tracking.
 
@@ -163,14 +163,14 @@ Vendor case studies are marketing assets, not research. Standard audit:
 1. **Was there a control group?** Almost never. Without a control, you cannot attribute the result to the product.
 2. **Cherry-picked customer?** Vendors select their best-performing customers for case studies. This is the top of the distribution, not the average experience.
 3. **Metric definition**: "3x pipeline" — from what baseline? Over what period? Compared to what alternative?
-4. **Hawthorne effect**: Customers in case studies know they're being measured and get extra attention from the vendor's CS team. This inflates results.
+4. **Observer effect**: Customers in case studies know they're being measured and get extra attention from the vendor's CS team. This inflates results.
 5. **Default verdict**: Treat as directional signal (the product can work) not as expected outcome (this is what you'll get).
 
 ### Competitor Performance Claims
 
 When a competitor claims market position, growth, or customer results:
 
-1. **Verify independently**: Can the claim be corroborated by Crunchbase, PitchBook, public filings, G2 reviews, or third-party coverage?
+1. **Verify independently**: Can the claim be corroborated by a funding database, public filings, independent peer-review sites, or third-party coverage?
 2. **Metric gaming**: "Fastest growing" can mean highest percentage growth off a tiny base. "Market leader" can mean most revenue, most customers, most funding, or most employees — whichever tells the best story.
 3. **Selection of timeframe**: Competitors choose the window that makes them look best. Compare across multiple timeframes when possible.
 4. **The press release test**: If the claim only appears in the company's own press release and nowhere else, treat it as unverified marketing.
@@ -181,7 +181,7 @@ When a competitor claims market position, growth, or customer results:
 
 - **statistical-reasoning**: The core framework. Data claims auditor is the specialized application of statistical-reasoning lenses to externally sourced data.
 - **bayesian-updater**: Audit results feed into belief updates. A Tier 1 source with strong methodology provides high-weight evidence. A Tier 4 vendor case study provides low-weight evidence. The update magnitude should reflect the audit tier.
-- **Content QA**: When the user is writing newsletters, LinkedIn posts, or reports that cite external data, this skill runs QA before publication. Credibility is built on intellectual rigor — one bad citation undermines it.
+- **Content QA**: When the user is writing newsletters, social posts, or reports that cite external data, this skill runs QA before publication. Credibility is built on intellectual rigor — one bad citation undermines it.
 - **monte-carlo**: When audited data is used as input for scenario modeling, the confidence level from the audit should inform the variance ranges in the simulation. Low-confidence inputs deserve wider uncertainty bands.
 - **Source log**: Track which sources and claim types the user encounters most frequently, and which tend to hold up vs. fall apart. Over time, this builds a source reliability database.
 

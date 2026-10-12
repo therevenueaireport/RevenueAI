@@ -1,6 +1,6 @@
 ---
 name: visual-gtm-market
-description: "Build a MARKET, CUSTOMER, or GTM visual for B2B positioning, category, product marketing, demand, and revenue. Use for TAM/SAM/SOM, market and category maps, perceptual positioning, competitive grids and battlecards, \"why now\" stacks, SWOT/Porter/PESTLE, segmentation, ICP cards, buying-committee and stakeholder maps, buyer journeys, message house and messaging pyramid, value-prop canvas, proof and evidence ladders, objection maps, funnels and pipeline coverage/hygiene, content engines and flywheels, lifecycle and land-and-expand, and ROI trees. Triggers on \"positioning map\", \"message house\", \"ICP\", \"buying committee\", \"pipeline coverage\", \"category map\", \"content engine\", or a GTM passage that visual-cue flagged. Renders via visual-master, which ships 5 signature GTM/AI visuals."
+description: "Build a MARKET, CUSTOMER, or GTM visual for B2B positioning, category, product marketing, demand, and revenue. Use for TAM/SAM/SOM, market and category maps, perceptual positioning, competitive grids and battlecards, \"why now\" stacks, SWOT/five competitive forces/PESTLE, segmentation, ICP cards, buying-committee and stakeholder maps, buyer journeys, message house and messaging pyramid, value-prop fit map, proof and evidence ladders, objection maps, funnels and pipeline coverage/hygiene, content engines and flywheels, lifecycle and land-and-expand, and ROI trees. Triggers on \"positioning map\", \"message house\", \"ICP\", \"buying committee\", \"pipeline coverage\", \"category map\", \"content engine\", or a GTM passage that visual-cue flagged. Renders via visual-master, which ships 5 signature GTM/AI visuals."
 ---
 
 # Visual GTM & Market
@@ -14,11 +14,11 @@ The highest-leverage family for B2B positioning, category creation, product mark
 | Market opportunity | TAM/SAM/SOM; market or category map |
 | A differentiated position | perceptual positioning map |
 | How we win vs alternatives | competitive grid / battlecard; feature matrix; competitive-alternatives map |
-| Urgency | "why now" stack; market-forces diagram; PESTLE / Porter / SWOT |
+| Urgency | "why now" stack; market-forces diagram; PESTLE / five competitive forces / SWOT |
 | Target customers | segmentation map; ICP card; account-tiering pyramid; persona card |
 | Who decides | buying-committee map; stakeholder-influence matrix |
 | The buyer's path | buyer journey; buyer-question ladder ("why change -> why now -> why us") |
-| Positioning & messaging | message house; messaging pyramid; narrative arc; value-prop canvas |
+| Positioning & messaging | message house; messaging pyramid; narrative arc; value-prop fit map |
 | Evidence behind claims | proof architecture; evidence ladder; objection map |
 | Attention -> revenue | demand engine; content engine / atomization; distribution waterfall; audience flywheel |
 | Pipeline | funnel with leakage; pipeline coverage; pipeline-hygiene map; win/loss map |

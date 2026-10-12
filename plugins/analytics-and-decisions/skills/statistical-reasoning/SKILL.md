@@ -86,7 +86,7 @@ Ask whether the data is large enough, representative enough, and contextualized 
 Statistical significance is not the same as practical significance. This lens asks: even if the pattern is real, does it matter?
 
 - **Magnitude**: How big is the effect in real-world terms? A "statistically significant" 0.3% improvement in email open rates is not worth re-architecting the nurture program.
-- **Cohen's d equivalent thinking**: Is this a small, medium, or large effect relative to the domain? Frame it in terms the user can act on.
+- **Standardized effect size thinking**: Is this a small, medium, or large effect relative to the domain? Frame it in terms the user can act on.
 - **Cost-benefit**: Does the size of the effect justify the cost of the action it implies? A real but tiny improvement might not be worth the engineering sprint to implement.
 
 ### Lens 4: Confidence & Uncertainty Calibration
@@ -167,7 +167,7 @@ When a number or claim is being used to drive a major decision and the statistic
 
 - **Monte Carlo**: When statistical reasoning identifies uncertainty, hand off to Monte Carlo for scenario modeling. Statistical reasoning diagnoses the uncertainty; Monte Carlo quantifies the range of outcomes.
 - **Pattern log**: After any significant statistical analysis, log the pattern for compounding. If certain types of claims keep needing the same correction (e.g., small sample sizes in pipeline reports), that pattern should inform future proactive activation.
-- **data-claims-auditor**: When writing newsletters, LinkedIn posts, or reports that cite data, QA the statistical claims before publication. Credibility depends on intellectual rigor — publishing a sloppy data claim damages it.
+- **data-claims-auditor**: When writing newsletters, social posts, or reports that cite data, QA the statistical claims before publication. Credibility depends on intellectual rigor — publishing a sloppy data claim damages it.
 
 ---
 
@@ -175,7 +175,7 @@ When a number or claim is being used to drive a major decision and the statistic
 
 These principles govern how the skill balances rigor with practicality:
 
-1. **Proportional depth**: Match the depth of analysis to the stakes of the decision. A Slack-level question gets a Slack-level answer with the key statistical insight. A board-level decision gets the full framework.
+1. **Proportional depth**: Match the depth of analysis to the stakes of the decision. A quick team-chat question gets a quick answer with the key statistical insight. A board-level decision gets the full framework.
 
 2. **Name the uncertainty, don't hide behind it**: "It depends" is not an answer. "It depends on whether the sample holds across segments — here's how to check" is an answer.
 

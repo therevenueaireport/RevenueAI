@@ -59,7 +59,7 @@ LOPAFT is a spiral, not a line. Each pass through the cycle advances the learner
 
 | Light | Change Type | Example | Required Intervention |
 |---|---|---|---|
-| Green | Informational — no behavior change | Salesforce field renamed | Slack message, email, Loom |
+| Green | Informational — no behavior change | CRM field renamed | Team chat message, email, short screen recording |
 | Yellow | Process adjustment — workflow shift | Updated call framework | Multi-channel comms + light reinforcement |
 | Red | Behavior change — new skill required | New sales motion, AI adoption | Full LOPAFT cycle, spaced repetition, verified |
 
@@ -98,7 +98,7 @@ This skill handles pedagogical logic only. For formatted outputs, chain to whate
 
 ## Author Note
 
-LOPAFT framework by Jonathan Kvarfordt. Grounded in elite athletic coaching science (Matt Thornton / Straight Blast Gym), myelination research (Daniel Coyle / The Talent Code), adult learning science (Malcolm Knowles / Andragogy), and Bloom's Taxonomy.
+LOPAFT framework by Jonathan Kvarfordt. Grounded in elite athletic coaching science, myelination and deep-practice research, adult learning science (andragogy), and the revised taxonomy of learning objectives.
 
 ---
 
@@ -128,7 +128,7 @@ Load when you need deep execution guidance, science, instruments, or design temp
 | `references/P-practice.md` | Practice environment design, social learning (triads), sub-skill isolation and integration, resistance ladders, scaffolding, AI roleplay |
 | `references/A-application.md` | Real-world deployment plans, transfer design, application ladders, change management, AI as co-pilot |
 | `references/F-feedback.md` | Spaced repetition scheduling, forgetting curve, expert and AI feedback systems, coaching session structure |
-| `references/T-teach.md` | Bloom's Taxonomy application, peer teaching design, creation exercises, Level 4 signals, certification |
+| `references/T-teach.md` | Learning-objectives taxonomy application, peer teaching design, creation exercises, Level 4 signals, certification |
 
 ---
 

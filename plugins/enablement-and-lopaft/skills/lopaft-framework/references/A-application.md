@@ -29,21 +29,21 @@ Application takes the practiced skill into an actual work situation. Not a simul
 
 ## 2. The science you are applying
 
-| Principle | Originator | What it means for Application |
+| Principle | Research base | What it means for Application |
 |---|---|---|
-| Transfer of training model | Baldwin and Ford | Transfer depends on three things: learner characteristics, training design, and the work environment (manager support, opportunity to use the skill). Most programs only design the second. |
-| Identical elements | Edward Thorndike | Transfer is more likely when the training situation shares elements with the work situation. |
+| Transfer of training model | Training-transfer research | Transfer depends on three things: learner characteristics, training design, and the work environment (manager support, opportunity to use the skill). Most programs only design the second. |
+| Identical elements | Early transfer research | Transfer is more likely when the training situation shares elements with the work situation. |
 | Near and far transfer | Learning science (widely used) | Near transfer (similar situation) comes first. Far transfer (different situation) needs explicit bridging. |
-| Implementation intentions | Peter Gollwitzer | "When situation X arises, I will do Y" plans make follow-through more likely than goal statements. |
-| Behavior model (B = MAP) | BJ Fogg | Behavior happens when motivation, ability, and a prompt converge. Make the new behavior easy and prompted in the workflow. |
-| ADKAR | Jeff Hiatt / Prosci | Individual change needs Awareness, Desire, Knowledge, Ability, Reinforcement. Application is where Ability is proven and Reinforcement begins. |
-| Success Case Method | Robert Brinkerhoff | Study the most and least successful appliers to find what in the environment made the difference. |
+| Implementation intentions | Goal-pursuit research | "When situation X arises, I will do Y" plans make follow-through more likely than goal statements. |
+| Behavior model (B = MAP) | Behavior-design research | Behavior happens when motivation, ability, and a prompt converge. Make the new behavior easy and prompted in the workflow. |
+| Five-stage individual change model | Change-management practice | Individual change needs awareness, desire, knowledge, ability, and reinforcement. Application is where Ability is proven and Reinforcement begins. |
+| Success case method | Training-evaluation research | Study the most and least successful appliers to find what in the environment made the difference. |
 
-### ADKAR and LOPAFT side by side
+### The five-stage change model and LOPAFT side by side
 
-ADKAR describes the change outcome; LOPAFT describes how to produce it. They align roughly as follows.
+The five-stage change model describes the change outcome; LOPAFT describes how to produce it. They align roughly as follows.
 
-| ADKAR | Produced mainly by |
+| Change stage | Produced mainly by |
 |---|---|
 | Awareness | L (gap surfacing) |
 | Desire | L (WHY stack), reinforced throughout |
@@ -73,7 +73,7 @@ Rule of thumb: move up a rung when the behavior meets standard on most eligible 
 
 Go live one behavior or sub-skill group at a time, in the same order as Practice. A rep at standard on D1-D2 applies those live while still practicing D3.
 
-### Pattern C: Engineer the environment (Baldwin and Ford)
+### Pattern C: Engineer the environment (the transfer-of-training model)
 
 | Environment factor | Design move |
 |---|---|
@@ -193,7 +193,7 @@ One adjustment for next call: ______
 
 Flags: attempted rate falling for 2 weeks; at-standard rate flat for 3 weeks; no debrief in 2 weeks. For telling real change from normal week-to-week noise, see metric-health-dashboard (control-chart rules).
 
-### 5.5 Success case interview (Brinkerhoff), 20 minutes
+### 5.5 Success case interview (the success case method), 20 minutes
 
 Interview the 2-3 strongest and 2-3 weakest appliers.
 

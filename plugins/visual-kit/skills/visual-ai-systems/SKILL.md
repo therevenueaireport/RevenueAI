@@ -1,6 +1,6 @@
 ---
 name: visual-ai-systems
-description: "Make an ABSTRACT AI or technology concept concrete without robot clip-art. Use for AI capability stacks, maturity models, use-case portfolios (impact x feasibility), agent architectures and swarms, human-AI division of labor, augmentation-vs-automation spectrums, copilot and agent loops, RAG and context-engineering maps, knowledge graphs, data lineage, trust boundaries, governance and guardrails, risk heatmaps, model-selection and build/buy/partner matrices, AI economics and ROI, autonomy ladders, confidence thresholds, signal-to-action architecture, and AI operating models and transformation roadmaps. Triggers on \"AI stack\", \"agent architecture\", \"how the agents hand off\", \"AI maturity\", \"governance/guardrails diagram\", \"signal to action\", or an AI-systems passage that visual-cue flagged. Renders via visual-master (incl. signature AI visuals)."
+description: "Make an ABSTRACT AI or technology concept concrete without robot clip-art. Use for AI capability stacks, maturity models, use-case portfolios (impact x feasibility), agent architectures and swarms, human-AI division of labor, augmentation-vs-automation spectrums, embedded-assistant and agent loops, RAG and context-engineering maps, knowledge graphs, data lineage, trust boundaries, governance and guardrails, risk heatmaps, model-selection and build/buy/partner matrices, AI economics and ROI, autonomy ladders, confidence thresholds, signal-to-action architecture, and AI operating models and transformation roadmaps. Triggers on \"AI stack\", \"agent architecture\", \"how the agents hand off\", \"AI maturity\", \"governance/guardrails diagram\", \"signal to action\", or an AI-systems passage that visual-cue flagged. Renders via visual-master (incl. signature AI visuals)."
 ---
 
 # Visual AI & Technology
@@ -16,7 +16,7 @@ Make abstract AI concrete **without robot clip-art**. These turn "we use AI" int
 | Which use cases first | use-case portfolio (impact x feasibility, risk as bubble size) |
 | Roles & handoffs among agents | agent architecture; agent swarm |
 | Who does what | human-AI division-of-labor map; augmentation-vs-automation spectrum |
-| Embedded assistance | copilot workflow; agent loop (observe -> plan -> act -> evaluate -> learn) |
+| Embedded assistance | embedded-assistant workflow; agent loop (observe -> plan -> act -> evaluate -> learn) |
 | Grounded AI | RAG diagram; context-engineering map |
 | Connected entities / provenance | knowledge graph; data-lineage map |
 | Safety & control | trust-boundary diagram; governance framework; guardrails stack; risk heatmap |

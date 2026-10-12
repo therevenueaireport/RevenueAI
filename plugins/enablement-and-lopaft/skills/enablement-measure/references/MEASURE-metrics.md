@@ -47,9 +47,9 @@ The most common enablement measurement error is treating adoption as success. "L
 
 Each metric has a definition, formula, source, cadence, and type. "Leading" means it moves before the business outcome. "Lagging" means it confirms after the fact.
 
-### 2.1 Kirkpatrick Level 1: Reaction (K1)
+### 2.1 Level 1: Reaction (K1)
 
-Donald Kirkpatrick's four levels (Reaction, Learning, Behavior, Results) are the base. K1 is the weakest evidence; collect it cheaply and do not over-weight it. Will Thalheimer's work on performance-focused learner surveys is the practical guide here: ask about likely application, not enjoyment.
+The four-level training evaluation model (Reaction, Learning, Behavior, Results) is the base. K1 is the weakest evidence; collect it cheaply and do not over-weight it. Published work on performance-focused learner surveys is the practical guide here: ask about likely application, not enjoyment.
 
 | Metric | Formula | Source | Cadence | Lead/Lag |
 |---|---|---|---|---|
@@ -69,7 +69,7 @@ Donald Kirkpatrick's four levels (Reaction, Learning, Behavior, Results) are the
 
 Code Q3 answers as Specific (names behavior and situation), Vague (names behavior only), or Empty. Shrinking Q3 specificity is an early stall signal (see `enablement-momentum`).
 
-### 2.2 Kirkpatrick Level 2: Learning (K2)
+### 2.2 Level 2: Learning (K2)
 
 | Metric | Formula | Source | Cadence | Lead/Lag |
 |---|---|---|---|---|
@@ -78,9 +78,9 @@ Code Q3 answers as Specific (names behavior and situation), Vague (names behavio
 | Confidence shift | Change in self-rated confidence on the target skill (1 to 5) | Pulse survey | Weekly or biweekly | Leading |
 | Retention check | Score on a 5-item retrieval quiz 2 to 4 weeks after the session, no notice | LMS or form | Spaced | Leading |
 
-Retention checks use retrieval practice (Roediger and Karpicke) as both measurement and reinforcement. A learner who passed the post-test but fails the spaced check has hit the Ebbinghaus forgetting curve; schedule Feedback reps, not another session.
+Retention checks use retrieval practice (the testing effect) as both measurement and reinforcement. A learner who passed the post-test but fails the spaced check has hit the forgetting curve; schedule Feedback reps, not another session.
 
-### 2.3 Kirkpatrick Level 3: Behavior (K3)
+### 2.3 Level 3: Behavior (K3)
 
 This is the level that most programs skip, and the one that matters most. Behavior is measured on live work, against a written rubric.
 
@@ -104,7 +104,7 @@ This is the level that most programs skip, and the one that matters most. Behavi
 
 **Inter-rater rule:** Before scoring begins, have every scorer (managers and any AI scorer) score the same 5 artifacts. If any two scorers differ by 2+ points on any artifact, run a calibration session before live scoring. Re-check calibration monthly. An uncalibrated rubric produces noise that looks like data.
 
-### 2.4 Kirkpatrick Level 4: Results (K4)
+### 2.4 Level 4: Results (K4)
 
 | Metric | Formula | Source | Cadence | Lead/Lag |
 |---|---|---|---|---|
@@ -118,9 +118,9 @@ This is the level that most programs skip, and the one that matters most. Behavi
 
 **Cohort rule:** Measure K4 on work that started after the program. A deal that was 80% done when the rep took the training is not evidence either way.
 
-### 2.5 Phillips Level 5: ROI
+### 2.5 Level 5: ROI
 
-Jack Phillips added a fifth level: return on investment, calculated after isolating the program's effect and converting it to money. Section 6 gives the method and a worked example.
+A conservative training-ROI method adds a fifth level: return on investment, calculated after isolating the program's effect and converting it to money. Section 6 gives the method and a worked example.
 
 ---
 
@@ -128,7 +128,7 @@ Jack Phillips added a fifth level: return on investment, calculated after isolat
 
 LOPAFT (Learn, Observe, Practice, Apply, Feedback, Teach) tells you which rung a learner or team is on. Each rung has a deliverable and a metric that proves the rung is working. When a rung metric is missing or failing, the rungs above it cannot hold. Fix the lowest failing rung first.
 
-| Step | Deliverable | Leading metric | Pass threshold (rule of thumb) | Kirkpatrick level |
+| Step | Deliverable | Leading metric | Pass threshold (rule of thumb) | Evaluation level |
 |---|---|---|---|---|
 | L: Learn | Session, SOP, launch doc | Knowledge check pass rate; R1 relevance | 80%+ pass; R1 mean 4.0+ | K1, K2 |
 | O: Observe | Examples library with good and bad samples | Calibration accuracy on good/bad classification | 80%+ agreement with standard | K2 |
@@ -185,9 +185,9 @@ Without a comparison group, any outcome change is confounded with everything els
 | Staggered rollout (stepped wedge) | All teams get the program, in waves; each wave serves as comparison for the next | Strong; politically easy | Most revenue orgs. Default choice |
 | Matched comparison | Pick non-program reps matched on tenure, segment, territory, baseline metric | Moderate | Program is opt-in or limited to one region |
 | Pre/post with trend adjustment | Compare cohort to its own baseline, adjusted for trailing trend and seasonality | Weak | No comparison possible. Label results "directional" |
-| Participant estimate (Phillips) | Participants and managers estimate % of improvement due to program, discounted by their confidence | Weakest, but structured | Last resort, or as a cross-check |
+| Participant estimate (training-ROI method) | Participants and managers estimate % of improvement due to program, discounted by their confidence | Weakest, but structured | Last resort, or as a cross-check |
 
-**Randomize teams, not reps.** Reps on the same team share a manager, a territory type, and Slack channels. Randomizing reps within a team leaks the program into the comparison group.
+**Randomize teams, not reps.** Reps on the same team share a manager, a territory type, and team chat channels. Randomizing reps within a team leaks the program into the comparison group.
 
 ### 5.2 Difference-in-differences
 
@@ -236,7 +236,7 @@ Review it before every readout. If a confounder hit only one group, say so in th
 
 ---
 
-## 6. ROI Calculation (Phillips Method)
+## 6. ROI Calculation (Conservative Training-ROI Method)
 
 ### 6.1 Formulas
 
@@ -249,7 +249,7 @@ Benefits are monetary values of isolated improvements, converted to profit contr
 
 ### 6.2 Conservative standards (apply all)
 
-Phillips' guiding principles are built to make ROI claims defensible. The ones that matter most for revenue teams:
+The method's guiding principles are built to make ROI claims defensible. The ones that matter most for revenue teams:
 
 1. **Isolate the effect.** Use the comparison group. If none, use participant estimates discounted by confidence.
 2. **Use profit contribution, not bookings.** Multiply incremental revenue by gross margin.
@@ -336,14 +336,14 @@ Break-even needs about 3 incremental wins in a year: $63,720 / ($28,000 x 0.75).
 
 ### 6.5 When you have no comparison group
 
-Use the Phillips participant-estimate method as a floor:
+Use the participant-estimate method as a floor:
 
 1. Ask each participant and their manager: "Of the improvement in [metric], what percent was caused by this program?" and "How confident are you in that estimate (0 to 100%)?"
 2. Adjusted attribution = estimated % x confidence %.
 3. Use the lower of the participant and manager figures.
 4. Label the result "estimate-based, not experimental."
 
-Pair it with the Brinkerhoff Success Case Method: survey the cohort, interview the 3 to 5 most successful and 3 to 5 least successful learners, and document what the successful ones did differently and what blocked the others. Success cases explain the number and give you the next program's fixes.
+Pair it with the success case method: survey the cohort, interview the 3 to 5 most successful and 3 to 5 least successful learners, and document what the successful ones did differently and what blocked the others. Success cases explain the number and give you the next program's fixes.
 
 ---
 
@@ -390,7 +390,7 @@ One page. Four labeled rows, top to bottom in chain order. Never blend rows.
 
 **Tile spec:** Each tile shows current value, baseline, target, and a sparkline of the last 8 periods. Status color only when a pre-set rule fires, not when the number "looks low."
 
-**Alert rules:** Use the rule-of-thumb stall thresholds from `enablement-momentum` during the first 8 weeks. Once you have 8+ periods of data, switch to the Western Electric control chart rules in `metric-health-dashboard`.
+**Alert rules:** Use the rule-of-thumb stall thresholds from `enablement-momentum` during the first 8 weeks. Once you have 8+ periods of data, switch to the standard control-chart run rules in `metric-health-dashboard`.
 
 **Guardrail tile:** Every outcome push needs a guardrail. If the program targets conversion, guard average deal size and cycle length. If it targets activity volume, guard reply rate and meeting quality.
 
@@ -454,7 +454,7 @@ DECISION REQUESTED: [Continue / Expand to wave 2 / Change / Stop]
 | Claiming bookings as ROI | Overstates value | Convert to profit contribution with gross margin |
 | Reporting a single-quarter win rate change as proof | Usually within noise | Report as directional; use behavior chain; re-read next quarter |
 | Blending metrics into one health score | Adoption hides behavior failure | Keep rows separate |
-| Leaderboards during Practice | Kills safety, invites gaming (Goodhart's law) | Rep-level detail to managers only |
+| Leaderboards during Practice | Kills safety, invites gaming (a measure that becomes a target stops measuring) | Rep-level detail to managers only |
 
 ---
 

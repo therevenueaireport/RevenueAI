@@ -72,7 +72,7 @@ In AI terms: explaining what a prompt is, why context matters, how models work p
 
 **This is the step most commonly skipped.** Before someone can practice, they need a reference point — a concrete example of excellent vs. poor execution. "Here's a good prompt, here's a bad prompt."
 
-Without the O, practice becomes aimless. People try things but have no benchmark to orient against. This is where modeling and demonstration live. Having students contrast a custom GPT vs. raw ChatGPT is a strong O-step exercise.
+Without the O, practice becomes aimless. People try things but have no benchmark to orient against. This is where modeling and demonstration live. Having students contrast a custom-configured AI assistant with a raw, unconfigured one is a strong O-step exercise.
 
 **Competency movement:** Deepens Conscious Incompetence — now they know what good looks like and can feel the gap.
 
@@ -80,7 +80,7 @@ Without the O, practice becomes aimless. People try things but have no benchmark
 
 Deliberate, low-consequence repetition. The framework explicitly frames this as "not a test, not your job depending on it." The effective filter concept (from language education) maps directly here — high anxiety (fight or flight) kills learning.
 
-A group exercise where nothing is graded, a sandbox GPT they can break, a role-play scenario — all serve the P function.
+A group exercise where nothing is graded, a sandbox AI assistant they can break, a role-play scenario — all serve the P function.
 
 **Competency movement:** Moves from Conscious Incompetence → Conscious Competence.
 
@@ -126,7 +126,7 @@ As the skill scaffolds upward in complexity, you re-enter LOPAFT at the next lay
 |---|---|---|---|
 | **L** — Learn | Knowledge transfer: concepts, vocabulary, mental models | Level 1 → Level 2 (awareness of gap) | AI delivers content; human provides the WHY |
 | **O** — Observe | See good AND bad examples; build reference benchmarks | Deepens Level 2 (what good looks like) | Compare AI outputs; expert vs. novice prompts |
-| **P** — Practice | Safe, low-stakes repetition; no judgment, no grades | Level 2 → Level 3 (can do with effort) | AI tutors with Socratic method; unlimited practice |
+| **P** — Practice | Safe, low-stakes repetition; no judgment, no grades | Level 2 → Level 3 (can do with effort) | AI tutors using question-first coaching; unlimited practice |
 | **A** — Apply | Real-world context; real stakes, real output | Stress-tests Level 3 | AI as co-pilot; student provides judgment |
 | **F** — Feedback | Directional calibration: toward good or away? | Accelerates Level 3 → Level 4 | AI: instant mechanical feedback. Human: judgment |
 | **T** — Teach | Articulate understanding to others; forces synthesis | Level 3 → Level 4 (mastery) | NO AI. Proves knowledge lives in the student |
@@ -137,7 +137,7 @@ As the skill scaffolds upward in complexity, you re-enter LOPAFT at the next lay
 
 1. **Most education stops at L.** That's the problem. Not AI. Not students. The system.
 2. **O is the most commonly skipped step.** Without observing quality, practice is aimless.
-3. **The danger of AI shortcuts is they collapse the entire LOPAFT journey.** A student who prompts ChatGPT to "write my essay" stays at L forever.
+3. **The danger of AI shortcuts is they collapse the entire LOPAFT journey.** A student who prompts an AI assistant to "write my essay" stays at L forever.
 4. **LOPAFT is a diagnostic.** When faculty feel students are unprepared, ask: Which stage are they stuck at? Different blockages need different remedies.
 5. **It's a spiral, not a line.** You re-enter LOPAFT at each new complexity level. Mastery of one layer becomes the L of the next.
 6. **The affective filter matters.** High anxiety kills learning. Practice (P) must be safe. Stakes come at Application (A).
@@ -153,7 +153,7 @@ These are WRONG. Do not use these:
 - F does NOT stand for "Finalize" or "Frameworks"
 - T does NOT stand for "Test," "Track," or "Tools"
 - The Four Levels are NOT Novice/Intermediate/Advanced/Expert
-- The Four Levels are NOT Bloom's Taxonomy levels
+- The Four Levels are NOT the levels of the revised taxonomy of learning objectives
 
 The correct acronym is: **Learn, Observe, Practice, Apply, Feedback, Teach.**
 The correct levels are: **Unconscious Incompetence, Conscious Incompetence, Conscious Competence, Unconscious Competence.**

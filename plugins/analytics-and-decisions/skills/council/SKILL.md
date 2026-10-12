@@ -7,7 +7,7 @@ description: "Pressure-test a real decision with five independent AI advisors, b
 
 One AI answer gives you one perspective and no way to judge it. The council runs a decision through five advisors who think in deliberately conflicting ways, has them review each other blind, and hands everything to a chairman who must commit to a real answer, a first step, and the tripwires that would reverse it.
 
-Adapted from Andrej Karpathy's LLM Council (independent answers, anonymous peer review, chairman synthesis), using sub-agents with different thinking lenses instead of different models.
+Built on a published multi-model council method (independent answers, anonymous peer review, chairman synthesis), using sub-agents with different thinking lenses instead of different models.
 
 ---
 
@@ -63,7 +63,7 @@ Generic advice comes from thin context. Spend up to 60 seconds and 3 to 5 source
 
 1. Files the user attached or named
 2. User memory, when memory tools exist: profile, preferences, and any notes that match the decision
-3. A connected folder or Google Drive, only for files the user referenced or that obviously match (for example pricing data for a pricing decision)
+3. A connected folder or cloud drive, only for files the user referenced or that obviously match (for example pricing data for a pricing decision)
 4. Prior council transcripts on the same topic
 5. A project CLAUDE.md or memory/ folder, if present
 

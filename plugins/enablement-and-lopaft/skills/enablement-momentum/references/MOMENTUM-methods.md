@@ -22,20 +22,20 @@ Three curves run through every behavior-change program. The stall happens where 
 
 The valley sits where novelty has dropped and payoff has not yet arrived, usually weeks 3 to 6. Learners are at Competency Level 3, Conscious Competence. The new behavior is slower and clumsier than the old habit, and the old habit is still available.
 
-William Bridges called this the neutral zone in his transition model: the old way has ended, the new way is not yet natural. People in the neutral zone are uncomfortable and look for an exit. Your job is to make the neutral zone shorter, safer, and visibly worth it.
+Published transition research calls this the neutral zone: the old way has ended, the new way is not yet natural. People in the neutral zone are uncomfortable and look for an exit. Your job is to make the neutral zone shorter, safer, and visibly worth it.
 
 **What the science says to design for:**
 
 | Principle | Originator | Design implication |
 |---|---|---|
-| Self-efficacy has four sources: mastery experiences, vicarious experience, verbal persuasion, physiological and emotional state | Albert Bandura | Early wins (mastery), peer models (vicarious), specific manager encouragement (persuasion), safe practice (emotional state) |
-| Small, visible progress in meaningful work raises motivation | Teresa Amabile and Steven Kramer, the progress principle | Make progress visible weekly, not only at the end |
-| Small wins accumulate and build momentum for larger change | Karl Weick | Break the skill into wins that can be completed in days |
-| Behavior happens when motivation, ability, and a prompt converge | BJ Fogg | When motivation drops, raise ability (simplify) and attach the behavior to an existing prompt |
-| If-then plans increase follow-through | Peter Gollwitzer, implementation intentions | Turn every commitment into "When X happens, I will do Y" |
-| Autonomy, competence, and relatedness sustain motivation | Edward Deci and Richard Ryan, self-determination theory | Give choice in how, show competence growth, connect learners to peers |
-| Coping models (peers who struggle, then succeed) can build self-efficacy more than polished experts | Dale Schunk | Spotlight peers who were stuck last week, not only top performers |
-| Forgetting is fast without spaced retrieval | Hermann Ebbinghaus | Space reinforcement through the valley; do not front-load everything |
+| Self-efficacy has four sources: mastery experiences, vicarious experience, verbal persuasion, physiological and emotional state | Self-efficacy research | Early wins (mastery), peer models (vicarious), specific manager encouragement (persuasion), safe practice (emotional state) |
+| Small, visible progress in meaningful work raises motivation | Workplace-motivation research, the progress principle | Make progress visible weekly, not only at the end |
+| Small wins accumulate and build momentum for larger change | Organizational research on small wins | Break the skill into wins that can be completed in days |
+| Behavior happens when motivation, ability, and a prompt converge | Behavior-design research | When motivation drops, raise ability (simplify) and attach the behavior to an existing prompt |
+| If-then plans increase follow-through | Goal-pursuit research, implementation intentions | Turn every commitment into "When X happens, I will do Y" |
+| Autonomy, competence, and relatedness sustain motivation | Self-determination theory | Give choice in how, show competence growth, connect learners to peers |
+| Coping models (peers who struggle, then succeed) can build self-efficacy more than polished experts | Peer-modeling research | Spotlight peers who were stuck last week, not only top performers |
+| Forgetting is fast without spaced retrieval | Memory research (the forgetting curve) | Space reinforcement through the valley; do not front-load everything |
 
 ---
 
@@ -77,7 +77,7 @@ Use these in the first 8 weeks, before you have enough data for control charts. 
 
 ## 3. Early-Win Architecture
 
-An early win is a moment in weeks 2 to 3 where each learner succeeds at a simplified version of the skill, on real or realistic work, and knows it. This is Bandura's mastery experience, delivered on purpose.
+An early win is a moment in weeks 2 to 3 where each learner succeeds at a simplified version of the skill, on real or realistic work, and knows it. This is a mastery experience, in the self-efficacy research sense, delivered on purpose.
 
 ### 3.1 The five tests for a good early win
 
@@ -101,7 +101,7 @@ Build three rungs of win, from easiest to hardest. Everyone should hit rung 1 by
 
 ### 3.3 Simplify, do not shrink
 
-When learners are struggling, Fogg's model says raise ability. Reduce the size of the rep, not the standard. Vygotsky's zone of proximal development says the task should be just beyond what they can do alone, with support.
+When learners are struggling, the behavior-design model says raise ability. Reduce the size of the rep, not the standard. The zone of proximal development says the task should be just beyond what they can do alone, with support.
 
 | Instead of | Do |
 |---|---|
@@ -126,7 +126,7 @@ IF BELOW TARGET: [simplify rep size / add pairing / extra practice block]
 
 ## 4. Social Proof System
 
-Social proof is not a celebration channel. It is the Observe rung running live during the program: people see a peer like them do the skill and get a result. Cialdini's work on social proof shows people look to similar others when uncertain; Bandura's work shows modeling builds self-efficacy.
+Social proof is not a celebration channel. It is the Observe rung running live during the program: people see a peer like them do the skill and get a result. Research on social proof shows people look to similar others when uncertain; social-learning research shows modeling builds self-efficacy.
 
 ### 4.1 Components
 
@@ -236,7 +236,7 @@ Base map for an 8-week program. Stretch or compress using the notes below.
 
 **6-week version:** Compress weeks 1 and 2 into week 1 only if learners already passed the baseline at Level 2 or higher (`enablement-assess`). Hold the WHY event at week 3 and the exec touch at week 4. Do not cut Practice or Feedback to save time.
 
-**After the program:** Spaced reinforcement continues at roughly 2, 4, and 8 weeks after the end: a 10-minute retrieval check or one scored live artifact each time. The habit is not formed at week 8. Research on habit formation (Phillippa Lally and colleagues) found automaticity took around two months on average for simple daily behaviors, with wide variation between people. Complex sales behaviors take longer.
+**After the program:** Spaced reinforcement continues at roughly 2, 4, and 8 weeks after the end: a 10-minute retrieval check or one scored live artifact each time. The habit is not formed at week 8. Habit-formation research found automaticity takes weeks to months for simple daily behaviors, with wide variation between people. Complex sales behaviors take longer.
 
 ---
 
@@ -277,7 +277,7 @@ Run this when the firing rule in Section 2 triggers.
 |---|---|
 | Tool output fails the standard on sampled work | Pause the tool rollout. Fix or replace the tool. Keep the skill program if it stands without the tool |
 | Sponsor will not protect calendar time after the competing priority protocol | Pause formally, with a restart date. Communicate it. A silent fade teaches the org that programs can be ignored |
-| Two reset cycles, no recovery in behavior metrics | Stop. Run a Brinkerhoff success case review to learn why. Redesign before relaunch |
+| Two reset cycles, no recovery in behavior metrics | Stop. Run a success case review (the success case method) to learn why. Redesign before relaunch |
 | Behavior moved but outcome did not after a full sales cycle | Do not stop the behavior on momentum grounds. Review the causal hypothesis with `enablement-measure` |
 
 ---
@@ -361,7 +361,7 @@ AI tool rollouts follow the same three curves, with a sharper novelty drop. In m
 
 | Cause | What learners say | Fix |
 |---|---|---|
-| Curiosity use, no workflow anchor | "I played with it the first week" | Tie use to one existing workflow trigger (Fogg prompt): "After every discovery call, run the review" |
+| Curiosity use, no workflow anchor | "I played with it the first week" | Tie use to one existing workflow trigger (a behavior-design prompt): "After every discovery call, run the review" |
 | Blank-page prompting | "I don't know what to ask it" | Ship 3 to 5 template prompts sourced from internal power users |
 | Output below the bar | "It's generic" / "I have to rewrite it" | Observe rung: show good and bad AI outputs; teach what context to add |
 | Verification burden | "It's faster to do it myself" | Practice judging outputs: when is it wrong, what to check, in under 2 minutes |

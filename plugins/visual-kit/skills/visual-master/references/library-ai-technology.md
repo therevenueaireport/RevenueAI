@@ -14,7 +14,7 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Agent swarm diagram | Showing parallel specialist agents | Multiple researchers feeding an editor or orchestrator | architecture | `svg:network` |
 | Human-AI division-of-labor map | Clarifying responsibility | AI drafts/analyzes; humans decide, approve, relate, govern | ownership | `svg:before_after` |
 | Augmentation vs. automation spectrum | Distinguishing types of AI value | Assistive workflows through autonomous execution | continuum | `svg:spectrum` |
-| Copilot workflow | Showing embedded assistance | User prompt -> context -> model -> suggestion -> human action | sequence | `svg:chevron` |
+| Embedded-assistant workflow | Showing embedded assistance | User prompt -> context -> model -> suggestion -> human action | sequence | `svg:chevron` |
 | Agent loop | Showing iterative autonomy | Observe -> plan -> act -> evaluate -> learn | loop | `svg:flywheel` |
 | Retrieval-augmented generation diagram | Explaining grounded AI | Query -> retrieve sources -> generate answer -> cite/verify | sequence | `svg:chevron` |
 | Context engineering map | Showing inputs that shape an AI response | Instructions, memory, knowledge, tools, constraints, evaluation | system | `svg:orbit` |

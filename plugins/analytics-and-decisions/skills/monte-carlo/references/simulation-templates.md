@@ -7,7 +7,7 @@ These are starting points — always customize to the specific situation.
 
 ## Template 1: Content / Audience Growth Projection
 
-**Use when:** Projecting newsletter subscribers, LinkedIn followers, community members, course enrollments
+**Use when:** Projecting newsletter subscribers, social followers, community members, course enrollments
 
 ### Variables
 | Variable | Distribution | Typical Range | Notes |
@@ -121,7 +121,7 @@ These are starting points — always customize to the specific situation.
 - [ ] What if 30% of participants are at the wrong LOPAFT level for this content?
 - [ ] Is there a competing initiative that will distract from this program?
 - [ ] What's the cost of doing nothing? (Baseline isn't always flat — it might be declining)
-- [ ] Are you accounting for the Hawthorne effect? (Improvement during observation that fades)
+- [ ] Are you accounting for the observer effect? (Improvement during observation that fades)
 
 ### Correlated Risks
 - Low manager reinforcement → high regression rate (the #1 program killer)

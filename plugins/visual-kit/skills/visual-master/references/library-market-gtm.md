@@ -17,7 +17,7 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Why now? stack | Showing forces creating urgency | Technology shift, buyer pressure, economics, regulation | urgency | `svg:stack` |
 | Market forces diagram | Showing external drivers | Customer change, competition, technology, policy, economy | urgency | `svg:orbit` |
 | PESTLE wheel | Structuring external analysis | Political, economic, social, technological, legal, environmental | market | `svg:orbit` |
-| Porter's Five Forces | Showing industry structure | Supplier power, buyer power, substitutes, rivalry, entrants | market | `svg:orbit` |
+| Five competitive forces | Showing industry structure | Supplier power, buyer power, substitutes, rivalry, entrants | market | `svg:orbit` |
 | SWOT matrix | Summarizing internal/external position | Strengths, weaknesses, opportunities, threats | classification | `svg:two_by_two` |
 | Opportunity solution tree | Connecting outcomes, opportunities, and solutions | Revenue objective -> customer barriers -> strategic plays | hierarchy | `svg:tree` |
 | Segmentation map | Showing target customer groups | By company size, maturity, need, buying motion | customer | `svg:grid` |
@@ -31,8 +31,8 @@ Columns: **Visual** · **Best for** (the claim it answers) · **Example use** ·
 | Message house | Organizing positioning | Core promise, pillars, proof points, supporting messages | message | `svg:message_house` |
 | Messaging pyramid | Showing hierarchy of communication | Category thesis -> value proposition -> capabilities -> proof | message | `svg:pyramid` |
 | Narrative arc | Structuring a market story | Status quo -> disruption -> stakes -> new way -> proof | argument | `svg:journey_curve` |
-| StoryBrand-style journey | Centering the customer | Customer problem -> guide -> plan -> success | argument | `svg:chevron` |
-| Value proposition canvas | Connecting buyer needs and offer | Jobs, pains, gains versus products, relievers, creators | customer | `svg:columns` |
+| Customer-as-hero journey | Centering the customer | Customer problem -> guide -> plan -> success | argument | `svg:chevron` |
+| Value proposition fit map | Connecting buyer needs and offer | Jobs, pains, gains versus products, relievers, creators | customer | `svg:columns` |
 | Proof architecture | Showing evidence behind claims | Customer evidence, product evidence, market evidence, ROI | proof | `svg:stack` |
 | Evidence ladder | Ranking claim strength | Assertion -> example -> data -> customer proof -> independent validation | proof | `svg:ladder` |
 | Objection map | Showing concerns and responses | Risk, cost, complexity, switching, proof | competitive | `svg:table` |

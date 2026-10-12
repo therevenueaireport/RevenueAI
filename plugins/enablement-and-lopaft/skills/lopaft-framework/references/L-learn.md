@@ -29,17 +29,17 @@ LOPAFT is direct on this: most education stops at L. Learn is necessary and radi
 
 ## 2. The science you are applying
 
-| Principle | Originator | What it means for Learn |
+| Principle | Research base | What it means for Learn |
 |---|---|---|
-| Andragogy | Malcolm Knowles | Adults need to know why before what, bring experience that must be used, and learn when content solves a problem they have now. |
-| Cognitive load theory | John Sweller | Working memory is small. Cut extraneous load (decoration, tangents, tool tours) so capacity goes to the core model. |
-| Nine events of instruction | Robert Gagné | A sequence: gain attention, state objectives, recall prior knowledge, present content, guide, elicit performance, give feedback, assess, support retention and transfer. Learn covers the first four or five; the rest of LOPAFT covers the remainder. |
-| Advance organizers | David Ausubel | Give the big picture first so new detail has somewhere to land. |
-| Pretesting effect | Richland, Kornell and Kao | Attempting questions before instruction, even getting them wrong, improves later learning of that material. Also surfaces the gap. |
-| Segmenting | Richard Mayer | Short, learner-paced chunks beat one long stream. |
-| Affective filter | Stephen Krashen | Anxiety blocks intake. Surfacing a gap must not feel like a public verdict. |
+| Andragogy | Adult-learning research | Adults need to know why before what, bring experience that must be used, and learn when content solves a problem they have now. |
+| Cognitive load theory | Instructional-design research | Working memory is small. Cut extraneous load (decoration, tangents, tool tours) so capacity goes to the core model. |
+| Nine events of instruction | Instructional-design research | A sequence: gain attention, state objectives, recall prior knowledge, present content, guide, elicit performance, give feedback, assess, support retention and transfer. Learn covers the first four or five; the rest of LOPAFT covers the remainder. |
+| Advance organizers | Educational psychology | Give the big picture first so new detail has somewhere to land. |
+| Pretesting effect | Memory research | Attempting questions before instruction, even getting them wrong, improves later learning of that material. Also surfaces the gap. |
+| Segmenting | Multimedia-learning research | Short, learner-paced chunks beat one long stream. |
+| Affective filter | Language-acquisition research | Anxiety blocks intake. Surfacing a gap must not feel like a public verdict. |
 
-### Knowles' six assumptions, translated for revenue teams
+### The six assumptions of andragogy, translated for revenue teams
 
 | Assumption | Design move | Revenue example |
 |---|---|---|
@@ -135,7 +135,7 @@ Learn's target is Level 2. Do not wait for competence; that is not Learn's job.
 
 ### 5.1 Activation session agenda (90 minutes)
 
-| Min | Block | What happens | Gagné event |
+| Min | Block | What happens | Instruction event |
 |---|---|---|---|
 | 0-5 | Cold open | Play one 90-second clip from a real (anonymized) lost deal at the moment the behavior was missing. Ask: "What happened here?" | Gain attention |
 | 5-12 | Business WHY | Senior leader, live, no slides. What is changing and why now. | Objectives |

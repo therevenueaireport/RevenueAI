@@ -618,7 +618,7 @@ def generate_html_report(stats: dict, output_path: str):
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 *{{margin:0;padding:0;box-sizing:border-box}}
-body{{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f1117;color:#e1e4e8;padding:24px;line-height:1.6}}
+body{{font-family:system-ui,sans-serif;background:#0f1117;color:#e1e4e8;padding:24px;line-height:1.6}}
 .container{{max-width:1200px;margin:0 auto}}
 h1{{font-size:1.8rem;color:#fff;margin-bottom:4px}}
 .subtitle{{color:#8b949e;margin-bottom:28px;font-size:0.9rem}}

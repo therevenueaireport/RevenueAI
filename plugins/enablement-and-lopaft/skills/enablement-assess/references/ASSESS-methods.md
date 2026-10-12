@@ -139,7 +139,7 @@ Uncalibrated scoring produces numbers that measure the rater, not the rep.
 | 55-80 | Score Samples 2 and 3 independently. Reveal and compare |
 | 80-90 | Record agreement rate. Decide go or recalibrate |
 
-**Pass threshold (rule of thumb):** raters land within one point of each other on at least 80 percent of behavior scores. If not, rewrite descriptors and run one more sample. For formal reliability, compute Cohen's kappa for two raters; for practical enablement work, percent agreement within one point is usually enough.
+**Pass threshold (rule of thumb):** raters land within one point of each other on at least 80 percent of behavior scores. If not, rewrite descriptors and run one more sample. For formal reliability, compute a chance-corrected agreement statistic (kappa) for two raters; for practical enablement work, percent agreement within one point is usually enough.
 
 **If an AI tool will do the scoring:** treat the model as a rater. Score a set of calls by hand and by model and compare per behavior. The Revenue AI Report's call-scorecard playbook uses fifty calls and rewrites or drops any rubric line below 70 percent human-model agreement. Publish the agreement rate. A score nobody trusts poisons the whole program.
 
@@ -172,7 +172,7 @@ Frequency questions are harder to inflate than agreement questions, because they
 
 ### Section C: Self-efficacy (confidence to perform)
 
-Adapted from Bandura's approach to self-efficacy scales: ask about confidence to perform specific tasks, at graded difficulty, on a 0-10 scale.
+Adapted from the standard approach to self-efficacy scales in published research: ask about confidence to perform specific tasks, at graded difficulty, on a 0-10 scale.
 
 > **C1. How confident are you that you could [behavior] on a standard first call?** 0 (cannot do) to 10 (certain)
 > **C2. ...on a call with three stakeholders who disagree?** 0-10
@@ -190,7 +190,7 @@ Scenario-based, one correct answer, plausible distractors. Example for rubric A:
 > c) "What's your budget range?"
 > d) "Can we get a meeting with procurement?"
 
-### Section E: Relevance and motivation (Knowles: adults learn what they see as relevant to a real problem)
+### Section E: Relevance and motivation (andragogy: adults learn what they see as relevant to a real problem)
 
 > **E1. How much would getting better at [skill] change your results this quarter?** 1 (not at all) to 5 (a lot)
 > **E2. What gets in the way of doing [skill] more often?** (open text)
@@ -377,7 +377,7 @@ Learner readiness is one of four. A rollout fails if any of the four is not read
 | Data below 4 | Do not train people on a tool whose output they cannot trust. Training will be blamed for a data problem |
 | Manager below 4 | Run `enablement-coach` before learner training. Learners will not keep a habit their manager does not reinforce |
 
-This reflects the transfer-of-training model of Baldwin and Ford: whether training transfers to the job depends on learner characteristics, training design, and the work environment. Data, workflow, and manager readiness are the work environment.
+This reflects the transfer-of-training model from published research: whether training transfers to the job depends on learner characteristics, training design, and the work environment. Data, workflow, and manager readiness are the work environment.
 
 ---
 
@@ -404,7 +404,7 @@ Most cohorts are mixed, and splitting them fully is often impractical. Use the m
 | Bimodal (cluster at 1, cluster at 3) | Two tracks. One curriculum cannot serve both without overwhelming one group and boring the other |
 | One or two far outliers below | Route to individual pre-work before joining the cohort |
 | One or two far outliers above | Exempt from Learn, assign to Teach, and give them a harder skill in parallel |
-| Wide spread with no clusters | Shared Learn and Observe; individual Practice targets; this is where Vygotsky's zone of proximal development matters: set each person's practice just beyond what they can do alone |
+| Wide spread with no clusters | Shared Learn and Observe; individual Practice targets; this is where the zone of proximal development matters: set each person's practice just beyond what they can do alone |
 
 ### Segment by attitude for AI rollouts (secondary axis)
 
@@ -423,7 +423,7 @@ Self-assessment is necessary (it is the only window on awareness) and unreliable
 
 | Bias | What it looks like | Design fix |
 |---|---|---|
-| **Dunning-Kruger effect** (Kruger and Dunning): people with low skill in a domain tend to overestimate their performance, because the skill to perform and the skill to judge performance overlap | Level 1 reps self-rate high | Never place from self-report alone. Treat a high self-rating with low observed performance as a Level 1 signal, not noise |
+| **Overconfidence of the unskilled** (a well-replicated finding): people with low skill in a domain tend to overestimate their performance, because the skill to perform and the skill to judge performance overlap | Level 1 reps self-rate high | Never place from self-report alone. Treat a high self-rating with low observed performance as a Level 1 signal, not noise |
 | **Social desirability bias** | Everyone says they do the thing leadership talks about | Confidential surveys. Ask frequency ("in your last 10 calls") instead of agreement ("I am good at...") |
 | **Reference-group effect** | Rep compares themselves to their team, not to the standard | Show the standard (an example) before asking for a rating |
 | **Fear of consequences** | Under-reporting gaps when the survey feels like a performance review | State in writing that raw self-ratings are not shared with managers or used in performance decisions. Then honor it |

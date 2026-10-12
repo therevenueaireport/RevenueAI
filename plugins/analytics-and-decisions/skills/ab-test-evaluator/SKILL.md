@@ -98,7 +98,7 @@ There's a difference between monitoring for data quality issues and peeking at r
 
 If the business genuinely needs the ability to stop early (e.g., a test that might be actively harming revenue), use a sequential testing framework that controls for multiple looks:
 
-- **Alpha spending functions** (O'Brien-Fleming, Pocock): Pre-allocate the significance budget across planned interim analyses
+- **Alpha spending functions** (conservative-early or constant-boundary designs): Pre-allocate the significance budget across planned interim analyses
 - **Always-valid p-values / confidence sequences**: Modern methods that allow continuous monitoring without inflating false positives
 
 If sequential testing isn't being used, the rule is simple: don't look until the pre-committed end date.
