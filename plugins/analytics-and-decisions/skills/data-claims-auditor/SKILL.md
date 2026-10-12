@@ -170,7 +170,7 @@ Vendor case studies are marketing assets, not research. Standard audit:
 
 When a competitor claims market position, growth, or customer results:
 
-1. **Verify independently**: Can the claim be corroborated by a funding database, public filings, independent peer-review sites, or third-party coverage?
+1. **Verify independently**: Can the claim be corroborated by a funding database (for example Crunchbase or PitchBook), public filings, independent peer-review sites (for example G2), or third-party coverage?
 2. **Metric gaming**: "Fastest growing" can mean highest percentage growth off a tiny base. "Market leader" can mean most revenue, most customers, most funding, or most employees — whichever tells the best story.
 3. **Selection of timeframe**: Competitors choose the window that makes them look best. Compare across multiple timeframes when possible.
 4. **The press release test**: If the claim only appears in the company's own press release and nowhere else, treat it as unverified marketing.
