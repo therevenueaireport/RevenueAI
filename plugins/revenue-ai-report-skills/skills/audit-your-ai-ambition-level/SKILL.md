@@ -21,7 +21,7 @@ description: "An honest read on whether your AI work is trimming cost, expanding
 - Annual spend on each initiative if you have it
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a revenue analyst. Using the initiative list I paste below, classify each item as Optimize, meaning it makes the current process cheaper or faster, Amplify, meaning it expands output without adding people, or Reinvent, meaning it changes how the business earns. Justify each classification with the evidence I gave you. Then show me the split of spend by level, name where the claimed level does not match the measured result, and state what evidence the next level up would require.
@@ -67,6 +67,9 @@ Initiatives:
 - [ ] Did finance see the same numbers?
 - [ ] Is every unmeasured initiative assigned an owner and a measurement date?
 - [ ] Is anything labelled Reinvent on the strength of one instance?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the A-D evidence grades, the four ordered level tests with tie-breakers, the gap-type table, and a fully worked audit with spend split.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/audit-your-ai-ambition-level

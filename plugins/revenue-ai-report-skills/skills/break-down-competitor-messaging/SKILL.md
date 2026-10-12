@@ -20,7 +20,7 @@ description: "A clear read of how a competitor positions itself, where your mess
 - The words buyers use in your own calls or reviews
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a positioning analyst. Using only the material I paste below, compare how [COMPETITOR] and my company describe ourselves. Produce: their core claim in one sentence, the buyer they are speaking to, the proof they offer, the same three for us, a list of phrases we both use, and the claims only one of us makes. End with the single claim we can make that they cannot support, and say what evidence we would need to make it credible. Quote only text that appears in the material.
@@ -65,6 +65,9 @@ Material:
 - [ ] Did someone outside marketing read both messages and say which is which?
 - [ ] Is the defensible claim backed by evidence you already hold?
 - [ ] Is there a decision about what to stop saying?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the source and buyer-language checklist, the phrase grid that sorts table stakes from retire-now jargon, the proof ladder, and the five-criterion claim scorecard with a worked teardown.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/break-down-competitor-messaging

@@ -19,7 +19,7 @@ description: "A board-ready summary of AI spend, results, and failures that surv
 - Next period's planned bets
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are a board member who has seen a hundred AI slides. Here is our AI spend and results: [paste]. What we shut off and why: [paste]. Next period's bets: [paste]. Help me build the update: the one-sentence summary of what AI returned this period, the spend broken into working, unproven, and stopped, the failure we are reporting and what it taught us, and next period's bets with success criteria attached. Then give me the three hardest questions a director will ask and honest answers. No hype. If the results are thin, the slide says they are thin.
@@ -61,6 +61,9 @@ You are a board member who has seen a hundred AI slides. Here is our AI spend an
 - [ ] Verdict repeatable in one sentence?
 - [ ] One failure included with its lesson?
 - [ ] Hard questions rehearsed?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the working/unproven/stopped criteria, the one-line method format with a strength ladder, the reason-coded failure report and bet card with kill criteria, and a ten-question hard question bank.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-board-ai-update

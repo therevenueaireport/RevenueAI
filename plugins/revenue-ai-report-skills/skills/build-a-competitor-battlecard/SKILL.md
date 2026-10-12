@@ -20,7 +20,7 @@ description: "A one-page card a rep can use live: where you win, where you do no
 - Your own feature and pricing facts, confirmed by someone who owns them
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are building a sales battlecard comparing my company with [COMPETITOR]. Use only the material I paste below. Produce: a comparison table of six capabilities that buyers actually raise, five situations where we win and why, three situations where they win and we should not compete on that ground, five objections buyers raise about us with a factual answer to each, and three questions a rep can ask to expose a real gap. Every row must trace to the pasted material. Do not invent features, prices, or customer names. Flag any row where the evidence is thin.
@@ -67,6 +67,9 @@ Material:
 - [ ] Is every competitor claim sourced and dated?
 - [ ] Did product or product marketing confirm the claims about us?
 - [ ] Does the card tell a rep what to do when the buyer is right about the competitor?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the buyer-vs-rep deal evidence log, the per-row source grades that decide what ships, the four-part objection answer pattern, and the three-deal live test with refresh triggers.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-a-competitor-battlecard

@@ -19,7 +19,7 @@ description: "A plan for growing one existing account: where the whitespace is, 
 - Their stated goals for the year, if known
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an account strategist. Here is an existing customer: [paste what they own, usage, teams touched, goals]. Build an expansion plan: the two most credible expansion paths and why, the roles we need to reach for each, the trigger event that would make each path timely, the first three plays with owners, and the honest reason each path might fail. Base it on what they already get value from. Do not propose selling them everything.
@@ -59,6 +59,9 @@ You are an account strategist. Here is an existing customer: [paste what they ow
 - [ ] Does each path extend current value?
 - [ ] Is a trigger attached to each?
 - [ ] Were failure risks said out loud?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the value map with a fix-first readiness gate, the coded whitespace grid and path scorecard, a trigger bank, and a plays library with a fully worked plan.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-account-expansion-plan

@@ -19,7 +19,7 @@ description: "A brief that tells a writer exactly what to produce: the question 
 - Any internal data, expert, or point of view you can contribute
 
 ## Quick prompt
-Paste into Claude, ChatGPT, or any assistant. Replace the [bracketed] parts.
+Paste into any AI assistant. Replace the [bracketed] parts.
 
 ```text
 You are an editorial director. Build a content brief for a piece answering this buyer question: [QUESTION]. Audience: [paste]. What we can contribute: [data, experts, point of view]. The brief must include: the working headline, the direct answer in the first 100 words, three supporting sections with the evidence each needs, what would make this piece worth citing, and what would make it generic filler we should not publish. Be specific. If we have no evidence or expert for this question, say the piece should not be written yet.
@@ -58,6 +58,9 @@ You are an editorial director. Build a content brief for a piece answering this 
 - [ ] Real buyer question?
 - [ ] Evidence named per section?
 - [ ] Kill criteria written down?
+
+## Toolkit
+Load `references/TOOLKIT.md` for the four-part buyer question test, the evidence gate with strength grades, the first-page cut-list check, and a draft review scorecard against the brief.
 
 ## Go deeper
 - Full skill page: https://www.therevenueaireport.com/skills/build-content-brief
