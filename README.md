@@ -1,6 +1,6 @@
 # Revenue AI Report: Open Skill Library
 
-**81 free, installable AI skills for B2B revenue teams.** Sales, marketing, RevOps, customer success, enablement and the executives who own the number.
+**86 free, installable AI skills for B2B revenue teams.** Sales, marketing, RevOps, customer success, enablement and the executives who own the number.
 
 Every skill here is a repeatable job with a ready prompt, a process, decision rules and a quality bar. Use them in Claude Code, Claude.ai, or paste the prompt into any assistant.
 
@@ -18,6 +18,7 @@ Add the marketplace once, then install the packs you want:
 
 ```text
 /plugin marketplace add therevenueaireport/RevenueAI
+/plugin install coach-k-frameworks@revenue-ai-report
 /plugin install revenue-ai-report-skills@revenue-ai-report
 /plugin install analytics-and-decisions@revenue-ai-report
 /plugin install enablement-and-lopaft@revenue-ai-report
@@ -38,6 +39,18 @@ Open a skill's `SKILL.md`, copy the **Quick prompt**, and paste it into ChatGPT,
 ---
 
 ## What's inside
+
+### Coach K frameworks (5)
+
+Original frameworks by Jonathan Kvarfordt (Coach K): GRACE prompting, SCALE, the Backwards Diagnostic, Find Move Close and more. Install: `/plugin install coach-k-frameworks@revenue-ai-report`
+
+| Skill | What it does |
+|---|---|
+| [The Five Tests for Any AI Tool](plugins/coach-k-frameworks/skills/ai-tool-five-tests/SKILL.md) | Gate any AI tool, vendor, agent, or internal build with the Five Tests by Jonathan Kvarfordt (Coach K): every tool must reduce cost, increase profit, increase revenue, d… |
+| [Backwards Diagnostic](plugins/coach-k-frameworks/skills/backwards-diagnostic/SKILL.md) | Diagnose any revenue problem from the outcome backwards with the Backwards Diagnostic by Jonathan Kvarfordt (Coach K): outcome, then the few metrics that drive it, then … |
+| [Find, Move, Close](plugins/coach-k-frameworks/skills/find-move-close/SKILL.md) | Map any revenue process into Find, Move, Close with the Find-Move-Close spine by Jonathan Kvarfordt (Coach K). |
+| [GRACE Prompting](plugins/coach-k-frameworks/skills/grace-prompting/SKILL.md) | Build, fix, and QA prompts with GRACE by Jonathan Kvarfordt (Coach K): Goal/Role, Rules, Advanced context, Clear instructions, Examples. |
+| [SCALE AI Transformation](plugins/coach-k-frameworks/skills/scale-ai-transformation/SKILL.md) | Run an AI transformation with SCALE by Jonathan Kvarfordt (Coach K): Set strategic outcomes, Chart friction and foundation, Align capabilities and readiness, Launch with… |
 
 ### Revenue AI Report skills (36)
 
@@ -180,6 +193,7 @@ Turn a folder of agent skills into a validated, self-improving graph. Install: `
 
 | If you are... | Start with |
 |---|---|
+| New to AI at work | [grace-prompting](plugins/coach-k-frameworks/skills/grace-prompting/SKILL.md), then [backwards-diagnostic](plugins/coach-k-frameworks/skills/backwards-diagnostic/SKILL.md) |
 | A rep or SDR | [Research a Target Account](plugins/revenue-ai-report-skills/skills/research-target-account/SKILL.md), then [Prepare for a Discovery Call](plugins/revenue-ai-report-skills/skills/prepare-discovery-call/SKILL.md) |
 | A sales leader | [Review a Deal](plugins/revenue-ai-report-skills/skills/review-sales-deal/SKILL.md) and [Review Forecast Risk](plugins/revenue-ai-report-skills/skills/review-forecast-risk/SKILL.md) |
 | About to buy an AI tool | [Set AI Pilot Kill Criteria](plugins/revenue-ai-report-skills/skills/set-ai-pilot-kill-criteria/SKILL.md) before you sign |

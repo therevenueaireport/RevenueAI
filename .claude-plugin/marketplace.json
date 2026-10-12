@@ -5,10 +5,34 @@
     "url": "https://www.therevenueaireport.com"
   },
   "metadata": {
-    "description": "81 installable AI skills for B2B revenue teams, from The Revenue AI Report.",
+    "description": "86 installable AI skills for B2B revenue teams, from The Revenue AI Report.",
     "version": "1.0.0"
   },
   "plugins": [
+    {
+      "name": "coach-k-frameworks",
+      "source": "./plugins/coach-k-frameworks",
+      "description": "The named frameworks of Jonathan Kvarfordt (Coach K) as working skills: GRACE prompting (with SCRIBE, MIC, Skeleton of Thought and the Rule of 90), the Backwards Diagnostic, Find-Move-Close, the Five Tests for any AI tool, and the SCALE AI transformation model.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jonathan Kvarfordt (Coach K)",
+        "url": "https://www.therevenueaireport.com"
+      },
+      "homepage": "https://www.therevenueaireport.com",
+      "keywords": [
+        "coach-k",
+        "grace",
+        "prompting",
+        "scale",
+        "ai-transformation",
+        "backwards-diagnostic",
+        "find-move-close",
+        "ai-tool-evaluation",
+        "revenue",
+        "frameworks"
+      ],
+      "license": "CC-BY-4.0"
+    },
     {
       "name": "revenue-ai-report-skills",
       "source": "./plugins/revenue-ai-report-skills",

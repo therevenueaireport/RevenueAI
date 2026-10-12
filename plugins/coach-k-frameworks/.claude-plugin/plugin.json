@@ -1,0 +1,24 @@
+{
+  "name": "coach-k-frameworks",
+  "version": "1.0.0",
+  "description": "The named frameworks of Jonathan Kvarfordt (Coach K) as working skills: GRACE prompting (with SCRIBE, MIC, Skeleton of Thought and the Rule of 90), the Backwards Diagnostic, Find-Move-Close, the Five Tests for any AI tool, and the SCALE AI transformation model.",
+  "author": {
+    "name": "Jonathan Kvarfordt (Coach K)",
+    "url": "https://www.therevenueaireport.com"
+  },
+  "homepage": "https://www.therevenueaireport.com",
+  "repository": "https://github.com/therevenueaireport/RevenueAI",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "coach-k",
+    "grace",
+    "prompting",
+    "scale",
+    "ai-transformation",
+    "backwards-diagnostic",
+    "find-move-close",
+    "ai-tool-evaluation",
+    "revenue",
+    "frameworks"
+  ]
+}
